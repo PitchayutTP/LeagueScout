@@ -19,7 +19,7 @@ const ProfileStatItem = ({ label, value, icon }) => (
 
 // 2. Main Player Header Component
 // ตอนนี้เรารับ prop เป็น object 'player' ทั้งก้อน (ที่มี ID อยู่ข้างใน)
-const PlayerHeaderCard = ({ player }) => {
+export default function PlayerHeaderCard ({ player }) {
   
   // --- จุดสำคัญ: ฟังก์ชันดึงรูปภาพตาม ID ---
   // สมมติว่าโครงสร้างโฟลเดอร์รูปภาพของคุณคือ /public/images/players/[id].jpg
@@ -37,7 +37,7 @@ const PlayerHeaderCard = ({ player }) => {
   const playerPhotoUrl = getPlayerPhotoUrl(player.id);
 
   return (
-    <div className="bg-white p-7 rounded-2xl border border-gray-100 shadow-sm flex gap-10 hover:shadow-lg transition-all duration-300 overflow-hidden group">
+    <div className="bg-white p-7 rounded-2xl border border-gray-100 shadow-sm flex gap-10  transition-all duration-300 overflow-hidden group">
       
       {/* --- ส่วนซ้าย: รูปนักเตะ (ดึงตาม ID) --- */}
       <div className="w-64 h-72 rounded-2xl overflow-hidden border border-gray-100 shadow-inner">
@@ -49,7 +49,7 @@ const PlayerHeaderCard = ({ player }) => {
       </div>
 
       {/* --- ส่วนขวา: ข้อมูลทั้งหมด --- */}
-      <div className="flex-1 space-y-7 relative">
+      <div className="flex-1 space-y-7 relative pt-20">
         
         {/* หัวข้อ (Status, Position, Club) */}
         <div className="space-y-2">
@@ -68,7 +68,7 @@ const PlayerHeaderCard = ({ player }) => {
           </div>
           
           {/* ชื่อนักเตะ (Kylian Mbappé) */}
-          <h2 className="text-4xl font-extrabold text-gray-950 leading-tight">
+          <h2 className="text-6xl font-extrabold text-gray-950 leading-tight">
             {player.name}
           </h2>
         </div>
@@ -100,5 +100,3 @@ const PlayerHeaderCard = ({ player }) => {
     </div>
   );
 };
-
-export default PlayerHeaderCard;
