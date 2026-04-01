@@ -20,7 +20,39 @@
             "dribbling": 70,
             "defending": 30,
             "physical": 75
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 1,
+                "assists": 0
+            },
+            {
+                "year": 2022,
+                "goals": 3,
+                "assists": 1
+            },
+            {
+                "year": 2023,
+                "goals": 8,
+                "assists": 2
+            },
+            {
+                "year": 2024,
+                "goals": 12,
+                "assists": 4
+            },
+            {
+                "year": 2025,
+                "goals": 15,
+                "assists": 3
+            }
+        ]
     },
     {
         "id": "p02",
@@ -43,7 +75,39 @@
             "dribbling": 45,
             "defending": 85,
             "physical": 88
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 2,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 1,
+                "assists": 1
+            },
+            {
+                "year": 2022,
+                "goals": 3,
+                "assists": 0
+            },
+            {
+                "year": 2023,
+                "goals": 1,
+                "assists": 2
+            },
+            {
+                "year": 2024,
+                "goals": 2,
+                "assists": 1
+            },
+            {
+                "year": 2025,
+                "goals": 1,
+                "assists": 0
+            }
+        ]
     },
     {
         "id": "p03",
@@ -66,7 +130,39 @@
             "dribbling": 68,
             "defending": 78,
             "physical": 82
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 1
+            },
+            {
+                "year": 2021,
+                "goals": 1,
+                "assists": 2
+            },
+            {
+                "year": 2022,
+                "goals": 0,
+                "assists": 4
+            },
+            {
+                "year": 2023,
+                "goals": 2,
+                "assists": 3
+            },
+            {
+                "year": 2024,
+                "goals": 1,
+                "assists": 5
+            },
+            {
+                "year": 2025,
+                "goals": 3,
+                "assists": 6
+            }
+        ]
     },
     {
         "id": "p04",
@@ -89,7 +185,39 @@
             "dribbling": 30,
             "defending": 15,
             "physical": 70
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2022,
+                "goals": 0,
+                "assists": 1
+            },
+            {
+                "year": 2023,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2024,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2025,
+                "goals": 0,
+                "assists": 0
+            }
+        ]
     },
     {
         "id": "p05",
@@ -112,7 +240,39 @@
             "dribbling": 78,
             "defending": 35,
             "physical": 55
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2022,
+                "goals": 1,
+                "assists": 2
+            },
+            {
+                "year": 2023,
+                "goals": 4,
+                "assists": 3
+            },
+            {
+                "year": 2024,
+                "goals": 6,
+                "assists": 7
+            },
+            {
+                "year": 2025,
+                "goals": 9,
+                "assists": 8
+            }
+        ]
     },
     {
         "id": "p06",
@@ -135,7 +295,39 @@
             "dribbling": 82,
             "defending": 60,
             "physical": 65
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 1,
+                "assists": 1
+            },
+            {
+                "year": 2021,
+                "goals": 2,
+                "assists": 3
+            },
+            {
+                "year": 2022,
+                "goals": 1,
+                "assists": 5
+            },
+            {
+                "year": 2023,
+                "goals": 3,
+                "assists": 8
+            },
+            {
+                "year": 2024,
+                "goals": 4,
+                "assists": 10
+            },
+            {
+                "year": 2025,
+                "goals": 6,
+                "assists": 12
+            }
+        ]
     },
     {
         "id": "p07",
@@ -158,7 +350,39 @@
             "dribbling": 68,
             "defending": 75,
             "physical": 72
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 2
+            },
+            {
+                "year": 2021,
+                "goals": 1,
+                "assists": 3
+            },
+            {
+                "year": 2022,
+                "goals": 0,
+                "assists": 2
+            },
+            {
+                "year": 2023,
+                "goals": 1,
+                "assists": 4
+            },
+            {
+                "year": 2024,
+                "goals": 2,
+                "assists": 5
+            },
+            {
+                "year": 2025,
+                "goals": 1,
+                "assists": 6
+            }
+        ]
     },
     {
         "id": "p08",
@@ -181,7 +405,39 @@
             "dribbling": 75,
             "defending": 25,
             "physical": 68
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 1,
+                "assists": 0
+            },
+            {
+                "year": 2022,
+                "goals": 5,
+                "assists": 1
+            },
+            {
+                "year": 2023,
+                "goals": 10,
+                "assists": 2
+            },
+            {
+                "year": 2024,
+                "goals": 18,
+                "assists": 4
+            },
+            {
+                "year": 2025,
+                "goals": 22,
+                "assists": 5
+            }
+        ]
     },
     {
         "id": "p09",
@@ -204,7 +460,39 @@
             "dribbling": 88,
             "defending": 35,
             "physical": 60
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2022,
+                "goals": 2,
+                "assists": 2
+            },
+            {
+                "year": 2023,
+                "goals": 5,
+                "assists": 6
+            },
+            {
+                "year": 2024,
+                "goals": 11,
+                "assists": 10
+            },
+            {
+                "year": 2025,
+                "goals": 14,
+                "assists": 15
+            }
+        ]
     },
     {
         "id": "p10",
@@ -227,7 +515,39 @@
             "dribbling": 65,
             "defending": 70,
             "physical": 85
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 5,
+                "assists": 8
+            },
+            {
+                "year": 2021,
+                "goals": 4,
+                "assists": 7
+            },
+            {
+                "year": 2022,
+                "goals": 3,
+                "assists": 5
+            },
+            {
+                "year": 2023,
+                "goals": 2,
+                "assists": 6
+            },
+            {
+                "year": 2024,
+                "goals": 1,
+                "assists": 4
+            },
+            {
+                "year": 2025,
+                "goals": 1,
+                "assists": 3
+            }
+        ]
     },
     {
         "id": "p11",
@@ -250,7 +570,39 @@
             "dribbling": 40,
             "defending": 88,
             "physical": 90
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 3,
+                "assists": 1
+            },
+            {
+                "year": 2021,
+                "goals": 2,
+                "assists": 0
+            },
+            {
+                "year": 2022,
+                "goals": 4,
+                "assists": 2
+            },
+            {
+                "year": 2023,
+                "goals": 1,
+                "assists": 1
+            },
+            {
+                "year": 2024,
+                "goals": 2,
+                "assists": 0
+            },
+            {
+                "year": 2025,
+                "goals": 3,
+                "assists": 1
+            }
+        ]
     },
     {
         "id": "p12",
@@ -273,7 +625,39 @@
             "dribbling": 76,
             "defending": 74,
             "physical": 68
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 0,
+                "assists": 2
+            },
+            {
+                "year": 2022,
+                "goals": 1,
+                "assists": 4
+            },
+            {
+                "year": 2023,
+                "goals": 2,
+                "assists": 7
+            },
+            {
+                "year": 2024,
+                "goals": 3,
+                "assists": 9
+            },
+            {
+                "year": 2025,
+                "goals": 4,
+                "assists": 11
+            }
+        ]
     },
     {
         "id": "p13",
@@ -296,7 +680,39 @@
             "dribbling": 60,
             "defending": 82,
             "physical": 86
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 1,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 2,
+                "assists": 1
+            },
+            {
+                "year": 2022,
+                "goals": 3,
+                "assists": 0
+            },
+            {
+                "year": 2023,
+                "goals": 2,
+                "assists": 2
+            },
+            {
+                "year": 2024,
+                "goals": 5,
+                "assists": 1
+            },
+            {
+                "year": 2025,
+                "goals": 4,
+                "assists": 2
+            }
+        ]
     },
     {
         "id": "p14",
@@ -319,7 +735,39 @@
             "dribbling": 78,
             "defending": 75,
             "physical": 92
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 1,
+                "assists": 2
+            },
+            {
+                "year": 2022,
+                "goals": 2,
+                "assists": 5
+            },
+            {
+                "year": 2023,
+                "goals": 4,
+                "assists": 8
+            },
+            {
+                "year": 2024,
+                "goals": 6,
+                "assists": 12
+            },
+            {
+                "year": 2025,
+                "goals": 8,
+                "assists": 15
+            }
+        ]
     },
     {
         "id": "p15",
@@ -342,7 +790,39 @@
             "dribbling": 70,
             "defending": 35,
             "physical": 80
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 8,
+                "assists": 2
+            },
+            {
+                "year": 2021,
+                "goals": 12,
+                "assists": 3
+            },
+            {
+                "year": 2022,
+                "goals": 15,
+                "assists": 4
+            },
+            {
+                "year": 2023,
+                "goals": 11,
+                "assists": 2
+            },
+            {
+                "year": 2024,
+                "goals": 14,
+                "assists": 5
+            },
+            {
+                "year": 2025,
+                "goals": 16,
+                "assists": 3
+            }
+        ]
     },
     {
         "id": "p16",
@@ -365,7 +845,39 @@
             "dribbling": 65,
             "defending": 25,
             "physical": 68
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2022,
+                "goals": 2,
+                "assists": 1
+            },
+            {
+                "year": 2023,
+                "goals": 5,
+                "assists": 2
+            },
+            {
+                "year": 2024,
+                "goals": 9,
+                "assists": 3
+            },
+            {
+                "year": 2025,
+                "goals": 11,
+                "assists": 4
+            }
+        ]
     },
     {
         "id": "p17",
@@ -388,7 +900,39 @@
             "dribbling": 65,
             "defending": 70,
             "physical": 75
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 1
+            },
+            {
+                "year": 2021,
+                "goals": 1,
+                "assists": 2
+            },
+            {
+                "year": 2022,
+                "goals": 1,
+                "assists": 4
+            },
+            {
+                "year": 2023,
+                "goals": 0,
+                "assists": 5
+            },
+            {
+                "year": 2024,
+                "goals": 2,
+                "assists": 7
+            },
+            {
+                "year": 2025,
+                "goals": 3,
+                "assists": 8
+            }
+        ]
     },
     {
         "id": "p18",
@@ -411,7 +955,39 @@
             "dribbling": 90,
             "defending": 40,
             "physical": 50
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 2,
+                "assists": 4
+            },
+            {
+                "year": 2021,
+                "goals": 4,
+                "assists": 7
+            },
+            {
+                "year": 2022,
+                "goals": 3,
+                "assists": 9
+            },
+            {
+                "year": 2023,
+                "goals": 6,
+                "assists": 11
+            },
+            {
+                "year": 2024,
+                "goals": 8,
+                "assists": 14
+            },
+            {
+                "year": 2025,
+                "goals": 7,
+                "assists": 15
+            }
+        ]
     },
     {
         "id": "p19",
@@ -434,7 +1010,39 @@
             "dribbling": 74,
             "defending": 60,
             "physical": 68
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 1,
+                "assists": 5
+            },
+            {
+                "year": 2021,
+                "goals": 2,
+                "assists": 6
+            },
+            {
+                "year": 2022,
+                "goals": 2,
+                "assists": 8
+            },
+            {
+                "year": 2023,
+                "goals": 1,
+                "assists": 7
+            },
+            {
+                "year": 2024,
+                "goals": 3,
+                "assists": 10
+            },
+            {
+                "year": 2025,
+                "goals": 2,
+                "assists": 9
+            }
+        ]
     },
     {
         "id": "p20",
@@ -457,7 +1065,39 @@
             "dribbling": 76,
             "defending": 74,
             "physical": 70
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 4,
+                "assists": 10
+            },
+            {
+                "year": 2021,
+                "goals": 3,
+                "assists": 12
+            },
+            {
+                "year": 2022,
+                "goals": 5,
+                "assists": 9
+            },
+            {
+                "year": 2023,
+                "goals": 2,
+                "assists": 11
+            },
+            {
+                "year": 2024,
+                "goals": 3,
+                "assists": 8
+            },
+            {
+                "year": 2025,
+                "goals": 1,
+                "assists": 7
+            }
+        ]
     },
     {
         "id": "p21",
@@ -480,7 +1120,39 @@
             "dribbling": 68,
             "defending": 66,
             "physical": 80
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2022,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2023,
+                "goals": 0,
+                "assists": 1
+            },
+            {
+                "year": 2024,
+                "goals": 1,
+                "assists": 3
+            },
+            {
+                "year": 2025,
+                "goals": 2,
+                "assists": 5
+            }
+        ]
     },
     {
         "id": "p22",
@@ -503,7 +1175,39 @@
             "dribbling": 86,
             "defending": 45,
             "physical": 60
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 1,
+                "assists": 2
+            },
+            {
+                "year": 2021,
+                "goals": 3,
+                "assists": 4
+            },
+            {
+                "year": 2022,
+                "goals": 4,
+                "assists": 6
+            },
+            {
+                "year": 2023,
+                "goals": 6,
+                "assists": 9
+            },
+            {
+                "year": 2024,
+                "goals": 8,
+                "assists": 11
+            },
+            {
+                "year": 2025,
+                "goals": 10,
+                "assists": 14
+            }
+        ]
     },
     {
         "id": "p23",
@@ -526,7 +1230,39 @@
             "dribbling": 35,
             "defending": 15,
             "physical": 78
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2022,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2023,
+                "goals": 0,
+                "assists": 1
+            },
+            {
+                "year": 2024,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2025,
+                "goals": 0,
+                "assists": 1
+            }
+        ]
     },
     {
         "id": "p24",
@@ -549,7 +1285,39 @@
             "dribbling": 65,
             "defending": 30,
             "physical": 85
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 10,
+                "assists": 3
+            },
+            {
+                "year": 2021,
+                "goals": 8,
+                "assists": 2
+            },
+            {
+                "year": 2022,
+                "goals": 12,
+                "assists": 4
+            },
+            {
+                "year": 2023,
+                "goals": 9,
+                "assists": 1
+            },
+            {
+                "year": 2024,
+                "goals": 11,
+                "assists": 3
+            },
+            {
+                "year": 2025,
+                "goals": 10,
+                "assists": 2
+            }
+        ]
     },
     {
         "id": "p25",
@@ -572,7 +1340,39 @@
             "dribbling": 68,
             "defending": 60,
             "physical": 70
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 1,
+                "assists": 2
+            },
+            {
+                "year": 2021,
+                "goals": 1,
+                "assists": 4
+            },
+            {
+                "year": 2022,
+                "goals": 2,
+                "assists": 5
+            },
+            {
+                "year": 2023,
+                "goals": 3,
+                "assists": 7
+            },
+            {
+                "year": 2024,
+                "goals": 2,
+                "assists": 9
+            },
+            {
+                "year": 2025,
+                "goals": 4,
+                "assists": 8
+            }
+        ]
     },
     {
         "id": "p26",
@@ -595,7 +1395,39 @@
             "dribbling": 40,
             "defending": 75,
             "physical": 82
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 3,
+                "assists": 1
+            },
+            {
+                "year": 2021,
+                "goals": 2,
+                "assists": 0
+            },
+            {
+                "year": 2022,
+                "goals": 1,
+                "assists": 1
+            },
+            {
+                "year": 2023,
+                "goals": 1,
+                "assists": 0
+            },
+            {
+                "year": 2024,
+                "goals": 0,
+                "assists": 1
+            },
+            {
+                "year": 2025,
+                "goals": 1,
+                "assists": 0
+            }
+        ]
     },
     {
         "id": "p27",
@@ -618,7 +1450,39 @@
             "dribbling": 72,
             "defending": 30,
             "physical": 74
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 1,
+                "assists": 0
+            },
+            {
+                "year": 2022,
+                "goals": 4,
+                "assists": 1
+            },
+            {
+                "year": 2023,
+                "goals": 7,
+                "assists": 2
+            },
+            {
+                "year": 2024,
+                "goals": 12,
+                "assists": 4
+            },
+            {
+                "year": 2025,
+                "goals": 15,
+                "assists": 5
+            }
+        ]
     },
     {
         "id": "p28",
@@ -641,7 +1505,39 @@
             "dribbling": 38,
             "defending": 20,
             "physical": 80
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2021,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2022,
+                "goals": 0,
+                "assists": 1
+            },
+            {
+                "year": 2023,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2024,
+                "goals": 0,
+                "assists": 0
+            },
+            {
+                "year": 2025,
+                "goals": 0,
+                "assists": 0
+            }
+        ]
     },
     {
         "id": "p29",
@@ -664,7 +1560,39 @@
             "dribbling": 68,
             "defending": 28,
             "physical": 76
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 2,
+                "assists": 1
+            },
+            {
+                "year": 2021,
+                "goals": 4,
+                "assists": 1
+            },
+            {
+                "year": 2022,
+                "goals": 5,
+                "assists": 2
+            },
+            {
+                "year": 2023,
+                "goals": 8,
+                "assists": 3
+            },
+            {
+                "year": 2024,
+                "goals": 11,
+                "assists": 2
+            },
+            {
+                "year": 2025,
+                "goals": 14,
+                "assists": 4
+            }
+        ]
     },
     {
         "id": "p30",
@@ -687,6 +1615,38 @@
             "dribbling": 70,
             "defending": 82,
             "physical": 88
-        }
+        },
+        "history": [
+            {
+                "year": 2020,
+                "goals": 1,
+                "assists": 3
+            },
+            {
+                "year": 2021,
+                "goals": 2,
+                "assists": 4
+            },
+            {
+                "year": 2022,
+                "goals": 1,
+                "assists": 6
+            },
+            {
+                "year": 2023,
+                "goals": 3,
+                "assists": 5
+            },
+            {
+                "year": 2024,
+                "goals": 2,
+                "assists": 8
+            },
+            {
+                "year": 2025,
+                "goals": 4,
+                "assists": 7
+            }
+        ]
     }
 ]
