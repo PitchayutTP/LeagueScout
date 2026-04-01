@@ -11,7 +11,7 @@ const PlayerCard = ({ player }) => {
     return 'bg-rose-500';                    // ต้องพัฒนา
   };
 
-  const potentialColor = getPotentialColor(player.potential);
+  const potentialColor = getPotentialColor(player.stats.potential);
 
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 group overflow-hidden">
@@ -68,7 +68,7 @@ const PlayerCard = ({ player }) => {
             </div>
             <div className="text-right">
               <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Potential</p>
-              <p className="text-base font-bold text-gray-950">{player.potential} <span className="text-gray-300">/ 100</span></p>
+              <p className="text-base font-bold text-gray-950">{player.stats.potential} <span className="text-gray-300">/ 100</span></p>
             </div>
           </div>
 
@@ -82,7 +82,7 @@ const PlayerCard = ({ player }) => {
               Growth Potential
             </span>
             <span className={`${potentialColor.replace('bg-', 'text-')}`}>
-              {player.potential}%
+              {player.stats.potential}%
             </span>
           </div>
           
@@ -91,7 +91,7 @@ const PlayerCard = ({ player }) => {
             {/* ปรับความกว้าง (width) ตามเปอร์เซ็นต์จริง */}
             <div 
               className={`h-full rounded-full transition-all duration-500 ease-out ${potentialColor}`} 
-              style={{ width: `${player.potential}%` }}
+              style={{ width: `${player.stats.potential}%` }}
             ></div>
           </div>
         </div>
