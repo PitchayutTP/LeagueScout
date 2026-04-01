@@ -7,6 +7,8 @@
         "nationality": "Thailand",
         "position": "ST",
         "age": 21,
+        "height": 182,
+        "preferredFoot": "Right",
         "marketValue": 500000,
         "imageUrl": "https://ui-avatars.com/api/?name=Somchai&background=0D8ABC&color=fff",
         "stats": {
@@ -28,6 +30,8 @@
         "nationality": "Thailand",
         "position": "CB",
         "age": 28,
+        "height": 188,
+        "preferredFoot": "Right",
         "marketValue": 850000,
         "imageUrl": "https://ui-avatars.com/api/?name=Wichai&background=4CAF50&color=fff",
         "stats": {
@@ -49,6 +53,8 @@
         "nationality": "Thailand",
         "position": "CDM",
         "age": 25,
+        "height": 178,
+        "preferredFoot": "Right",
         "marketValue": 600000,
         "imageUrl": "https://ui-avatars.com/api/?name=Tawan&background=9C27B0&color=fff",
         "stats": {
@@ -70,6 +76,8 @@
         "nationality": "Thailand",
         "position": "GK",
         "age": 30,
+        "height": 190,
+        "preferredFoot": "Right",
         "marketValue": 450000,
         "imageUrl": "https://ui-avatars.com/api/?name=Arthit&background=F44336&color=fff",
         "stats": {
@@ -91,6 +99,8 @@
         "nationality": "Thailand",
         "position": "LW",
         "age": 19,
+        "height": 172,
+        "preferredFoot": "Right",
         "marketValue": 750000,
         "imageUrl": "https://ui-avatars.com/api/?name=Kongkiat&background=FF9800&color=fff",
         "stats": {
@@ -112,6 +122,8 @@
         "nationality": "Japan",
         "position": "CM",
         "age": 23,
+        "height": 175,
+        "preferredFoot": "Both",
         "marketValue": 1200000,
         "imageUrl": "https://ui-avatars.com/api/?name=Kenji+S&background=E53935&color=fff",
         "stats": {
@@ -133,6 +145,8 @@
         "nationality": "Japan",
         "position": "RB",
         "age": 26,
+        "height": 177,
+        "preferredFoot": "Right",
         "marketValue": 900000,
         "imageUrl": "https://ui-avatars.com/api/?name=Hiroshi+T&background=2196F3&color=fff",
         "stats": {
@@ -154,6 +168,8 @@
         "nationality": "Japan",
         "position": "ST",
         "age": 20,
+        "height": 185,
+        "preferredFoot": "Right",
         "marketValue": 2000000,
         "imageUrl": "https://ui-avatars.com/api/?name=Daiki+M&background=3F51B5&color=fff",
         "stats": {
@@ -175,6 +191,8 @@
         "nationality": "England",
         "position": "RW",
         "age": 19,
+        "height": 174,
+        "preferredFoot": "Left",
         "marketValue": 2500000,
         "imageUrl": "https://ui-avatars.com/api/?name=Alex+C&background=FF5722&color=fff",
         "stats": {
@@ -196,6 +214,8 @@
         "nationality": "England",
         "position": "CM",
         "age": 34,
+        "height": 180,
+        "preferredFoot": "Right",
         "marketValue": 300000,
         "imageUrl": "https://ui-avatars.com/api/?name=James+M&background=795548&color=fff",
         "stats": {
@@ -217,6 +237,8 @@
         "nationality": "England",
         "position": "CB",
         "age": 29,
+        "height": 192,
+        "preferredFoot": "Right",
         "marketValue": 1100000,
         "imageUrl": "https://ui-avatars.com/api/?name=David+B&background=607D8B&color=fff",
         "stats": {
@@ -238,6 +260,8 @@
         "nationality": "England",
         "position": "LB",
         "age": 22,
+        "height": 175,
+        "preferredFoot": "Left",
         "marketValue": 1400000,
         "imageUrl": "https://ui-avatars.com/api/?name=Marcus+S&background=009688&color=fff",
         "stats": {
@@ -253,12 +277,14 @@
     },
     {
         "id": "p13",
-        "name": "Kim Min-jae",
+        "name": "Kim Min-jae (Fake)",
         "team": "Gimpo FC",
         "league": "K League 2",
         "nationality": "South Korea",
         "position": "CB",
         "age": 24,
+        "height": 190,
+        "preferredFoot": "Right",
         "marketValue": 1800000,
         "imageUrl": "https://ui-avatars.com/api/?name=Kim+M&background=E91E63&color=fff",
         "stats": {
@@ -280,6 +306,8 @@
         "nationality": "South Korea",
         "position": "CDM",
         "age": 21,
+        "height": 178,
+        "preferredFoot": "Both",
         "marketValue": 2200000,
         "imageUrl": "https://ui-avatars.com/api/?name=Park+J&background=9C27B0&color=fff",
         "stats": {
@@ -301,6 +329,8 @@
         "nationality": "South Korea",
         "position": "ST",
         "age": 27,
+        "height": 186,
+        "preferredFoot": "Right",
         "marketValue": 1500000,
         "imageUrl": "https://ui-avatars.com/api/?name=Lee+D&background=673AB7&color=fff",
         "stats": {
@@ -322,6 +352,8 @@
         "nationality": "Thailand",
         "position": "ST",
         "age": 20,
+        "height": 183,
+        "preferredFoot": "Right",
         "marketValue": 400000,
         "imageUrl": "https://ui-avatars.com/api/?name=Supachai&background=0D8ABC&color=fff",
         "stats": {
@@ -343,6 +375,8 @@
         "nationality": "Thailand",
         "position": "RB",
         "age": 22,
+        "height": 174,
+        "preferredFoot": "Right",
         "marketValue": 550000,
         "imageUrl": "https://ui-avatars.com/api/?name=Narubadin&background=4CAF50&color=fff",
         "stats": {
@@ -364,6 +398,8 @@
         "nationality": "Thailand",
         "position": "CAM",
         "age": 24,
+        "height": 158,
+        "preferredFoot": "Both",
         "marketValue": 1300000,
         "imageUrl": "https://ui-avatars.com/api/?name=Chanathip&background=FFC107&color=fff",
         "stats": {
@@ -385,6 +421,8 @@
         "nationality": "Thailand",
         "position": "CM",
         "age": 26,
+        "height": 169,
+        "preferredFoot": "Right",
         "marketValue": 800000,
         "imageUrl": "https://ui-avatars.com/api/?name=Sarach&background=FF9800&color=fff",
         "stats": {
@@ -406,6 +444,8 @@
         "nationality": "Thailand",
         "position": "LB",
         "age": 31,
+        "height": 172,
+        "preferredFoot": "Left",
         "marketValue": 950000,
         "imageUrl": "https://ui-avatars.com/api/?name=Theerathon&background=E53935&color=fff",
         "stats": {
@@ -427,6 +467,8 @@
         "nationality": "Japan",
         "position": "LB",
         "age": 18,
+        "height": 170,
+        "preferredFoot": "Both",
         "marketValue": 600000,
         "imageUrl": "https://ui-avatars.com/api/?name=Yuto+N&background=9C27B0&color=fff",
         "stats": {
@@ -442,12 +484,14 @@
     },
     {
         "id": "p22",
-        "name": "Shinji Kagawa",
+        "name": "Shinji Kagawa V2",
         "team": "Nara Club",
         "league": "J3 League",
         "nationality": "Japan",
         "position": "CAM",
         "age": 22,
+        "height": 173,
+        "preferredFoot": "Right",
         "marketValue": 1500000,
         "imageUrl": "https://ui-avatars.com/api/?name=Shinji+K&background=3F51B5&color=fff",
         "stats": {
@@ -469,6 +513,8 @@
         "nationality": "England",
         "position": "GK",
         "age": 25,
+        "height": 194,
+        "preferredFoot": "Right",
         "marketValue": 1000000,
         "imageUrl": "https://ui-avatars.com/api/?name=Oliver+S&background=009688&color=fff",
         "stats": {
@@ -490,6 +536,8 @@
         "nationality": "England",
         "position": "ST",
         "age": 28,
+        "height": 185,
+        "preferredFoot": "Right",
         "marketValue": 800000,
         "imageUrl": "https://ui-avatars.com/api/?name=Tom+S&background=795548&color=fff",
         "stats": {
@@ -511,6 +559,8 @@
         "nationality": "England",
         "position": "CM",
         "age": 23,
+        "height": 180,
+        "preferredFoot": "Right",
         "marketValue": 650000,
         "imageUrl": "https://ui-avatars.com/api/?name=Harry+P&background=607D8B&color=fff",
         "stats": {
@@ -532,6 +582,8 @@
         "nationality": "South Korea",
         "position": "CB",
         "age": 32,
+        "height": 187,
+        "preferredFoot": "Right",
         "marketValue": 350000,
         "imageUrl": "https://ui-avatars.com/api/?name=Choi+J&background=F44336&color=fff",
         "stats": {
@@ -553,6 +605,8 @@
         "nationality": "South Korea",
         "position": "ST",
         "age": 20,
+        "height": 184,
+        "preferredFoot": "Right",
         "marketValue": 900000,
         "imageUrl": "https://ui-avatars.com/api/?name=Hwang+U&background=E91E63&color=fff",
         "stats": {
@@ -574,6 +628,8 @@
         "nationality": "Thailand",
         "position": "GK",
         "age": 27,
+        "height": 183,
+        "preferredFoot": "Right",
         "marketValue": 1200000,
         "imageUrl": "https://ui-avatars.com/api/?name=Kawin&background=2196F3&color=fff",
         "stats": {
@@ -595,6 +651,8 @@
         "nationality": "Thailand",
         "position": "ST",
         "age": 23,
+        "height": 181,
+        "preferredFoot": "Right",
         "marketValue": 600000,
         "imageUrl": "https://ui-avatars.com/api/?name=Adisak&background=4CAF50&color=fff",
         "stats": {
@@ -616,6 +674,8 @@
         "nationality": "England",
         "position": "CDM",
         "age": 26,
+        "height": 185,
+        "preferredFoot": "Right",
         "marketValue": 1600000,
         "imageUrl": "https://ui-avatars.com/api/?name=Jack+T&background=FF5722&color=fff",
         "stats": {
