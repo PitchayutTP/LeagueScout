@@ -1,5 +1,6 @@
 import React from 'react';
 import { Star, Building2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function PlayerCard({ player }) {
     return (
@@ -9,7 +10,7 @@ export default function PlayerCard({ player }) {
             </button>
 
             <div className="relative mb-4">
-                <img src={player.image} alt={player.name} className="w-20 h-20 rounded-full object-cover border-4 border-slate-50" />
+                <img src={player.imageUrl} alt={player.name} className="w-20 h-20 rounded-full object-cover border-4 border-slate-50" />
                 <div className="absolute -bottom-2 -right-2 bg-blue-600 text-white text-xs font-black w-8 h-8 flex items-center justify-center rounded-full border-2 border-white">
                     {player.rating}
                 </div>
@@ -38,9 +39,9 @@ export default function PlayerCard({ player }) {
                 ))}
             </div>
 
-            <button className="w-full bg-blue-50 text-blue-600 font-bold py-2.5 rounded-xl text-sm hover:bg-blue-100 transition-colors mt-auto">
+            <Link to={`/players/${player.id}`} className="w-full text-center bg-blue-50 text-blue-600 font-bold py-2.5 rounded-xl text-sm hover:bg-blue-100 transition-colors mt-auto">
                 FULL REPORT
-            </button>
+            </Link>
         </div>
     );
 }
