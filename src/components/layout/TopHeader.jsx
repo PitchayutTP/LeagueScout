@@ -1,5 +1,5 @@
 import React from "react";
-export default function TopHeader() {
+export default function TopHeader({ onSearch }) {
   return (
     <header className="flex items-center justify-between h-16 bg-white border-b border-gray-200 px-6 sticky top-0 z-40">
       {/* --- ส่วนซ้าย: Logo & Search --- */}
@@ -20,6 +20,7 @@ export default function TopHeader() {
           </div>
           <input
             type="text"
+            onChange={onSearch}
             className="block w-full pl-10 pr-3 py-2 border border-gray-200 rounded-lg bg-gray-50 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
             placeholder="Search athletes, leagues, or metrics..."
           />

@@ -20,7 +20,7 @@ const PlayerCard = ({ player }) => {
       <div className="relative h-48 bg-gray-100 overflow-hidden">
         {/* รูปนักเตะ - ใช้ object-cover เพื่อให้รูปพอดีกรอบ */}
         <img 
-          src={player.image || '/images/default-player.jpg'} 
+          src={player.imageUrl || '/images/default-player.jpg'} 
           alt={player.name}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
@@ -57,7 +57,7 @@ const PlayerCard = ({ player }) => {
             </div>
             <div>
               <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Market Value</p>
-              <p className="text-base font-bold text-gray-950">{player.value}</p>
+              <p className="text-base font-bold text-gray-950">${player.marketValue}</p>
             </div>
           </div>
 

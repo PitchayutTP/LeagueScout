@@ -5,36 +5,26 @@ import StatCard from "../components/dashboard/StatCard";
 import MarketTrendsChart from "../components/dashboard/MarketTrendsChart";
 import PlayerCard from "../components/dashboard/PlayerCard";
 import { Link as LINK } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 
 export default function Dashboard() {
-  const hiddenGemsData = [
-    {
-      id: 101,
-      name: "Mathis Leroy",
-      age: 19,
-      position: "Attacking Midfield",
-      league: "LIGUE 2",
-      value: "€2.4M",
-      potential: 88,
-      image: "/images/leroy.jpg", // ใส่ path รูปจริง
-    },
-    {
-      id: 102,
-      name: "Jesper de Jong",
-      age: 21,
-      position: "Central Defender",
-      league: "EREDIVISIE",
-      value: "€8.1M",
-      potential: 85,
-      image: "/images/dejong.jpg",
-    },
-    // ... เพิ่มนักเตะคนอื่นๆ ...
-  ];
+  const [players, setPlayers] = useState([]);
+  const [searchTerm, setSearchTerm] = useState(""); // เก็บคำค้นหา
+  const filteredPlayers = players.filter((player) =>
+  player.name.toLowerCase().includes(searchTerm.toLowerCase())
+);
+
+  useEffect(() => {
+    fetch("/dataplayer.json")
+      .then((response) => response.json())
+      .then((data) => setPlayers(data))
+      .catch((error) => console.error("Error loading players:", error));
+  }, []);
 
   return (
     <div>
       <DashboardLayout sidebar={<Sidebar />}>
-        <TopHeader />
+        <TopHeader onSearch={(e) => setSearchTerm(e.target.value)} />
         <div className="flex flex-wrap gap-4 mt-4 justify-center">
           <StatCard title="Total Players" value="1,234" change={5.2} />
           <StatCard title="Total Players" value="1,234" change={5.2} />
@@ -51,18 +41,25 @@ export default function Dashboard() {
             <h2 className="text-2xl font-extrabold text-gray-950">
               Hidden Gems
             </h2>
-            <LINK to="/prospects" className="text-sm font-semibold text-blue-700 hover:text-blue-800">
+            <LINK
+              to="/prospects"
+              className="text-sm font-semibold text-blue-700 hover:text-blue-800"
+            >
               View All Prospects →
             </LINK>
           </div>
 
-          {/* Grid จัดวางการ์ด: 1 คอลัมน์บนมือถือ, 2 บนแท็บเล็ต, 3-4 บนจอใหญ่ */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {hiddenGemsData.map((player) => (
-              // ส่งข้อมูลนักเตะทั้งก้อนผ่าน prop ชื่อ 'player'
+            {filteredPlayers.slice(0, 4).map((player) => (
               <PlayerCard key={player.id} player={player} />
             ))}
           </div>
+          {/* ถ้าหาไม่เจอ ให้โชว์ข้อความบอกผู้ใช้ */}
+          {filteredPlayers.length === 0 && (
+            <p className="text-center text-gray-500 mt-10">
+              No players found matching "{searchTerm}"
+            </p>
+          )}
         </div>
       </DashboardLayout>
     </div>
