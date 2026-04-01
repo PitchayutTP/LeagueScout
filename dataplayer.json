@@ -11,6 +11,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Somchai&background=0D8ABC&color=fff",
         "stats": {
             "overall": 72,
+            "potential": 84,
             "pace": 85,
             "shooting": 76,
             "passing": 55,
@@ -31,6 +32,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Wichai&background=4CAF50&color=fff",
         "stats": {
             "overall": 74,
+            "potential": 74,
             "pace": 55,
             "shooting": 40,
             "passing": 50,
@@ -51,6 +53,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Tawan&background=9C27B0&color=fff",
         "stats": {
             "overall": 71,
+            "potential": 75,
             "pace": 65,
             "shooting": 50,
             "passing": 72,
@@ -71,6 +74,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Arthit&background=F44336&color=fff",
         "stats": {
             "overall": 68,
+            "potential": 68,
             "pace": 40,
             "shooting": 20,
             "passing": 60,
@@ -91,6 +95,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Kongkiat&background=FF9800&color=fff",
         "stats": {
             "overall": 70,
+            "potential": 83,
             "pace": 90,
             "shooting": 65,
             "passing": 60,
@@ -111,6 +116,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Kenji+S&background=E53935&color=fff",
         "stats": {
             "overall": 75,
+            "potential": 82,
             "pace": 68,
             "shooting": 65,
             "passing": 85,
@@ -131,6 +137,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Hiroshi+T&background=2196F3&color=fff",
         "stats": {
             "overall": 73,
+            "potential": 75,
             "pace": 82,
             "shooting": 45,
             "passing": 70,
@@ -151,6 +158,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Daiki+M&background=3F51B5&color=fff",
         "stats": {
             "overall": 77,
+            "potential": 86,
             "pace": 88,
             "shooting": 80,
             "passing": 60,
@@ -171,6 +179,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Alex+C&background=FF5722&color=fff",
         "stats": {
             "overall": 78,
+            "potential": 88,
             "pace": 92,
             "shooting": 70,
             "passing": 75,
@@ -191,6 +200,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=James+M&background=795548&color=fff",
         "stats": {
             "overall": 71,
+            "potential": 71,
             "pace": 50,
             "shooting": 65,
             "passing": 80,
@@ -211,6 +221,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=David+B&background=607D8B&color=fff",
         "stats": {
             "overall": 76,
+            "potential": 76,
             "pace": 60,
             "shooting": 30,
             "passing": 55,
@@ -231,6 +242,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Marcus+S&background=009688&color=fff",
         "stats": {
             "overall": 75,
+            "potential": 84,
             "pace": 89,
             "shooting": 55,
             "passing": 72,
@@ -251,6 +263,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Kim+M&background=E91E63&color=fff",
         "stats": {
             "overall": 79,
+            "potential": 85,
             "pace": 75,
             "shooting": 45,
             "passing": 65,
@@ -271,6 +284,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Park+J&background=9C27B0&color=fff",
         "stats": {
             "overall": 80,
+            "potential": 88,
             "pace": 80,
             "shooting": 70,
             "passing": 82,
@@ -291,6 +305,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Lee+D&background=673AB7&color=fff",
         "stats": {
             "overall": 76,
+            "potential": 77,
             "pace": 72,
             "shooting": 85,
             "passing": 60,
@@ -311,6 +326,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Supachai&background=0D8ABC&color=fff",
         "stats": {
             "overall": 69,
+            "potential": 81,
             "pace": 82,
             "shooting": 72,
             "passing": 50,
@@ -331,6 +347,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Narubadin&background=4CAF50&color=fff",
         "stats": {
             "overall": 71,
+            "potential": 79,
             "pace": 86,
             "shooting": 40,
             "passing": 68,
@@ -351,6 +368,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Chanathip&background=FFC107&color=fff",
         "stats": {
             "overall": 78,
+            "potential": 83,
             "pace": 85,
             "shooting": 74,
             "passing": 86,
@@ -371,6 +389,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Sarach&background=FF9800&color=fff",
         "stats": {
             "overall": 73,
+            "potential": 74,
             "pace": 65,
             "shooting": 60,
             "passing": 82,
@@ -391,6 +410,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Theerathon&background=E53935&color=fff",
         "stats": {
             "overall": 75,
+            "potential": 75,
             "pace": 70,
             "shooting": 72,
             "passing": 88,
@@ -411,6 +431,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Yuto+N&background=9C27B0&color=fff",
         "stats": {
             "overall": 68,
+            "potential": 85,
             "pace": 84,
             "shooting": 50,
             "passing": 65,
@@ -431,6 +452,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Shinji+K&background=3F51B5&color=fff",
         "stats": {
             "overall": 76,
+            "potential": 84,
             "pace": 75,
             "shooting": 78,
             "passing": 85,
@@ -451,6 +473,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Oliver+S&background=009688&color=fff",
         "stats": {
             "overall": 75,
+            "potential": 78,
             "pace": 45,
             "shooting": 20,
             "passing": 65,
@@ -471,6 +494,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Tom+S&background=795548&color=fff",
         "stats": {
             "overall": 72,
+            "potential": 72,
             "pace": 70,
             "shooting": 78,
             "passing": 55,
@@ -491,6 +515,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Harry+P&background=607D8B&color=fff",
         "stats": {
             "overall": 70,
+            "potential": 77,
             "pace": 65,
             "shooting": 60,
             "passing": 76,
@@ -511,6 +536,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Choi+J&background=F44336&color=fff",
         "stats": {
             "overall": 68,
+            "potential": 68,
             "pace": 45,
             "shooting": 35,
             "passing": 50,
@@ -531,6 +557,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Hwang+U&background=E91E63&color=fff",
         "stats": {
             "overall": 73,
+            "potential": 82,
             "pace": 84,
             "shooting": 75,
             "passing": 58,
@@ -551,6 +578,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Kawin&background=2196F3&color=fff",
         "stats": {
             "overall": 76,
+            "potential": 77,
             "pace": 48,
             "shooting": 25,
             "passing": 68,
@@ -571,6 +599,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Adisak&background=4CAF50&color=fff",
         "stats": {
             "overall": 71,
+            "potential": 78,
             "pace": 78,
             "shooting": 75,
             "passing": 52,
@@ -591,6 +620,7 @@
         "imageUrl": "https://ui-avatars.com/api/?name=Jack+T&background=FF5722&color=fff",
         "stats": {
             "overall": 77,
+            "potential": 79,
             "pace": 70,
             "shooting": 55,
             "passing": 75,
