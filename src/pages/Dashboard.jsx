@@ -10,9 +10,12 @@ import React, { useState, useEffect } from "react";
 export default function Dashboard() {
   const [players, setPlayers] = useState([]);
   const [searchTerm, setSearchTerm] = useState(""); // เก็บคำค้นหา
-  const filteredPlayers = players.filter((player) =>
-  player.name.toLowerCase().includes(searchTerm.toLowerCase())
-);
+  const searchedPlayers = players.filter((player) =>
+    player.name.toLowerCase().includes(searchTerm.toLowerCase()),
+  );
+  const sortedPlayers = [...searchedPlayers].sort((a, b) => {
+    return (b.stats?.potential || 0) - (a.stats?.potential || 0);
+  });
 
   useEffect(() => {
     fetch("/dataplayer.json")
@@ -50,12 +53,12 @@ export default function Dashboard() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {filteredPlayers.slice(0, 4).map((player) => (
+            {sortedPlayers.slice(0, 4).map((player) => (
               <PlayerCard key={player.id} player={player} />
             ))}
           </div>
           {/* ถ้าหาไม่เจอ ให้โชว์ข้อความบอกผู้ใช้ */}
-          {filteredPlayers.length === 0 && (
+          {sortedPlayers.length === 0 && (
             <p className="text-center text-gray-500 mt-10">
               No players found matching "{searchTerm}"
             </p>
