@@ -10,6 +10,7 @@
         "height": 182,
         "preferredFoot": "Right",
         "marketValue": 500000,
+        "contractEndDate": "2028-05-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Somchai&background=0D8ABC&color=fff",
         "stats": {
             "overall": 72,
@@ -70,6 +71,7 @@
         "height": 188,
         "preferredFoot": "Right",
         "marketValue": 850000,
+        "contractEndDate": "2027-06-30",
         "imageUrl": "https://ui-avatars.com/api/?name=Wichai&background=4CAF50&color=fff",
         "stats": {
             "overall": 74,
@@ -130,6 +132,7 @@
         "height": 178,
         "preferredFoot": "Right",
         "marketValue": 600000,
+        "contractEndDate": "2026-12-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Tawan&background=9C27B0&color=fff",
         "stats": {
             "overall": 71,
@@ -176,7 +179,7 @@
         "scoutReports": [
             "มีความดุดันและเข้าสกัดบอลได้แม่นยำ ทำลายจังหวะเกมรุกคู่แข่งได้ดี",
             "สถิติการจ่ายบอลทะลุช่องยังมีน้อย มักจะจ่ายบอลสั้นและปลอดภัยไว้ก่อน",
-            "ราคาจับต้องได้ เหมาะสำหรับซื้อมาเป็นอะไหล่หมุนเวียนในแดนกลาง"
+            "สัญญาใกล้จะหมด เป็นโอกาสดีที่จะเจรจาดึงตัวมาร่วมทีมในราคาถูก"
         ]
     },
     {
@@ -190,6 +193,7 @@
         "height": 190,
         "preferredFoot": "Right",
         "marketValue": 450000,
+        "contractEndDate": "2026-05-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Arthit&background=F44336&color=fff",
         "stats": {
             "overall": 68,
@@ -236,7 +240,7 @@
         "scoutReports": [
             "มีประสบการณ์สูง ยืนตำแหน่งดี และสั่งการกองหลังได้เยี่ยม",
             "ปฏิกิริยาตอบสนองเริ่มลดลงตามอายุ ไม่เหมาะกับการเล่นเป็นผู้รักษาประตูตัวกวาด (Sweeper Keeper)",
-            "แนะนำให้เซ็นสัญญาระยะสั้น 1-2 ปี เพื่อมาเป็นผู้รักษาประตูมือสองที่คอยซัพพอร์ตทีม"
+            "สัญญาจะหมดในอีกไม่กี่เดือน แนะนำให้เซ็นฟรีมาเป็นมือสอง"
         ]
     },
     {
@@ -250,6 +254,7 @@
         "height": 172,
         "preferredFoot": "Right",
         "marketValue": 750000,
+        "contractEndDate": "2029-05-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Kongkiat&background=FF9800&color=fff",
         "stats": {
             "overall": 70,
@@ -296,7 +301,7 @@
         "scoutReports": [
             "ความเร็วระดับจรวดทางเรียบ ฉีกกระชากกองหลังริมเส้นได้สบายๆ",
             "ร่างกายยังบางเกินไป ต้องเข้าฟิตเนสเพิ่มมวลกล้ามเนื้อด่วน",
-            "เพชรเม็ดงามที่มีค่า Potential สูงมาก หากปั้นดีๆ สามารถทำกำไรให้สโมสรได้มหาศาล"
+            "เพิ่งต่อสัญญายาวกับต้นสังกัด หากต้องการตัวอาจจะต้องจ่ายค่าฉีกสัญญาที่สูงพอสมควร"
         ]
     },
     {
@@ -310,6 +315,7 @@
         "height": 175,
         "preferredFoot": "Both",
         "marketValue": 1200000,
+        "contractEndDate": "2027-12-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Kenji+S&background=E53935&color=fff",
         "stats": {
             "overall": 75,
@@ -370,6 +376,7 @@
         "height": 177,
         "preferredFoot": "Right",
         "marketValue": 900000,
+        "contractEndDate": "2028-01-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Hiroshi+T&background=2196F3&color=fff",
         "stats": {
             "overall": 73,
@@ -430,6 +437,7 @@
         "height": 185,
         "preferredFoot": "Right",
         "marketValue": 2000000,
+        "contractEndDate": "2029-12-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Daiki+M&background=3F51B5&color=fff",
         "stats": {
             "overall": 77,
@@ -476,7 +484,7 @@
         "scoutReports": [
             "กองหน้าพรสวรรค์สูง รูปร่างดีและจบสกอร์คมกริบ กราฟการยิงประตูพุ่งกระฉูด",
             "ไม่ค่อยลงมาช่วยเกมรับ ทำให้ทีมอาจเสียเปรียบเวลาโดนพับสนามบุก",
-            "เป้าหมายหลัก (Top Target) ของตลาดนักเตะรอบนี้ สโมสรควรทุ่มงบดึงตัวมาให้ได้"
+            "ต้นสังกัดเพิ่งจับต่อสัญญายาวกันท่าทีมใหญ่ แต่ยังไงก็คุ้มที่จะทุ่มเงินซื้อ"
         ]
     },
     {
@@ -490,6 +498,7 @@
         "height": 174,
         "preferredFoot": "Left",
         "marketValue": 2500000,
+        "contractEndDate": "2030-06-30",
         "imageUrl": "https://ui-avatars.com/api/?name=Alex+C&background=FF5722&color=fff",
         "stats": {
             "overall": 78,
@@ -536,7 +545,7 @@
         "scoutReports": [
             "ปีกขวาเท้าซ้าย สไตล์ตัดเข้าในแล้วยิง (Inside Forward) เลี้ยงบอลติดเท้ามาก",
             "แรงปะทะน้อย มักจะเสียเปรียบกองหลังฟุตบอลอังกฤษที่เข้าสกัดหนัก",
-            "สถิติประตูและแอสซิสต์แบบ Double-Double ในวัย 19 ปี นี่คือซูเปอร์สตาร์ในอนาคต"
+            "สถิติระดับซูเปอร์สตาร์ สโมสรจับเซ็นสัญญายาวถึงปี 2030 ถือครองมูลค่ามหาศาล"
         ]
     },
     {
@@ -550,6 +559,7 @@
         "height": 180,
         "preferredFoot": "Right",
         "marketValue": 300000,
+        "contractEndDate": "2026-06-30",
         "imageUrl": "https://ui-avatars.com/api/?name=James+M&background=795548&color=fff",
         "stats": {
             "overall": 71,
@@ -596,7 +606,7 @@
         "scoutReports": [
             "ความเป็นผู้นำสูง สภาพร่างกายยังแข็งแกร่งแม้จะอายุ 34 ปีแล้ว",
             "ความเร็วหายไปเยอะมาก ไม่สามารถเล่นเกมสวนกลับเร็วได้อีกต่อไป",
-            "เหมาะสำหรับเซ็นสัญญามาเป็นอะไหล่ หรือผู้นำในห้องแต่งตัวเพื่อสอนนักเตะดาวรุ่ง"
+            "สัญญาหมดกลางปีนี้ เหมาะสำหรับดึงมาร่วมทีมฟรีๆ เพื่อสร้างสภาพจิตใจที่ดีในห้องแต่งตัว"
         ]
     },
     {
@@ -610,6 +620,7 @@
         "height": 192,
         "preferredFoot": "Right",
         "marketValue": 1100000,
+        "contractEndDate": "2027-06-30",
         "imageUrl": "https://ui-avatars.com/api/?name=David+B&background=607D8B&color=fff",
         "stats": {
             "overall": 76,
@@ -670,6 +681,7 @@
         "height": 175,
         "preferredFoot": "Left",
         "marketValue": 1400000,
+        "contractEndDate": "2028-06-30",
         "imageUrl": "https://ui-avatars.com/api/?name=Marcus+S&background=009688&color=fff",
         "stats": {
             "overall": 75,
@@ -730,6 +742,7 @@
         "height": 190,
         "preferredFoot": "Right",
         "marketValue": 1800000,
+        "contractEndDate": "2029-12-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Kim+M&background=E91E63&color=fff",
         "stats": {
             "overall": 79,
@@ -790,6 +803,7 @@
         "height": 178,
         "preferredFoot": "Both",
         "marketValue": 2200000,
+        "contractEndDate": "2030-12-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Park+J&background=9C27B0&color=fff",
         "stats": {
             "overall": 80,
@@ -850,6 +864,7 @@
         "height": 186,
         "preferredFoot": "Right",
         "marketValue": 1500000,
+        "contractEndDate": "2028-12-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Lee+D&background=673AB7&color=fff",
         "stats": {
             "overall": 76,
@@ -910,6 +925,7 @@
         "height": 183,
         "preferredFoot": "Right",
         "marketValue": 400000,
+        "contractEndDate": "2027-05-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Supachai&background=0D8ABC&color=fff",
         "stats": {
             "overall": 69,
@@ -970,6 +986,7 @@
         "height": 174,
         "preferredFoot": "Right",
         "marketValue": 550000,
+        "contractEndDate": "2028-05-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Narubadin&background=4CAF50&color=fff",
         "stats": {
             "overall": 71,
@@ -1030,6 +1047,7 @@
         "height": 158,
         "preferredFoot": "Both",
         "marketValue": 1300000,
+        "contractEndDate": "2026-12-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Chanathip&background=FFC107&color=fff",
         "stats": {
             "overall": 78,
@@ -1076,7 +1094,7 @@
         "scoutReports": [
             "ทักษะเลี้ยงบอลติดเท้าขั้นเทพ เอาตัวรอดในพื้นที่แคบได้ยอดเยี่ยมที่สุดในลีค",
             "เสียเปรียบเรื่องรูปร่างอย่างหนัก โดนเบียดกระเด็นได้ง่าย",
-            "เพลย์เมกเกอร์ตัวความหวัง สร้างสรรค์โอกาสให้ทีมได้เป็นกอบเป็นกำ"
+            "สัญญาเหลือไม่ถึงปี! นี่คือโอกาสทองที่จะจีบมาร่วมทีมล่วงหน้าได้ในราคาที่ถูกลง"
         ]
     },
     {
@@ -1090,6 +1108,7 @@
         "height": 169,
         "preferredFoot": "Right",
         "marketValue": 800000,
+        "contractEndDate": "2027-12-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Sarach&background=FF9800&color=fff",
         "stats": {
             "overall": 73,
@@ -1150,6 +1169,7 @@
         "height": 172,
         "preferredFoot": "Left",
         "marketValue": 950000,
+        "contractEndDate": "2026-05-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Theerathon&background=E53935&color=fff",
         "stats": {
             "overall": 75,
@@ -1196,7 +1216,7 @@
         "scoutReports": [
             "เท้าซ้ายชั่งทอง เปิดลูกตั้งเตะและเตะมุมได้อันตรายหวังผลได้เสมอ",
             "อายุเริ่มเยอะ ทำให้จังหวะลงมาซ้อนเกมรับทำได้ช้าลงกว่าเดิม",
-            "เป็นผู้นำจอมเก๋า อาวุธหนักทางกราบซ้ายที่พร้อมยกระดับทีม"
+            "สัญญาจะหมดในอีกไม่กี่เดือน ดึงตัวมาสร้างความเก๋าให้ทีมแบ็คโฟร์ได้เลย"
         ]
     },
     {
@@ -1210,6 +1230,7 @@
         "height": 170,
         "preferredFoot": "Both",
         "marketValue": 600000,
+        "contractEndDate": "2029-01-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Yuto+N&background=9C27B0&color=fff",
         "stats": {
             "overall": 68,
@@ -1270,6 +1291,7 @@
         "height": 173,
         "preferredFoot": "Right",
         "marketValue": 1500000,
+        "contractEndDate": "2028-01-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Shinji+K&background=3F51B5&color=fff",
         "stats": {
             "overall": 76,
@@ -1330,6 +1352,7 @@
         "height": 194,
         "preferredFoot": "Right",
         "marketValue": 1000000,
+        "contractEndDate": "2027-06-30",
         "imageUrl": "https://ui-avatars.com/api/?name=Oliver+S&background=009688&color=fff",
         "stats": {
             "overall": 75,
@@ -1390,6 +1413,7 @@
         "height": 185,
         "preferredFoot": "Right",
         "marketValue": 800000,
+        "contractEndDate": "2026-06-30",
         "imageUrl": "https://ui-avatars.com/api/?name=Tom+S&background=795548&color=fff",
         "stats": {
             "overall": 72,
@@ -1436,7 +1460,7 @@
         "scoutReports": [
             "กองหน้าตัวเป้า (Target Man) พักบอลแดนหน้าได้ บังบอลมิดชิด",
             "มักจะหายไปจากเกมถ้าระบบกองกลางไม่สามารถส่งบอลไปถึงพื้นที่อันตรายได้",
-            "ฟอร์มคงเส้นคงวา ยิงได้เรื่อยๆ เหมาะซื้อมาโรเตชั่นช่วยแบ่งเบาภาระกองหน้าตัวหลัก"
+            "สัญญาใกล้จะหมด เป็นอะไหล่ชั้นดีที่ควรติดต่อดึงตัวมาร่วมทีมล่วงหน้า"
         ]
     },
     {
@@ -1450,6 +1474,7 @@
         "height": 180,
         "preferredFoot": "Right",
         "marketValue": 650000,
+        "contractEndDate": "2028-06-30",
         "imageUrl": "https://ui-avatars.com/api/?name=Harry+P&background=607D8B&color=fff",
         "stats": {
             "overall": 70,
@@ -1510,6 +1535,7 @@
         "height": 187,
         "preferredFoot": "Right",
         "marketValue": 350000,
+        "contractEndDate": "2026-12-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Choi+J&background=F44336&color=fff",
         "stats": {
             "overall": 68,
@@ -1556,7 +1582,7 @@
         "scoutReports": [
             "เก๋าเกม ดักทางบอลคู่แข่งได้ด้วยสายตาและการยืนตำแหน่งล้วนๆ",
             "ความเร็วช้าขั้นวิกฤต ห้ามดันไลน์แนวรับขึ้นสูงเด็ดขาด ไม่งั้นวิ่งตามกองหน้าไม่ทัน",
-            "ราคาแสนถูก เหมาะสำหรับเซ็นมาเพื่อประคองสกอร์ในช่วง 15 นาทีสุดท้ายของเกม"
+            "สัญญาเหลือแค่สิ้นปีนี้ เหมาะดึงมาประคองน้องๆ ในทีมช่วงสั้นๆ"
         ]
     },
     {
@@ -1570,6 +1596,7 @@
         "height": 184,
         "preferredFoot": "Right",
         "marketValue": 900000,
+        "contractEndDate": "2029-12-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Hwang+U&background=E91E63&color=fff",
         "stats": {
             "overall": 73,
@@ -1630,6 +1657,7 @@
         "height": 183,
         "preferredFoot": "Right",
         "marketValue": 1200000,
+        "contractEndDate": "2027-05-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Kawin&background=2196F3&color=fff",
         "stats": {
             "overall": 76,
@@ -1690,6 +1718,7 @@
         "height": 181,
         "preferredFoot": "Right",
         "marketValue": 600000,
+        "contractEndDate": "2028-05-31",
         "imageUrl": "https://ui-avatars.com/api/?name=Adisak&background=4CAF50&color=fff",
         "stats": {
             "overall": 71,
@@ -1750,6 +1779,7 @@
         "height": 185,
         "preferredFoot": "Right",
         "marketValue": 1600000,
+        "contractEndDate": "2027-06-30",
         "imageUrl": "https://ui-avatars.com/api/?name=Jack+T&background=FF5722&color=fff",
         "stats": {
             "overall": 77,
