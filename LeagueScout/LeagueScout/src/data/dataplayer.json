@@ -1,0 +1,602 @@
+[
+    {
+        "id": "p01",
+        "name": "สมชาย ช้างเผือก",
+        "team": "สงขลา เอฟซี",
+        "league": "Thai League 3",
+        "nationality": "Thailand",
+        "position": "ST",
+        "age": 21,
+        "marketValue": 500000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Somchai&background=0D8ABC&color=fff",
+        "stats": {
+            "overall": 72,
+            "pace": 85,
+            "shooting": 76,
+            "passing": 55,
+            "dribbling": 70,
+            "defending": 30,
+            "physical": 75
+        }
+    },
+    {
+        "id": "p02",
+        "name": "วิชัย ปราการหลัง",
+        "team": "พัทยา ยูไนเต็ด",
+        "league": "Thai League 2",
+        "nationality": "Thailand",
+        "position": "CB",
+        "age": 28,
+        "marketValue": 850000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Wichai&background=4CAF50&color=fff",
+        "stats": {
+            "overall": 74,
+            "pace": 55,
+            "shooting": 40,
+            "passing": 50,
+            "dribbling": 45,
+            "defending": 85,
+            "physical": 88
+        }
+    },
+    {
+        "id": "p03",
+        "name": "ตะวัน ตัดเกม",
+        "team": "มหาสารคาม เอสบีที",
+        "league": "Thai League 2",
+        "nationality": "Thailand",
+        "position": "CDM",
+        "age": 25,
+        "marketValue": 600000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Tawan&background=9C27B0&color=fff",
+        "stats": {
+            "overall": 71,
+            "pace": 65,
+            "shooting": 50,
+            "passing": 72,
+            "dribbling": 68,
+            "defending": 78,
+            "physical": 82
+        }
+    },
+    {
+        "id": "p04",
+        "name": "อาทิตย์ จอมหนึบ",
+        "team": "บางกอก เอฟซี",
+        "league": "Thai League 2",
+        "nationality": "Thailand",
+        "position": "GK",
+        "age": 30,
+        "marketValue": 450000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Arthit&background=F44336&color=fff",
+        "stats": {
+            "overall": 68,
+            "pace": 40,
+            "shooting": 20,
+            "passing": 60,
+            "dribbling": 30,
+            "defending": 15,
+            "physical": 70
+        }
+    },
+    {
+        "id": "p05",
+        "name": "ก้องเกียรติ ปีกจรวด",
+        "team": "ศรีสะเกษ ยูไนเต็ด",
+        "league": "Thai League 3",
+        "nationality": "Thailand",
+        "position": "LW",
+        "age": 19,
+        "marketValue": 750000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Kongkiat&background=FF9800&color=fff",
+        "stats": {
+            "overall": 70,
+            "pace": 90,
+            "shooting": 65,
+            "passing": 60,
+            "dribbling": 78,
+            "defending": 35,
+            "physical": 55
+        }
+    },
+    {
+        "id": "p06",
+        "name": "Kenji Sato",
+        "team": "FC Ryukyu",
+        "league": "J3 League",
+        "nationality": "Japan",
+        "position": "CM",
+        "age": 23,
+        "marketValue": 1200000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Kenji+S&background=E53935&color=fff",
+        "stats": {
+            "overall": 75,
+            "pace": 68,
+            "shooting": 65,
+            "passing": 85,
+            "dribbling": 82,
+            "defending": 60,
+            "physical": 65
+        }
+    },
+    {
+        "id": "p07",
+        "name": "Hiroshi Tanaka",
+        "team": "FC Imabari",
+        "league": "J3 League",
+        "nationality": "Japan",
+        "position": "RB",
+        "age": 26,
+        "marketValue": 900000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Hiroshi+T&background=2196F3&color=fff",
+        "stats": {
+            "overall": 73,
+            "pace": 82,
+            "shooting": 45,
+            "passing": 70,
+            "dribbling": 68,
+            "defending": 75,
+            "physical": 72
+        }
+    },
+    {
+        "id": "p08",
+        "name": "Daiki Matsumoto",
+        "team": "Kamatamare Sanuki",
+        "league": "J3 League",
+        "nationality": "Japan",
+        "position": "ST",
+        "age": 20,
+        "marketValue": 2000000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Daiki+M&background=3F51B5&color=fff",
+        "stats": {
+            "overall": 77,
+            "pace": 88,
+            "shooting": 80,
+            "passing": 60,
+            "dribbling": 75,
+            "defending": 25,
+            "physical": 68
+        }
+    },
+    {
+        "id": "p09",
+        "name": "Alex Carter",
+        "team": "Wrexham AFC",
+        "league": "EFL League Two",
+        "nationality": "England",
+        "position": "RW",
+        "age": 19,
+        "marketValue": 2500000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Alex+C&background=FF5722&color=fff",
+        "stats": {
+            "overall": 78,
+            "pace": 92,
+            "shooting": 70,
+            "passing": 75,
+            "dribbling": 88,
+            "defending": 35,
+            "physical": 60
+        }
+    },
+    {
+        "id": "p10",
+        "name": "James Milner Jr.",
+        "team": "Notts County",
+        "league": "EFL League Two",
+        "nationality": "England",
+        "position": "CM",
+        "age": 34,
+        "marketValue": 300000,
+        "imageUrl": "https://ui-avatars.com/api/?name=James+M&background=795548&color=fff",
+        "stats": {
+            "overall": 71,
+            "pace": 50,
+            "shooting": 65,
+            "passing": 80,
+            "dribbling": 65,
+            "defending": 70,
+            "physical": 85
+        }
+    },
+    {
+        "id": "p11",
+        "name": "David Block",
+        "team": "Stockport County",
+        "league": "EFL League Two",
+        "nationality": "England",
+        "position": "CB",
+        "age": 29,
+        "marketValue": 1100000,
+        "imageUrl": "https://ui-avatars.com/api/?name=David+B&background=607D8B&color=fff",
+        "stats": {
+            "overall": 76,
+            "pace": 60,
+            "shooting": 30,
+            "passing": 55,
+            "dribbling": 40,
+            "defending": 88,
+            "physical": 90
+        }
+    },
+    {
+        "id": "p12",
+        "name": "Marcus Speed",
+        "team": "Mansfield Town",
+        "league": "EFL League Two",
+        "nationality": "England",
+        "position": "LB",
+        "age": 22,
+        "marketValue": 1400000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Marcus+S&background=009688&color=fff",
+        "stats": {
+            "overall": 75,
+            "pace": 89,
+            "shooting": 55,
+            "passing": 72,
+            "dribbling": 76,
+            "defending": 74,
+            "physical": 68
+        }
+    },
+    {
+        "id": "p13",
+        "name": "Kim Min-jae",
+        "team": "Gimpo FC",
+        "league": "K League 2",
+        "nationality": "South Korea",
+        "position": "CB",
+        "age": 24,
+        "marketValue": 1800000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Kim+M&background=E91E63&color=fff",
+        "stats": {
+            "overall": 79,
+            "pace": 75,
+            "shooting": 45,
+            "passing": 65,
+            "dribbling": 60,
+            "defending": 82,
+            "physical": 86
+        }
+    },
+    {
+        "id": "p14",
+        "name": "Park Ji-sung II",
+        "team": "Busan IPark",
+        "league": "K League 2",
+        "nationality": "South Korea",
+        "position": "CDM",
+        "age": 21,
+        "marketValue": 2200000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Park+J&background=9C27B0&color=fff",
+        "stats": {
+            "overall": 80,
+            "pace": 80,
+            "shooting": 70,
+            "passing": 82,
+            "dribbling": 78,
+            "defending": 75,
+            "physical": 92
+        }
+    },
+    {
+        "id": "p15",
+        "name": "Lee Dong-gook Jr.",
+        "team": "Seongnam FC",
+        "league": "K League 2",
+        "nationality": "South Korea",
+        "position": "ST",
+        "age": 27,
+        "marketValue": 1500000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Lee+D&background=673AB7&color=fff",
+        "stats": {
+            "overall": 76,
+            "pace": 72,
+            "shooting": 85,
+            "passing": 60,
+            "dribbling": 70,
+            "defending": 35,
+            "physical": 80
+        }
+    },
+    {
+        "id": "p16",
+        "name": "ศุภชัย ใจเด็ดเดี่ยว",
+        "team": "พัทลุง เอฟซี",
+        "league": "Thai League 3",
+        "nationality": "Thailand",
+        "position": "ST",
+        "age": 20,
+        "marketValue": 400000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Supachai&background=0D8ABC&color=fff",
+        "stats": {
+            "overall": 69,
+            "pace": 82,
+            "shooting": 72,
+            "passing": 50,
+            "dribbling": 65,
+            "defending": 25,
+            "physical": 68
+        }
+    },
+    {
+        "id": "p17",
+        "name": "นฤบดินทร์ วิ่งสู้ฟัด",
+        "team": "พัทลุง เอฟซี",
+        "league": "Thai League 3",
+        "nationality": "Thailand",
+        "position": "RB",
+        "age": 22,
+        "marketValue": 550000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Narubadin&background=4CAF50&color=fff",
+        "stats": {
+            "overall": 71,
+            "pace": 86,
+            "shooting": 40,
+            "passing": 68,
+            "dribbling": 65,
+            "defending": 70,
+            "physical": 75
+        }
+    },
+    {
+        "id": "p18",
+        "name": "ชนาธิป ไซส์มินิ",
+        "team": "บางกอก เอฟซี",
+        "league": "Thai League 2",
+        "nationality": "Thailand",
+        "position": "CAM",
+        "age": 24,
+        "marketValue": 1300000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Chanathip&background=FFC107&color=fff",
+        "stats": {
+            "overall": 78,
+            "pace": 85,
+            "shooting": 74,
+            "passing": 86,
+            "dribbling": 90,
+            "defending": 40,
+            "physical": 50
+        }
+    },
+    {
+        "id": "p19",
+        "name": "สารัช จ่ายทะลุ",
+        "team": "สงขลา เอฟซี",
+        "league": "Thai League 3",
+        "nationality": "Thailand",
+        "position": "CM",
+        "age": 26,
+        "marketValue": 800000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Sarach&background=FF9800&color=fff",
+        "stats": {
+            "overall": 73,
+            "pace": 65,
+            "shooting": 60,
+            "passing": 82,
+            "dribbling": 74,
+            "defending": 60,
+            "physical": 68
+        }
+    },
+    {
+        "id": "p20",
+        "name": "ธีราทร ครอสแม่น",
+        "team": "พัทยา ยูไนเต็ด",
+        "league": "Thai League 2",
+        "nationality": "Thailand",
+        "position": "LB",
+        "age": 31,
+        "marketValue": 950000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Theerathon&background=E53935&color=fff",
+        "stats": {
+            "overall": 75,
+            "pace": 70,
+            "shooting": 72,
+            "passing": 88,
+            "dribbling": 76,
+            "defending": 74,
+            "physical": 70
+        }
+    },
+    {
+        "id": "p21",
+        "name": "Yuto Nagatomo Jr.",
+        "team": "Tegevajaro Miyazaki",
+        "league": "J3 League",
+        "nationality": "Japan",
+        "position": "LB",
+        "age": 18,
+        "marketValue": 600000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Yuto+N&background=9C27B0&color=fff",
+        "stats": {
+            "overall": 68,
+            "pace": 84,
+            "shooting": 50,
+            "passing": 65,
+            "dribbling": 68,
+            "defending": 66,
+            "physical": 80
+        }
+    },
+    {
+        "id": "p22",
+        "name": "Shinji Kagawa",
+        "team": "Nara Club",
+        "league": "J3 League",
+        "nationality": "Japan",
+        "position": "CAM",
+        "age": 22,
+        "marketValue": 1500000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Shinji+K&background=3F51B5&color=fff",
+        "stats": {
+            "overall": 76,
+            "pace": 75,
+            "shooting": 78,
+            "passing": 85,
+            "dribbling": 86,
+            "defending": 45,
+            "physical": 60
+        }
+    },
+    {
+        "id": "p23",
+        "name": "Oliver Save",
+        "team": "Wrexham AFC",
+        "league": "EFL League Two",
+        "nationality": "England",
+        "position": "GK",
+        "age": 25,
+        "marketValue": 1000000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Oliver+S&background=009688&color=fff",
+        "stats": {
+            "overall": 75,
+            "pace": 45,
+            "shooting": 20,
+            "passing": 65,
+            "dribbling": 35,
+            "defending": 15,
+            "physical": 78
+        }
+    },
+    {
+        "id": "p24",
+        "name": "Tom Striker",
+        "team": "Barrow AFC",
+        "league": "EFL League Two",
+        "nationality": "England",
+        "position": "ST",
+        "age": 28,
+        "marketValue": 800000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Tom+S&background=795548&color=fff",
+        "stats": {
+            "overall": 72,
+            "pace": 70,
+            "shooting": 78,
+            "passing": 55,
+            "dribbling": 65,
+            "defending": 30,
+            "physical": 85
+        }
+    },
+    {
+        "id": "p25",
+        "name": "Harry Pass",
+        "team": "Barrow AFC",
+        "league": "EFL League Two",
+        "nationality": "England",
+        "position": "CM",
+        "age": 23,
+        "marketValue": 650000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Harry+P&background=607D8B&color=fff",
+        "stats": {
+            "overall": 70,
+            "pace": 65,
+            "shooting": 60,
+            "passing": 76,
+            "dribbling": 68,
+            "defending": 60,
+            "physical": 70
+        }
+    },
+    {
+        "id": "p26",
+        "name": "Choi Jin-chul",
+        "team": "Cheonan City",
+        "league": "K League 2",
+        "nationality": "South Korea",
+        "position": "CB",
+        "age": 32,
+        "marketValue": 350000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Choi+J&background=F44336&color=fff",
+        "stats": {
+            "overall": 68,
+            "pace": 45,
+            "shooting": 35,
+            "passing": 50,
+            "dribbling": 40,
+            "defending": 75,
+            "physical": 82
+        }
+    },
+    {
+        "id": "p27",
+        "name": "Hwang Ui-jo Lite",
+        "team": "Ansan Greeners",
+        "league": "K League 2",
+        "nationality": "South Korea",
+        "position": "ST",
+        "age": 20,
+        "marketValue": 900000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Hwang+U&background=E91E63&color=fff",
+        "stats": {
+            "overall": 73,
+            "pace": 84,
+            "shooting": 75,
+            "passing": 58,
+            "dribbling": 72,
+            "defending": 30,
+            "physical": 74
+        }
+    },
+    {
+        "id": "p28",
+        "name": "กวินทร์ บินได้",
+        "team": "มหาสารคาม เอสบีที",
+        "league": "Thai League 2",
+        "nationality": "Thailand",
+        "position": "GK",
+        "age": 27,
+        "marketValue": 1200000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Kawin&background=2196F3&color=fff",
+        "stats": {
+            "overall": 76,
+            "pace": 48,
+            "shooting": 25,
+            "passing": 68,
+            "dribbling": 38,
+            "defending": 20,
+            "physical": 80
+        }
+    },
+    {
+        "id": "p29",
+        "name": "อดิศักดิ์ ซัลโว",
+        "team": "ศรีสะเกษ ยูไนเต็ด",
+        "league": "Thai League 3",
+        "nationality": "Thailand",
+        "position": "ST",
+        "age": 23,
+        "marketValue": 600000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Adisak&background=4CAF50&color=fff",
+        "stats": {
+            "overall": 71,
+            "pace": 78,
+            "shooting": 75,
+            "passing": 52,
+            "dribbling": 68,
+            "defending": 28,
+            "physical": 76
+        }
+    },
+    {
+        "id": "p30",
+        "name": "Jack Tackler",
+        "team": "Stockport County",
+        "league": "EFL League Two",
+        "nationality": "England",
+        "position": "CDM",
+        "age": 26,
+        "marketValue": 1600000,
+        "imageUrl": "https://ui-avatars.com/api/?name=Jack+T&background=FF5722&color=fff",
+        "stats": {
+            "overall": 77,
+            "pace": 70,
+            "shooting": 55,
+            "passing": 75,
+            "dribbling": 70,
+            "defending": 82,
+            "physical": 88
+        }
+    }
+]
