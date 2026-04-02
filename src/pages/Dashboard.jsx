@@ -91,7 +91,6 @@ export default function Dashboard() {
             value={players.length}
             change={2.5} // หรือคำนวณจาก stats.playersChange
           />
-
           {/* 2. Market Value: ปกติมูลค่ามักจะขึ้น ถ้าใส่บวกจะดูดี */}
           <StatCard
             title="Total Market Value"
