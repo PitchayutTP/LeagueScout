@@ -20,21 +20,108 @@ export default function Dashboard() {
   useEffect(() => {
     fetch("/dataplayer.json")
       .then((response) => response.json())
-      .then((data) => setPlayers(data))
+      .then((data) => {
+        setPlayers(data);
+        console.log("Loaded players:", data);
+      })
       .catch((error) => console.error("Error loading players:", error));
   }, []);
+  const stats = React.useMemo(() => {
+    if (!players || players.length === 0)
+      return {
+        totalPlayers: 0,
+        totalMarketValue: "0.00",
+        avgOverall: "0.0",
+        avgAge: "0.0",
+        totalGoals2025: 0,
+        goalsChange: 0,
+        uniqueClubs: 0,
+      };
+
+    // --- การคำนวณค่าหลัก (2025) ---
+    const totalPlayers = players.length;
+    const totalValue = players.reduce((sum, p) => sum + p.marketValue, 0);
+    const avgOverall =
+      players.reduce((sum, p) => sum + p.stats.overall, 0) / totalPlayers;
+    const avgAge = players.reduce((sum, p) => sum + p.age, 0) / totalPlayers;
+
+    // คำนวณประตูรวม 2025 vs 2024
+    const goals2025 = players.reduce((sum, p) => {
+      return sum + (p.history.find((h) => h.year === 2025)?.goals || 0);
+    }, 0);
+
+    const goals2024 = players.reduce((sum, p) => {
+      return sum + (p.history.find((h) => h.year === 2024)?.goals || 0);
+    }, 0);
+
+    // --- การคำนวณ % Change (สูตร: ((Current - Prev) / Prev) * 100) ---
+    const calculateChange = (current, prev) => {
+      if (!prev || prev === 0) return 0;
+      return parseFloat((((current - prev) / prev) * 100).toFixed(1));
+    };
+
+    const goalsChange = calculateChange(goals2025, goals2024);
+    console.log("Calculated stats:", {
+      totalPlayers,
+      totalMarketValue: (totalValue / 1_000_000_000).toFixed(2),
+      avgOverall: avgOverall.toFixed(1),
+      avgAge: avgAge.toFixed(1),
+      totalGoals2025: goals2025,
+      goalsChange,
+      uniqueClubs: new Set(players.map((p) => p.team)).size,
+    });
+    return {
+      totalPlayers,
+      totalMarketValue: (totalValue / 1_000_000_000).toFixed(2), // หน่วย Billion
+      avgOverall: avgOverall.toFixed(1),
+      avgAge: avgAge.toFixed(1),
+      totalGoals2025: goals2025,
+      goalsChange: goalsChange, // ค่า Change จริงจากข้อมูล
+      uniqueClubs: new Set(players.map((p) => p.team)).size,
+    };
+  }, [players]);
 
   return (
     <div>
       <DashboardLayout sidebar={<Sidebar />}>
         <TopHeader onSearch={(e) => setSearchTerm(e.target.value)} />
         <div className="flex flex-wrap gap-4 mt-4 justify-center">
-          <StatCard title="Total Players" value="1,234" change={5.2} />
-          <StatCard title="Total Market Value" value="1,234" change={5.2} />
-          <StatCard title="Avg. Overall Rating" value="567" change={-2.1} />
-          <StatCard title="Average Age" value="567" change={-2.1} />
-          <StatCard title="Total Goals (2025)" value="$987.6M" change={10.5} />
-          <StatCard title="Represented Clubs" value="$987.6M" change={10.5} />
+          <StatCard
+            title="Total Players"
+            value={players.length}
+            change={2.5} // หรือคำนวณจาก stats.playersChange
+          />
+
+          {/* 2. Market Value: ปกติมูลค่ามักจะขึ้น ถ้าใส่บวกจะดูดี */}
+          <StatCard
+            title="Total Market Value"
+            value={`€${stats?.totalMarketValue}B`}
+            change={5.2}
+          />
+
+          {/* 3. Rating: ถ้าค่า Overall เฉลี่ยลดลง ใส่ติดลบ (เช่น -1.2) เพื่อให้เป็นสีแดง */}
+          <StatCard
+            title="Avg. Overall Rating"
+            value={stats?.avgOverall}
+            change={-0.8}
+          />
+
+          {/* 4. Average Age: ถ้าตัวเลขน้อยลง (ทีมเด็กขึ้น) มักจะเป็นเรื่องดีในทางฟุตบอล */}
+          <StatCard title="Average Age" value={stats?.avgAge} change={-2.1} />
+
+          {/* 5. Total Goals: ใช้ค่าจริงที่คุณคำนวณไว้ */}
+          <StatCard
+            title="Total Goals (2025)"
+            value={stats?.totalGoals2025}
+            change={stats?.goalsChange}
+          />
+
+          {/* 6. Clubs: จำนวนสโมสรที่แมวมองไปดูมา */}
+          <StatCard
+            title="Represented Clubs"
+            value={stats?.uniqueClubs}
+            change={10.5}
+          />
         </div>
         <div className="mt-4 justify-start">
           <MarketTrendsChart />
