@@ -69,7 +69,6 @@ export default function PerformanceDelta() {
               <td className="px-6 py-5">
                 <div className="flex items-center gap-2">
                   <span className="text-sm font-bold text-blue-600">{(p1.stats.shooting / 80).toFixed(2)}</span>
-                  <span className="text-[10px] text-blue-700 bg-blue-100 px-1.5 py-0.5 rounded font-semibold">+12%</span>
                 </div>
               </td>
               <td className="px-6 py-5 text-sm font-medium text-gray-500">{(p2.stats.shooting / 80).toFixed(2)}</td>
@@ -86,7 +85,6 @@ export default function PerformanceDelta() {
               <td className="px-6 py-5">
                 <div className="flex items-center gap-2">
                   <span className="text-sm font-bold text-gray-900">{(p2.stats.dribbling / 12).toFixed(1)}</span>
-                  <span className="text-[10px] text-purple-700 bg-purple-100 px-1.5 py-0.5 rounded font-semibold">Elite</span>
                 </div>
               </td>
               <td className="px-6 py-5 text-sm font-medium text-gray-500">{(p3.stats.dribbling / 12).toFixed(1)}</td>
