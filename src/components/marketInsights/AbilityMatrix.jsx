@@ -96,15 +96,15 @@ export default function AbilityMatrix() {
               onClick={() => setTargetPlayerId(player.id)} // 3. เพิ่ม onClick เพื่อเปลี่ยน Target
               className={`absolute rounded-full cursor-pointer group transition-all ${
                 isTarget
-                  ? "w-4 h-4 bg-blue-600 ring-4 ring-blue-100 z-20" // จุดสีฟ้าให้ z-index สูงขึ้นนิดหน่อย
+                  ? "w-4 h-4 bg-blue-600 ring-4 ring-blue-100 z-20" 
                   : "w-3 h-3 bg-gray-300 hover:bg-gray-400 hover:scale-125 z-0" 
-              } hover:z-50`} // 4. ดัน z-index ให้สูงสุดเวลา Hover Tooltip จะได้ไม่โดนบัง
+              } hover:z-50`} 
               style={{ bottom, left }}
             >
               {/* Tooltip Content */}
               <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-48 bg-gray-800 text-white p-3 rounded-xl shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none transition-all z-50">
                 <p className={`text-[10px] font-bold uppercase mb-1 ${isTarget ? "text-blue-300" : "text-gray-400"}`}>
-                  {isTarget ? "High Efficiency" : "Market Data"}
+                  {isTarget ? "Target" : "Market Data"}
                 </p>
                 <p className="text-sm font-bold truncate">{player.name}</p>
                 <div className="mt-2 flex justify-between text-[10px] text-gray-300">
