@@ -65,7 +65,7 @@ export default function AbilityMatrix() {
           <p className="text-gray-500 text-sm">Identifying high-value outliers in the database</p>
         </div>
         <div className="flex gap-2">
-          <span className="flex items-center gap-1.5 px-3 py-1 bg-gray-100 rounded-full text-[10px] font-bold uppercase tracking-wider text-blue-600">
+          <span className="flex items-center gap-1.5 px-3 py-1 bg-blue-50 rounded-full text-[10px] font-bold uppercase tracking-wider text-blue-600">
             <span className="w-2 h-2 rounded-full bg-gray-400"></span> Market Data
           </span>
           <span className="flex items-center gap-1.5 px-3 py-1 bg-blue-50 rounded-full text-[10px] font-bold uppercase tracking-wider text-blue-800">
@@ -76,15 +76,11 @@ export default function AbilityMatrix() {
       
       {/* Chart Canvas */}
       <div className="relative h-[400px] w-full border-l-2 border-b-2 border-gray-200 mb-4">
-        {/* Background Target Zone */}
-        {/* กล่องสีฟ้าสำหรับคนเก่งราคาถูก (อยู่โซนซ้ายบน: ราคาถูก, ความสามารถสูง) */}
-        <div className="absolute top-0 left-0 w-1/3 h-1/2 bg-blue-50/50 rounded-br-3xl border-2 border-dashed border-blue-200"></div>
         
         {/* Average Lines */}
         <div className="absolute w-full h-px bg-gray-200 top-1/2"></div>
         <div className="absolute h-full w-px bg-gray-200 left-1/2"></div>
         
-        {/* นำข้อมูล players มาวนลูปสร้างจุดลงบนกราฟ */}
         {players.map((player) => {
           const isTarget = player.id === targetPlayer?.id;
           const bottom = getBottomPosition(player.stats.overall);
@@ -95,8 +91,8 @@ export default function AbilityMatrix() {
               key={player.id}
               className={`absolute rounded-full cursor-pointer group transition-all ${
                 isTarget
-                  ? "w-4 h-4 bg-blue-600 ring-4 ring-blue-100 z-10" // จุดสีฟ้า (คุ้มค่าสุด)
-                  : "w-3 h-3 bg-gray-300 hover:bg-gray-400 hover:scale-125 z-0" // จุดสีเทา
+                  ? "w-4 h-4 bg-blue-600 ring-4 ring-blue-100 z-10" 
+                  : "w-3 h-3 bg-gray-300 hover:bg-gray-400 hover:scale-125 z-0" 
               }`}
               style={{ bottom, left }}
             >

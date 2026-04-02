@@ -44,10 +44,6 @@ export default function PerformanceDelta() {
           <h2 className="text-lg font-bold text-gray-900">Performance Delta</h2>
           <p className="text-xs text-gray-500">Direct metric comparison against database benchmarks</p>
         </div>
-        <button className="flex items-center gap-2 px-4 py-2 border border-gray-200 rounded-lg text-xs font-bold uppercase tracking-wider text-gray-700 hover:bg-gray-50 transition-colors">
-          <span className="material-symbols-outlined text-lg">filter_list</span>
-          Filter Metrics
-        </button>
       </div>
       <div className="overflow-hidden rounded-xl bg-white border border-gray-200">
         <table className="w-full text-left table-fixed">
