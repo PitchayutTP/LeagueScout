@@ -104,7 +104,7 @@ const filteredPlayers = useMemo(() => {
                 <button 
                 onClick={handleSortByOverall}
                 className="flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-colors hover:bg-blue-100">
-                  <BarChart2 size={16} /> RELEVANCE
+                  <BarChart2 size={16} /> OVERALL
                 </button>
               </div>
             </div>
