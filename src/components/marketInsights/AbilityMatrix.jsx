@@ -21,7 +21,7 @@ export default function AbilityMatrix() {
   // หน้าจอโหลดข้อมูล (แสดงระหว่างรอ fetch)
   if (isLoading || players.length === 0) {
     return (
-      <div className="col-span-8 bg-white rounded-xl p-6 shadow-sm border border-gray-200 flex items-center justify-center min-h-[500px]">
+      <div className="col-span-8 bg-white rounded-xl p-6 shadow-sm border border-gray-200 flex items-center justify-center min-h-125">
         <p className="text-gray-500 font-medium">Loading market data...</p>
       </div>
     );
@@ -92,8 +92,8 @@ export default function AbilityMatrix() {
               className={`absolute rounded-full cursor-pointer group transition-all ${
                 isTarget
                   ? "w-4 h-4 bg-blue-600 ring-4 ring-blue-100 z-10" 
-                  : "w-3 h-3 bg-gray-300 hover:bg-gray-400 hover:scale-125" 
-              }`}
+                  : "w-3 h-3 bg-gray-300 hover:bg-gray-400 hover:scale-125 z-0" 
+              } hover:z-50`}
               style={{ bottom, left }}
             >
               {/* Tooltip Content */}

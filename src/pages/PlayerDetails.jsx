@@ -117,9 +117,10 @@ export default function PlayerDetails() {
           </div>
 
           {/* --- 2. Analytics Grid (แบ่งซ้าย 5 ส่วน / ขวา 7 ส่วน) --- */}
-          <div className="grid grid-cols-12 gap-8">
+          <div className="grid grid-cols-12 gap-8 items-stretch">
             
             {/* ฝั่งซ้าย: Performance Radar */}
+            
             <div className="col-span-12 lg:col-span-5 flex flex-col h-full">
               <PerformanceRadar playerStats={player.stats} />
             </div>
@@ -179,12 +180,6 @@ export default function PlayerDetails() {
           <div>
             <SeasonProgression historyData={player.history} />
           </div>
-
-          {/* Footer */}
-          <footer className="py-8 flex justify-between items-center opacity-50">
-            <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500">Data Integrity Verified by LeagueScout</p>
-            <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500">© 2026 Scouting Authority.</p>
-          </footer>
 
         </main>
       </DashboardLayout>

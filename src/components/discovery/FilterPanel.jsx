@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function FilterPanel() {
     return (
-        <div className="w-[300px] bg-white border-r border-slate-200 min-h-[calc(100vh-80px)] p-6">
+        <div className="w-75 bg-white border-r border-slate-200 min-h-[calc(100vh-80px)] p-6">
             <div className="flex items-center justify-between mb-6">
                 <h2 className="text-sm font-black text-slate-900 tracking-wide">TACTICAL FILTERS</h2>
                 <button className="text-xs font-bold text-blue-600 hover:text-blue-800">Reset</button>

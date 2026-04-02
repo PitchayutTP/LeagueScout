@@ -12,7 +12,6 @@ const chartData = useMemo(() => {
 
     const yearlyData = {};
 
-    // 1. รวมข้อมูลเหมือนเดิม
     players.forEach(player => {
       if (player.history && Array.isArray(player.history)) {
         player.history.forEach(record => {

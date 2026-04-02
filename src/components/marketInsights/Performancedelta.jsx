@@ -28,7 +28,7 @@ export default function PerformanceDelta() {
 
   if (isLoading || topPlayers.length < 3) {
     return (
-      <div className="bg-white border border-gray-200 shadow-sm rounded-xl p-8 flex items-center justify-center min-h-[300px]">
+      <div className="bg-white border border-gray-200 shadow-sm rounded-xl p-8 flex items-center justify-center min-h-75">
          <p className="text-gray-500 font-medium">Generating performance delta...</p>
       </div>
     );

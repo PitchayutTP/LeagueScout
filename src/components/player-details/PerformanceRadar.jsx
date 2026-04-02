@@ -18,7 +18,7 @@ export default function PerformanceRadar({ playerStats }) {
   }));
 
   return (
-    <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm flex flex-col items-center">
+    <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm flex flex-col items-center h-full">
       <h3 className="text-sm font-bold text-gray-400 uppercase tracking-widest self-start mb-4">
         Performance Radar
       </h3>
