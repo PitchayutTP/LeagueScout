@@ -40,7 +40,7 @@ export default function PlayerDetails() {
         <main className="p-8 space-y-8">
           
           <div className="flex flex-col lg:flex-row gap-8 items-end bg-white border border-slate-200 p-8 rounded-xl shadow-sm">
-            <div className="relative w-64 h-80 flex-shrink-0 bg-slate-100 rounded-xl overflow-hidden border border-slate-200">
+            <div className="relative w-64 h-80 shrink-0 bg-slate-100 rounded-xl overflow-hidden border border-slate-200">
               <img 
                 className="w-full h-full object-cover" 
                 alt={player.name} 

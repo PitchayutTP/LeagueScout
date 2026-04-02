@@ -75,7 +75,7 @@ export default function AbilityMatrix() {
       </div>
       
       {/* Chart Canvas */}
-      <div className="relative h-[400px] w-full border-l-2 border-b-2 border-gray-200 mb-4">
+      <div className="relative h-100 w-full border-l-2 border-b-2 border-gray-200 mb-4">
         
         {/* Average Lines */}
         <div className="absolute w-full h-px bg-gray-200 top-1/2"></div>
@@ -92,12 +92,12 @@ export default function AbilityMatrix() {
               className={`absolute rounded-full cursor-pointer group transition-all ${
                 isTarget
                   ? "w-4 h-4 bg-blue-600 ring-4 ring-blue-100 z-10" 
-                  : "w-3 h-3 bg-gray-300 hover:bg-gray-400 hover:scale-125 z-0" 
+                  : "w-3 h-3 bg-gray-300 hover:bg-gray-400 hover:scale-125" 
               }`}
               style={{ bottom, left }}
             >
               {/* Tooltip Content */}
-              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-48 bg-gray-800 text-white p-3 rounded-xl shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none transition-all z-20">
+              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-48 bg-gray-800 Z-0 text-white p-3 rounded-xl shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none transition-all z-20">
                 <p className={`text-[10px] font-bold uppercase mb-1 ${isTarget ? "text-blue-300" : "text-gray-400"}`}>
                   {isTarget ? "High Efficiency" : "Market Data"}
                 </p>
