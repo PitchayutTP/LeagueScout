@@ -124,7 +124,7 @@ export default function Dashboard() {
           />
         </div>
         <div className="mt-4 justify-start">
-          <MarketTrendsChart />
+          <MarketTrendsChart players={players} />
         </div>
         <div className="m-10 mt-0">
           <div className="flex justify-between items-center mb-6">
