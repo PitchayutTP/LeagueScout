@@ -28,12 +28,6 @@ export default function MarketInsights() {
         <PerformanceDelta players={players} />
       </div>
 
-      {/* Floating Action Button */}
-      <div className="fixed bottom-8 right-8 z-50">
-        <button className="scout-gradient text-on-primary w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-105 active:scale-95 transition-all">
-          <span className="material-symbols-outlined text-2xl">compare_arrows</span>
-        </button>
-      </div>
     </DashboardLayout>
   );
 }
