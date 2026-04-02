@@ -106,11 +106,6 @@ const filteredPlayers = useMemo(() => {
                 className="flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-colors hover:bg-blue-100">
                   <BarChart2 size={16} /> RELEVANCE
                 </button>
-                <button
-                  className="bg-blue-50 text-blue-600 p-2 rounded-lg transition-colors hover:bg-blue-100"
-                >
-                  <LayoutGrid size={20} />
-                </button>
               </div>
             </div>
 
