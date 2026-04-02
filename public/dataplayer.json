@@ -1,1832 +1,1112 @@
 [
     {
         "id": "p01",
-        "name": "สมชาย ช้างเผือก",
-        "team": "สงขลา เอฟซี",
-        "league": "Thai League 3",
-        "nationality": "Thailand",
+        "name": "Erling Haaland",
+        "team": "Manchester City",
+        "league": "Premier League",
+        "nationality": "Norway",
         "position": "ST",
-        "age": 21,
-        "height": 182,
-        "preferredFoot": "Right",
-        "marketValue": 500000,
-        "contractEndDate": "31 May 2028",
-        "imageUrl": "https://ui-avatars.com/api/?name=Somchai&background=0D8ABC&color=fff",
+        "age": 23,
+        "height": 195,
+        "preferredFoot": "Left",
+        "marketValue": 160000000,
+        "contractEndDate": "30 Jun 2027",
+        "imageUrl": "https://ui-avatars.com/api/?name=Erling+H&background=60A5FA&color=fff",
         "stats": {
-            "overall": 72,
-            "potential": 84,
-            "pace": 85,
-            "shooting": 76,
-            "passing": 55,
-            "dribbling": 70,
-            "defending": 30,
-            "physical": 75
+            "overall": 91,
+            "potential": 94,
+            "pace": 89,
+            "shooting": 93,
+            "passing": 66,
+            "dribbling": 80,
+            "defending": 45,
+            "physical": 88
         },
         "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 1,
-                "assists": 0
-            },
-            {
-                "year": 2022,
-                "goals": 3,
-                "assists": 1
-            },
-            {
-                "year": 2023,
-                "goals": 8,
-                "assists": 2
-            },
-            {
-                "year": 2024,
-                "goals": 12,
-                "assists": 4
-            },
-            {
-                "year": 2025,
-                "goals": 15,
-                "assists": 3
-            }
+            { "year": 2020, "goals": 27, "assists": 6 },
+            { "year": 2021, "goals": 29, "assists": 8 },
+            { "year": 2022, "goals": 36, "assists": 8 },
+            { "year": 2023, "goals": 27, "assists": 5 },
+            { "year": 2024, "goals": 30, "assists": 6 },
+            { "year": 2025, "goals": 32, "assists": 5 }
         ],
         "scoutReports": [
-            "มีความเร็วและสัญชาตญาณการทำประตูสูงมาก เหมาะกับแผนตั้งรับแล้วสวนกลับ",
-            "การจ่ายบอลยังไม่ค่อยแม่นยำ มักจะเสียบอลเวลาโดนบีบเร็ว",
-            "เป็นการลงทุนที่คุ้มค่าในระยะยาว ควรรีบเซ็นสัญญาก่อนค่าตัวจะพุ่งสูงไปกว่านี้"
+            "เครื่องจักรผลิตประตูที่สมบูรณ์แบบ ร่างกายใหญ่โตแต่มีความเร็วสูงมาก",
+            "การมีส่วนร่วมกับเกมหรือการต่อบอลอาจจะไม่เยอะ เน้นการจบสกอร์เป็นหลัก",
+            "สุดยอดกองหน้าที่ทุกทีมในโลกต้องการตัว การันตี 30+ ประตูต่อฤดูกาล"
         ]
     },
     {
         "id": "p02",
-        "name": "วิชัย ปราการหลัง",
-        "team": "พัทยา ยูไนเต็ด",
-        "league": "Thai League 2",
-        "nationality": "Thailand",
+        "name": "Virgil van Dijk",
+        "team": "Liverpool",
+        "league": "Premier League",
+        "nationality": "Netherlands",
         "position": "CB",
-        "age": 28,
-        "height": 188,
+        "age": 32,
+        "height": 195,
         "preferredFoot": "Right",
-        "marketValue": 850000,
-        "contractEndDate": "30 Jun 2027",
-        "imageUrl": "https://ui-avatars.com/api/?name=Wichai&background=4CAF50&color=fff",
+        "marketValue": 75000000,
+        "contractEndDate": "30 Jun 2025",
+        "imageUrl": "https://ui-avatars.com/api/?name=Virgil+v&background=EF4444&color=fff",
         "stats": {
-            "overall": 74,
-            "potential": 74,
-            "pace": 55,
-            "shooting": 40,
-            "passing": 50,
-            "dribbling": 45,
-            "defending": 85,
-            "physical": 88
+            "overall": 89,
+            "potential": 89,
+            "pace": 78,
+            "shooting": 60,
+            "passing": 71,
+            "dribbling": 72,
+            "defending": 89,
+            "physical": 86
         },
         "history": [
-            {
-                "year": 2020,
-                "goals": 2,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 1,
-                "assists": 1
-            },
-            {
-                "year": 2022,
-                "goals": 3,
-                "assists": 0
-            },
-            {
-                "year": 2023,
-                "goals": 1,
-                "assists": 2
-            },
-            {
-                "year": 2024,
-                "goals": 2,
-                "assists": 1
-            },
-            {
-                "year": 2025,
-                "goals": 1,
-                "assists": 0
-            }
+            { "year": 2020, "goals": 1, "assists": 0 },
+            { "year": 2021, "goals": 3, "assists": 1 },
+            { "year": 2022, "goals": 3, "assists": 1 },
+            { "year": 2023, "goals": 2, "assists": 2 },
+            { "year": 2024, "goals": 4, "assists": 2 },
+            { "year": 2025, "goals": 2, "assists": 1 }
         ],
         "scoutReports": [
-            "รูปร่างสูงใหญ่และแข็งแกร่งมาก โดดเด่นในการเล่นลูกกลางอากาศ",
-            "ค่อนข้างช้า หากเจอศูนย์หน้าที่มีความเร็วจัดอาจจะหลงเหลี่ยมได้ง่าย",
-            "ประสบการณ์สูง สามารถดึงเข้ามาเป็นแกนหลักในแนวรับได้ทันที"
+            "กองหลังที่ผ่านยากที่สุดในลีค อ่านเกมขาดและเล่นลูกกลางอากาศได้อย่างยอดเยี่ยม",
+            "อายุเริ่มเข้าสู่ช่วงปลายอาชีพ ความเร็วอาจจะลดลงตามกาลเวลา",
+            "ความเป็นผู้นำสูงมาก สามารถยกระดับแผงเกมรับของทีมได้ทันที"
         ]
     },
     {
         "id": "p03",
-        "name": "ตะวัน ตัดเกม",
-        "team": "มหาสารคาม เอสบีที",
-        "league": "Thai League 2",
-        "nationality": "Thailand",
+        "name": "Rodri",
+        "team": "Manchester City",
+        "league": "Premier League",
+        "nationality": "Spain",
         "position": "CDM",
-        "age": 25,
-        "height": 178,
+        "age": 27,
+        "height": 191,
         "preferredFoot": "Right",
-        "marketValue": 600000,
-        "contractEndDate": "31 Dec 2026",
-        "imageUrl": "https://ui-avatars.com/api/?name=Tawan&background=9C27B0&color=fff",
+        "marketValue": 110000000,
+        "contractEndDate": "30 Jun 2027",
+        "imageUrl": "https://ui-avatars.com/api/?name=Rodri&background=60A5FA&color=fff",
         "stats": {
-            "overall": 71,
-            "potential": 75,
-            "pace": 65,
-            "shooting": 50,
-            "passing": 72,
-            "dribbling": 68,
-            "defending": 78,
-            "physical": 82
+            "overall": 89,
+            "potential": 90,
+            "pace": 58,
+            "shooting": 73,
+            "passing": 86,
+            "dribbling": 79,
+            "defending": 85,
+            "physical": 84
         },
         "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 1
-            },
-            {
-                "year": 2021,
-                "goals": 1,
-                "assists": 2
-            },
-            {
-                "year": 2022,
-                "goals": 0,
-                "assists": 4
-            },
-            {
-                "year": 2023,
-                "goals": 2,
-                "assists": 3
-            },
-            {
-                "year": 2024,
-                "goals": 1,
-                "assists": 5
-            },
-            {
-                "year": 2025,
-                "goals": 3,
-                "assists": 6
-            }
+            { "year": 2020, "goals": 2, "assists": 2 },
+            { "year": 2021, "goals": 7, "assists": 2 },
+            { "year": 2022, "goals": 2, "assists": 6 },
+            { "year": 2023, "goals": 8, "assists": 9 },
+            { "year": 2024, "goals": 5, "assists": 6 },
+            { "year": 2025, "goals": 6, "assists": 7 }
         ],
         "scoutReports": [
-            "มีความดุดันและเข้าสกัดบอลได้แม่นยำ ทำลายจังหวะเกมรุกคู่แข่งได้ดี",
-            "สถิติการจ่ายบอลทะลุช่องยังมีน้อย มักจะจ่ายบอลสั้นและปลอดภัยไว้ก่อน",
-            "สัญญาใกล้จะหมด เป็นโอกาสดีที่จะเจรจาดึงตัวมาร่วมทีมในราคาถูก"
+            "มิดฟิลด์ตัวรับที่ดีที่สุดในโลก ณ เวลานี้ คุมจังหวะและแก้เพรสซิ่งเก่งมาก",
+            "ความเร็วน้อย แต่ชดเชยด้วยการยืนตำแหน่งและการอ่านเกมที่สมบูรณ์แบบ",
+            "มักจะสอดขึ้นมายิงไกลแถวสองในจังหวะสำคัญได้เสมอ"
         ]
     },
     {
         "id": "p04",
-        "name": "อาทิตย์ จอมหนึบ",
-        "team": "บางกอก เอฟซี",
-        "league": "Thai League 2",
-        "nationality": "Thailand",
+        "name": "Alisson Becker",
+        "team": "Liverpool",
+        "league": "Premier League",
+        "nationality": "Brazil",
         "position": "GK",
-        "age": 30,
-        "height": 190,
-        "preferredFoot": "Right",
-        "marketValue": 450000,
-        "contractEndDate": "31 May 2026",
-        "imageUrl": "https://ui-avatars.com/api/?name=Arthit&background=F44336&color=fff",
-        "stats": {
-            "overall": 68,
-            "potential": 68,
-            "pace": 40,
-            "shooting": 20,
-            "passing": 60,
-            "dribbling": 30,
-            "defending": 15,
-            "physical": 70
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2022,
-                "goals": 0,
-                "assists": 1
-            },
-            {
-                "year": 2023,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2024,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2025,
-                "goals": 0,
-                "assists": 0
-            }
-        ],
-        "scoutReports": [
-            "มีประสบการณ์สูง ยืนตำแหน่งดี และสั่งการกองหลังได้เยี่ยม",
-            "ปฏิกิริยาตอบสนองเริ่มลดลงตามอายุ ไม่เหมาะกับการเล่นเป็นผู้รักษาประตูตัวกวาด (Sweeper Keeper)",
-            "สัญญาจะหมดในอีกไม่กี่เดือน แนะนำให้เซ็นฟรีมาเป็นมือสอง"
-        ]
-    },
-    {
-        "id": "p05",
-        "name": "ก้องเกียรติ ปีกจรวด",
-        "team": "ศรีสะเกษ ยูไนเต็ด",
-        "league": "Thai League 3",
-        "nationality": "Thailand",
-        "position": "LW",
-        "age": 19,
-        "height": 172,
-        "preferredFoot": "Right",
-        "marketValue": 750000,
-        "contractEndDate": "31 May 2029",
-        "imageUrl": "https://ui-avatars.com/api/?name=Kongkiat&background=FF9800&color=fff",
-        "stats": {
-            "overall": 70,
-            "potential": 83,
-            "pace": 90,
-            "shooting": 65,
-            "passing": 60,
-            "dribbling": 78,
-            "defending": 35,
-            "physical": 55
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2022,
-                "goals": 1,
-                "assists": 2
-            },
-            {
-                "year": 2023,
-                "goals": 4,
-                "assists": 3
-            },
-            {
-                "year": 2024,
-                "goals": 6,
-                "assists": 7
-            },
-            {
-                "year": 2025,
-                "goals": 9,
-                "assists": 8
-            }
-        ],
-        "scoutReports": [
-            "ความเร็วระดับจรวดทางเรียบ ฉีกกระชากกองหลังริมเส้นได้สบายๆ",
-            "ร่างกายยังบางเกินไป ต้องเข้าฟิตเนสเพิ่มมวลกล้ามเนื้อด่วน",
-            "เพิ่งต่อสัญญายาวกับต้นสังกัด หากต้องการตัวอาจจะต้องจ่ายค่าฉีกสัญญาที่สูงพอสมควร"
-        ]
-    },
-    {
-        "id": "p06",
-        "name": "Kenji Sato",
-        "team": "FC Ryukyu",
-        "league": "J3 League",
-        "nationality": "Japan",
-        "position": "CM",
-        "age": 23,
-        "height": 175,
-        "preferredFoot": "Both",
-        "marketValue": 1200000,
-        "contractEndDate": "31 Dec 2027",
-        "imageUrl": "https://ui-avatars.com/api/?name=Kenji+S&background=E53935&color=fff",
-        "stats": {
-            "overall": 75,
-            "potential": 82,
-            "pace": 68,
-            "shooting": 65,
-            "passing": 85,
-            "dribbling": 82,
-            "defending": 60,
-            "physical": 65
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 1,
-                "assists": 1
-            },
-            {
-                "year": 2021,
-                "goals": 2,
-                "assists": 3
-            },
-            {
-                "year": 2022,
-                "goals": 1,
-                "assists": 5
-            },
-            {
-                "year": 2023,
-                "goals": 3,
-                "assists": 8
-            },
-            {
-                "year": 2024,
-                "goals": 4,
-                "assists": 10
-            },
-            {
-                "year": 2025,
-                "goals": 6,
-                "assists": 12
-            }
-        ],
-        "scoutReports": [
-            "วิสัยทัศน์การจ่ายบอลระดับท็อป ถนัดทั้งสองเท้า ทำให้คาดเดาจังหวะยาก",
-            "ไม่โดดเด่นเรื่องการปะทะ ควรมีกองกลางตัวรับ (CDM) คอยซ้อนอยู่ด้านหลัง",
-            "สถิติแอสซิสต์เติบโตขึ้นทุกปี เป็นมิดฟิลด์ตัวขับเคลื่อนเกมที่สโมสรต้องมี"
-        ]
-    },
-    {
-        "id": "p07",
-        "name": "Hiroshi Tanaka",
-        "team": "FC Imabari",
-        "league": "J3 League",
-        "nationality": "Japan",
-        "position": "RB",
-        "age": 26,
-        "height": 177,
-        "preferredFoot": "Right",
-        "marketValue": 900000,
-        "contractEndDate": "31 Jan 2028",
-        "imageUrl": "https://ui-avatars.com/api/?name=Hiroshi+T&background=2196F3&color=fff",
-        "stats": {
-            "overall": 73,
-            "potential": 75,
-            "pace": 82,
-            "shooting": 45,
-            "passing": 70,
-            "dribbling": 68,
-            "defending": 75,
-            "physical": 72
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 2
-            },
-            {
-                "year": 2021,
-                "goals": 1,
-                "assists": 3
-            },
-            {
-                "year": 2022,
-                "goals": 0,
-                "assists": 2
-            },
-            {
-                "year": 2023,
-                "goals": 1,
-                "assists": 4
-            },
-            {
-                "year": 2024,
-                "goals": 2,
-                "assists": 5
-            },
-            {
-                "year": 2025,
-                "goals": 1,
-                "assists": 6
-            }
-        ],
-        "scoutReports": [
-            "แบ็คขวาพลังม้า วิ่งขึ้นลงได้ตลอด 90 นาทีไม่มีหมด",
-            "การเปิดบอล (Crossing) จากริมเส้นยังมีน้ำหนักขาดๆ เกินๆ ต้องฝึกฝนเพิ่ม",
-            "อยู่ในช่วงพีคของอาชีพ ใช้งานได้คุ้มค่าตัวตั้งแต่นัดแรกที่ลงสนาม"
-        ]
-    },
-    {
-        "id": "p08",
-        "name": "Daiki Matsumoto",
-        "team": "Kamatamare Sanuki",
-        "league": "J3 League",
-        "nationality": "Japan",
-        "position": "ST",
-        "age": 20,
-        "height": 185,
-        "preferredFoot": "Right",
-        "marketValue": 2000000,
-        "contractEndDate": "31 Dec 2029",
-        "imageUrl": "https://ui-avatars.com/api/?name=Daiki+M&background=3F51B5&color=fff",
-        "stats": {
-            "overall": 77,
-            "potential": 86,
-            "pace": 88,
-            "shooting": 80,
-            "passing": 60,
-            "dribbling": 75,
-            "defending": 25,
-            "physical": 68
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 1,
-                "assists": 0
-            },
-            {
-                "year": 2022,
-                "goals": 5,
-                "assists": 1
-            },
-            {
-                "year": 2023,
-                "goals": 10,
-                "assists": 2
-            },
-            {
-                "year": 2024,
-                "goals": 18,
-                "assists": 4
-            },
-            {
-                "year": 2025,
-                "goals": 22,
-                "assists": 5
-            }
-        ],
-        "scoutReports": [
-            "กองหน้าพรสวรรค์สูง รูปร่างดีและจบสกอร์คมกริบ กราฟการยิงประตูพุ่งกระฉูด",
-            "ไม่ค่อยลงมาช่วยเกมรับ ทำให้ทีมอาจเสียเปรียบเวลาโดนพับสนามบุก",
-            "ต้นสังกัดเพิ่งจับต่อสัญญายาวกันท่าทีมใหญ่ แต่ยังไงก็คุ้มที่จะทุ่มเงินซื้อ"
-        ]
-    },
-    {
-        "id": "p09",
-        "name": "Alex Carter",
-        "team": "Wrexham AFC",
-        "league": "EFL League Two",
-        "nationality": "England",
-        "position": "RW",
-        "age": 19,
-        "height": 174,
-        "preferredFoot": "Left",
-        "marketValue": 2500000,
-        "contractEndDate": "30 Jun 2030",
-        "imageUrl": "https://ui-avatars.com/api/?name=Alex+C&background=FF5722&color=fff",
-        "stats": {
-            "overall": 78,
-            "potential": 88,
-            "pace": 92,
-            "shooting": 70,
-            "passing": 75,
-            "dribbling": 88,
-            "defending": 35,
-            "physical": 60
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2022,
-                "goals": 2,
-                "assists": 2
-            },
-            {
-                "year": 2023,
-                "goals": 5,
-                "assists": 6
-            },
-            {
-                "year": 2024,
-                "goals": 11,
-                "assists": 10
-            },
-            {
-                "year": 2025,
-                "goals": 14,
-                "assists": 15
-            }
-        ],
-        "scoutReports": [
-            "ปีกขวาเท้าซ้าย สไตล์ตัดเข้าในแล้วยิง (Inside Forward) เลี้ยงบอลติดเท้ามาก",
-            "แรงปะทะน้อย มักจะเสียเปรียบกองหลังฟุตบอลอังกฤษที่เข้าสกัดหนัก",
-            "สถิติระดับซูเปอร์สตาร์ สโมสรจับเซ็นสัญญายาวถึงปี 2030 ถือครองมูลค่ามหาศาล"
-        ]
-    },
-    {
-        "id": "p10",
-        "name": "James Milner Jr.",
-        "team": "Notts County",
-        "league": "EFL League Two",
-        "nationality": "England",
-        "position": "CM",
-        "age": 34,
-        "height": 180,
-        "preferredFoot": "Right",
-        "marketValue": 300000,
-        "contractEndDate": "30 Jun 2026",
-        "imageUrl": "https://ui-avatars.com/api/?name=James+M&background=795548&color=fff",
-        "stats": {
-            "overall": 71,
-            "potential": 71,
-            "pace": 50,
-            "shooting": 65,
-            "passing": 80,
-            "dribbling": 65,
-            "defending": 70,
-            "physical": 85
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 5,
-                "assists": 8
-            },
-            {
-                "year": 2021,
-                "goals": 4,
-                "assists": 7
-            },
-            {
-                "year": 2022,
-                "goals": 3,
-                "assists": 5
-            },
-            {
-                "year": 2023,
-                "goals": 2,
-                "assists": 6
-            },
-            {
-                "year": 2024,
-                "goals": 1,
-                "assists": 4
-            },
-            {
-                "year": 2025,
-                "goals": 1,
-                "assists": 3
-            }
-        ],
-        "scoutReports": [
-            "ความเป็นผู้นำสูง สภาพร่างกายยังแข็งแกร่งแม้จะอายุ 34 ปีแล้ว",
-            "ความเร็วหายไปเยอะมาก ไม่สามารถเล่นเกมสวนกลับเร็วได้อีกต่อไป",
-            "สัญญาหมดกลางปีนี้ เหมาะสำหรับดึงมาร่วมทีมฟรีๆ เพื่อสร้างสภาพจิตใจที่ดีในห้องแต่งตัว"
-        ]
-    },
-    {
-        "id": "p11",
-        "name": "David Block",
-        "team": "Stockport County",
-        "league": "EFL League Two",
-        "nationality": "England",
-        "position": "CB",
-        "age": 29,
-        "height": 192,
-        "preferredFoot": "Right",
-        "marketValue": 1100000,
-        "contractEndDate": "30 Jun 2027",
-        "imageUrl": "https://ui-avatars.com/api/?name=David+B&background=607D8B&color=fff",
-        "stats": {
-            "overall": 76,
-            "potential": 76,
-            "pace": 60,
-            "shooting": 30,
-            "passing": 55,
-            "dribbling": 40,
-            "defending": 88,
-            "physical": 90
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 3,
-                "assists": 1
-            },
-            {
-                "year": 2021,
-                "goals": 2,
-                "assists": 0
-            },
-            {
-                "year": 2022,
-                "goals": 4,
-                "assists": 2
-            },
-            {
-                "year": 2023,
-                "goals": 1,
-                "assists": 1
-            },
-            {
-                "year": 2024,
-                "goals": 2,
-                "assists": 0
-            },
-            {
-                "year": 2025,
-                "goals": 3,
-                "assists": 1
-            }
-        ],
-        "scoutReports": [
-            "สกัดบอลแม่นยำและดุดัน เป็นกำแพงหินของทีมอย่างแท้จริง",
-            "ทักษะการเลี้ยงบอลและเปิดเกมจากแดนหลังค่อนข้างแย่ มักจะเตะทิ้งเมื่อโดนบีบ",
-            "กองหลังสไตล์โบราณที่ไว้ใจได้เสมอ หากทีมต้องการเกมรับที่เหนียวแน่น คนนี้ตอบโจทย์"
-        ]
-    },
-    {
-        "id": "p12",
-        "name": "Marcus Speed",
-        "team": "Mansfield Town",
-        "league": "EFL League Two",
-        "nationality": "England",
-        "position": "LB",
-        "age": 22,
-        "height": 175,
-        "preferredFoot": "Left",
-        "marketValue": 1400000,
-        "contractEndDate": "30 Jun 2028",
-        "imageUrl": "https://ui-avatars.com/api/?name=Marcus+S&background=009688&color=fff",
-        "stats": {
-            "overall": 75,
-            "potential": 84,
-            "pace": 89,
-            "shooting": 55,
-            "passing": 72,
-            "dribbling": 76,
-            "defending": 74,
-            "physical": 68
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 0,
-                "assists": 2
-            },
-            {
-                "year": 2022,
-                "goals": 1,
-                "assists": 4
-            },
-            {
-                "year": 2023,
-                "goals": 2,
-                "assists": 7
-            },
-            {
-                "year": 2024,
-                "goals": 3,
-                "assists": 9
-            },
-            {
-                "year": 2025,
-                "goals": 4,
-                "assists": 11
-            }
-        ],
-        "scoutReports": [
-            "เติมเกมรุกริมเส้นฝั่งซ้ายได้สะเด่ามาก สถิติแอสซิสต์พุ่งขึ้นต่อเนื่อง",
-            "การยืนตำแหน่งในเกมรับยังมีหลุดบ้างเวลาเติมเกมรุกเพลินๆ",
-            "ของดีราคาถูกแห่ง EFL League Two ควรรีบคว้าตัวก่อนทีมลีกแชมเปียนชิพจะมาฉกไป"
-        ]
-    },
-    {
-        "id": "p13",
-        "name": "Kim Min-jae (Fake)",
-        "team": "Gimpo FC",
-        "league": "K League 2",
-        "nationality": "South Korea",
-        "position": "CB",
-        "age": 24,
-        "height": 190,
-        "preferredFoot": "Right",
-        "marketValue": 1800000,
-        "contractEndDate": "31 Dec 2029",
-        "imageUrl": "https://ui-avatars.com/api/?name=Kim+M&background=E91E63&color=fff",
-        "stats": {
-            "overall": 79,
-            "potential": 85,
-            "pace": 75,
-            "shooting": 45,
-            "passing": 65,
-            "dribbling": 60,
-            "defending": 82,
-            "physical": 86
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 1,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 2,
-                "assists": 1
-            },
-            {
-                "year": 2022,
-                "goals": 3,
-                "assists": 0
-            },
-            {
-                "year": 2023,
-                "goals": 2,
-                "assists": 2
-            },
-            {
-                "year": 2024,
-                "goals": 5,
-                "assists": 1
-            },
-            {
-                "year": 2025,
-                "goals": 4,
-                "assists": 2
-            }
-        ],
-        "scoutReports": [
-            "สมบูรณ์แบบทั้งความเร็ว ความแข็งแกร่ง และการอ่านเกม เป็นกองหลังสมัยใหม่",
-            "บางครั้งเข้าสกัดโฉ่งฉ่างเกินไปจนเสียใบเหลืองโดยไม่จำเป็น",
-            "ระดับฝีเท้าเกิน K League 2 ไปแล้ว สามารถก้าวขึ้นไปเล่นลีกสูงสุดได้สบาย"
-        ]
-    },
-    {
-        "id": "p14",
-        "name": "Park Ji-sung II",
-        "team": "Busan IPark",
-        "league": "K League 2",
-        "nationality": "South Korea",
-        "position": "CDM",
-        "age": 21,
-        "height": 178,
-        "preferredFoot": "Both",
-        "marketValue": 2200000,
-        "contractEndDate": "31 Dec 2030",
-        "imageUrl": "https://ui-avatars.com/api/?name=Park+J&background=9C27B0&color=fff",
-        "stats": {
-            "overall": 80,
-            "potential": 88,
-            "pace": 80,
-            "shooting": 70,
-            "passing": 82,
-            "dribbling": 78,
-            "defending": 75,
-            "physical": 92
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 1,
-                "assists": 2
-            },
-            {
-                "year": 2022,
-                "goals": 2,
-                "assists": 5
-            },
-            {
-                "year": 2023,
-                "goals": 4,
-                "assists": 8
-            },
-            {
-                "year": 2024,
-                "goals": 6,
-                "assists": 12
-            },
-            {
-                "year": 2025,
-                "goals": 8,
-                "assists": 15
-            }
-        ],
-        "scoutReports": [
-            "ปอดเหล็ก วิ่งไล่บอลแบบ Box-to-Box ได้ตลอดทั้งเกม แถมถนัดสองเท้า",
-            "ต้องระวังเรื่องอาการบาดเจ็บจากการที่ต้องวิ่งปะทะหนักๆ เป็นประจำ",
-            "นี่คือนักเตะที่คุ้มค่าที่สุดในฐานข้อมูล เป็นแกนหลักของทีมได้อีกเป็น 10 ปี"
-        ]
-    },
-    {
-        "id": "p15",
-        "name": "Lee Dong-gook Jr.",
-        "team": "Seongnam FC",
-        "league": "K League 2",
-        "nationality": "South Korea",
-        "position": "ST",
-        "age": 27,
-        "height": 186,
-        "preferredFoot": "Right",
-        "marketValue": 1500000,
-        "contractEndDate": "31 Dec 2028",
-        "imageUrl": "https://ui-avatars.com/api/?name=Lee+D&background=673AB7&color=fff",
-        "stats": {
-            "overall": 76,
-            "potential": 77,
-            "pace": 72,
-            "shooting": 85,
-            "passing": 60,
-            "dribbling": 70,
-            "defending": 35,
-            "physical": 80
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 8,
-                "assists": 2
-            },
-            {
-                "year": 2021,
-                "goals": 12,
-                "assists": 3
-            },
-            {
-                "year": 2022,
-                "goals": 15,
-                "assists": 4
-            },
-            {
-                "year": 2023,
-                "goals": 11,
-                "assists": 2
-            },
-            {
-                "year": 2024,
-                "goals": 14,
-                "assists": 5
-            },
-            {
-                "year": 2025,
-                "goals": 16,
-                "assists": 3
-            }
-        ],
-        "scoutReports": [
-            "จมูกไวในกรอบเขตโทษ ยิงประตูได้เด็ดขาดมาก",
-            "ความเร็วเริ่มตกลงเล็กน้อย ไม่เหมาะกับการให้วิ่งเลี้ยงเดี่ยวจากครึ่งสนาม",
-            "เครื่องจักรผลิตประตูที่เสถียรมาก การันตี 15 ประตูต่อฤดูกาลได้แน่นอน"
-        ]
-    },
-    {
-        "id": "p16",
-        "name": "ศุภชัย ใจเด็ดเดี่ยว",
-        "team": "พัทลุง เอฟซี",
-        "league": "Thai League 3",
-        "nationality": "Thailand",
-        "position": "ST",
-        "age": 20,
-        "height": 183,
-        "preferredFoot": "Right",
-        "marketValue": 400000,
-        "contractEndDate": "31 May 2027",
-        "imageUrl": "https://ui-avatars.com/api/?name=Supachai&background=0D8ABC&color=fff",
-        "stats": {
-            "overall": 69,
-            "potential": 81,
-            "pace": 82,
-            "shooting": 72,
-            "passing": 50,
-            "dribbling": 65,
-            "defending": 25,
-            "physical": 68
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2022,
-                "goals": 2,
-                "assists": 1
-            },
-            {
-                "year": 2023,
-                "goals": 5,
-                "assists": 2
-            },
-            {
-                "year": 2024,
-                "goals": 9,
-                "assists": 3
-            },
-            {
-                "year": 2025,
-                "goals": 11,
-                "assists": 4
-            }
-        ],
-        "scoutReports": [
-            "รูปร่างดีและมีความคล่องตัวสูง มีสัญชาตญาณกองหน้าที่ดี",
-            "การจับบอลแรก (First Touch) ยังลั่นอยู่บ่อยครั้ง ต้องฝึกพื้นฐานเพิ่ม",
-            "ราคาถูกมาก มีแนวโน้มพัฒนาเป็นกองหน้าชั้นนำของประเทศได้ในอนาคต"
-        ]
-    },
-    {
-        "id": "p17",
-        "name": "นฤบดินทร์ วิ่งสู้ฟัด",
-        "team": "พัทลุง เอฟซี",
-        "league": "Thai League 3",
-        "nationality": "Thailand",
-        "position": "RB",
-        "age": 22,
-        "height": 174,
-        "preferredFoot": "Right",
-        "marketValue": 550000,
-        "contractEndDate": "31 May 2028",
-        "imageUrl": "https://ui-avatars.com/api/?name=Narubadin&background=4CAF50&color=fff",
-        "stats": {
-            "overall": 71,
-            "potential": 79,
-            "pace": 86,
-            "shooting": 40,
-            "passing": 68,
-            "dribbling": 65,
-            "defending": 70,
-            "physical": 75
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 1
-            },
-            {
-                "year": 2021,
-                "goals": 1,
-                "assists": 2
-            },
-            {
-                "year": 2022,
-                "goals": 1,
-                "assists": 4
-            },
-            {
-                "year": 2023,
-                "goals": 0,
-                "assists": 5
-            },
-            {
-                "year": 2024,
-                "goals": 2,
-                "assists": 7
-            },
-            {
-                "year": 2025,
-                "goals": 3,
-                "assists": 8
-            }
-        ],
-        "scoutReports": [
-            "ความฟิตเป็นเลิศ ขยันวิ่งไล่บอลไม่มีบ่น เล่นเกมรับได้รัดกุม",
-            "จังหวะตัดสินใจเปิดบอลในพื้นที่สุดท้ายยังทำได้ไม่ดีนัก",
-            "แบ็คขวาที่พึ่งพาได้ เป็นนักเตะประเภทปิดทองหลังพระที่โค้ชทุกคนชอบ"
-        ]
-    },
-    {
-        "id": "p18",
-        "name": "ชนาธิป ไซส์มินิ",
-        "team": "บางกอก เอฟซี",
-        "league": "Thai League 2",
-        "nationality": "Thailand",
-        "position": "CAM",
-        "age": 24,
-        "height": 158,
-        "preferredFoot": "Both",
-        "marketValue": 1300000,
-        "contractEndDate": "31 Dec 2026",
-        "imageUrl": "https://ui-avatars.com/api/?name=Chanathip&background=FFC107&color=fff",
-        "stats": {
-            "overall": 78,
-            "potential": 83,
-            "pace": 85,
-            "shooting": 74,
-            "passing": 86,
-            "dribbling": 90,
-            "defending": 40,
-            "physical": 50
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 2,
-                "assists": 4
-            },
-            {
-                "year": 2021,
-                "goals": 4,
-                "assists": 7
-            },
-            {
-                "year": 2022,
-                "goals": 3,
-                "assists": 9
-            },
-            {
-                "year": 2023,
-                "goals": 6,
-                "assists": 11
-            },
-            {
-                "year": 2024,
-                "goals": 8,
-                "assists": 14
-            },
-            {
-                "year": 2025,
-                "goals": 7,
-                "assists": 15
-            }
-        ],
-        "scoutReports": [
-            "ทักษะเลี้ยงบอลติดเท้าขั้นเทพ เอาตัวรอดในพื้นที่แคบได้ยอดเยี่ยมที่สุดในลีค",
-            "เสียเปรียบเรื่องรูปร่างอย่างหนัก โดนเบียดกระเด็นได้ง่าย",
-            "สัญญาเหลือไม่ถึงปี! นี่คือโอกาสทองที่จะจีบมาร่วมทีมล่วงหน้าได้ในราคาที่ถูกลง"
-        ]
-    },
-    {
-        "id": "p19",
-        "name": "สารัช จ่ายทะลุ",
-        "team": "สงขลา เอฟซี",
-        "league": "Thai League 3",
-        "nationality": "Thailand",
-        "position": "CM",
-        "age": 26,
-        "height": 169,
-        "preferredFoot": "Right",
-        "marketValue": 800000,
-        "contractEndDate": "31 Dec 2027",
-        "imageUrl": "https://ui-avatars.com/api/?name=Sarach&background=FF9800&color=fff",
-        "stats": {
-            "overall": 73,
-            "potential": 74,
-            "pace": 65,
-            "shooting": 60,
-            "passing": 82,
-            "dribbling": 74,
-            "defending": 60,
-            "physical": 68
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 1,
-                "assists": 5
-            },
-            {
-                "year": 2021,
-                "goals": 2,
-                "assists": 6
-            },
-            {
-                "year": 2022,
-                "goals": 2,
-                "assists": 8
-            },
-            {
-                "year": 2023,
-                "goals": 1,
-                "assists": 7
-            },
-            {
-                "year": 2024,
-                "goals": 3,
-                "assists": 10
-            },
-            {
-                "year": 2025,
-                "goals": 2,
-                "assists": 9
-            }
-        ],
-        "scoutReports": [
-            "คุมจังหวะช้า-เร็วของเกมได้ดี จ่ายบอลยาวแม่นยำเหมือนจับวาง",
-            "ความเร็วค่อนข้างช้า หากเจอแดนกลางฝั่งตรงข้ามเพรสซิ่งหนักอาจจะเล่นยาก",
-            "เหมาะจะเป็นตัวเชื่อมเกมในระบบที่เน้นการครองบอล (Possession Football)"
-        ]
-    },
-    {
-        "id": "p20",
-        "name": "ธีราทร ครอสแม่น",
-        "team": "พัทยา ยูไนเต็ด",
-        "league": "Thai League 2",
-        "nationality": "Thailand",
-        "position": "LB",
         "age": 31,
-        "height": 172,
-        "preferredFoot": "Left",
-        "marketValue": 950000,
-        "contractEndDate": "31 May 2026",
-        "imageUrl": "https://ui-avatars.com/api/?name=Theerathon&background=E53935&color=fff",
-        "stats": {
-            "overall": 75,
-            "potential": 75,
-            "pace": 70,
-            "shooting": 72,
-            "passing": 88,
-            "dribbling": 76,
-            "defending": 74,
-            "physical": 70
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 4,
-                "assists": 10
-            },
-            {
-                "year": 2021,
-                "goals": 3,
-                "assists": 12
-            },
-            {
-                "year": 2022,
-                "goals": 5,
-                "assists": 9
-            },
-            {
-                "year": 2023,
-                "goals": 2,
-                "assists": 11
-            },
-            {
-                "year": 2024,
-                "goals": 3,
-                "assists": 8
-            },
-            {
-                "year": 2025,
-                "goals": 1,
-                "assists": 7
-            }
-        ],
-        "scoutReports": [
-            "เท้าซ้ายชั่งทอง เปิดลูกตั้งเตะและเตะมุมได้อันตรายหวังผลได้เสมอ",
-            "อายุเริ่มเยอะ ทำให้จังหวะลงมาซ้อนเกมรับทำได้ช้าลงกว่าเดิม",
-            "สัญญาจะหมดในอีกไม่กี่เดือน ดึงตัวมาสร้างความเก๋าให้ทีมแบ็คโฟร์ได้เลย"
-        ]
-    },
-    {
-        "id": "p21",
-        "name": "Yuto Nagatomo Jr.",
-        "team": "Tegevajaro Miyazaki",
-        "league": "J3 League",
-        "nationality": "Japan",
-        "position": "LB",
-        "age": 18,
-        "height": 170,
-        "preferredFoot": "Both",
-        "marketValue": 600000,
-        "contractEndDate": "31 Jan 2029",
-        "imageUrl": "https://ui-avatars.com/api/?name=Yuto+N&background=9C27B0&color=fff",
-        "stats": {
-            "overall": 68,
-            "potential": 85,
-            "pace": 84,
-            "shooting": 50,
-            "passing": 65,
-            "dribbling": 68,
-            "defending": 66,
-            "physical": 80
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2022,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2023,
-                "goals": 0,
-                "assists": 1
-            },
-            {
-                "year": 2024,
-                "goals": 1,
-                "assists": 3
-            },
-            {
-                "year": 2025,
-                "goals": 2,
-                "assists": 5
-            }
-        ],
-        "scoutReports": [
-            "พลังงานล้นเหลือ วิ่งไม่มีหยุด ถนัดสองเท้าเล่นได้ทั้งฝั่งซ้ายและขวา",
-            "ยังขาดประสบการณ์ มักจะเสียฟาวล์ในพื้นที่อันตรายบ่อยครั้ง",
-            "ดาวรุ่งพุ่งแรง ควรซื้อเก็บไว้แล้วปล่อยยืมตัวเพื่อเก็บเกี่ยวเลเวล"
-        ]
-    },
-    {
-        "id": "p22",
-        "name": "Shinji Kagawa V2",
-        "team": "Nara Club",
-        "league": "J3 League",
-        "nationality": "Japan",
-        "position": "CAM",
-        "age": 22,
-        "height": 173,
+        "height": 193,
         "preferredFoot": "Right",
-        "marketValue": 1500000,
-        "contractEndDate": "31 Jan 2028",
-        "imageUrl": "https://ui-avatars.com/api/?name=Shinji+K&background=3F51B5&color=fff",
-        "stats": {
-            "overall": 76,
-            "potential": 84,
-            "pace": 75,
-            "shooting": 78,
-            "passing": 85,
-            "dribbling": 86,
-            "defending": 45,
-            "physical": 60
-        },
-        "history": [
-            {
-                "year": 2020,
-                "goals": 1,
-                "assists": 2
-            },
-            {
-                "year": 2021,
-                "goals": 3,
-                "assists": 4
-            },
-            {
-                "year": 2022,
-                "goals": 4,
-                "assists": 6
-            },
-            {
-                "year": 2023,
-                "goals": 6,
-                "assists": 9
-            },
-            {
-                "year": 2024,
-                "goals": 8,
-                "assists": 11
-            },
-            {
-                "year": 2025,
-                "goals": 10,
-                "assists": 14
-            }
-        ],
-        "scoutReports": [
-            "เซนส์บอลเหนือชั้น สอดขึ้นไปทำประตูจากแถวสองได้ดีเยี่ยม",
-            "เล่นเกมรับไม่เป็นเลย หากทีมเสียบอล เขาจะไม่มีประโยชน์ชั่วขณะ",
-            "ตัวรุกยุคใหม่ สถิติเพิ่มขึ้นแบบก้าวกระโดด เป็นการลงทุนที่น่าตื่นเต้น"
-        ]
-    },
-    {
-        "id": "p23",
-        "name": "Oliver Save",
-        "team": "Wrexham AFC",
-        "league": "EFL League Two",
-        "nationality": "England",
-        "position": "GK",
-        "age": 25,
-        "height": 194,
-        "preferredFoot": "Right",
-        "marketValue": 1000000,
+        "marketValue": 70000000,
         "contractEndDate": "30 Jun 2027",
-        "imageUrl": "https://ui-avatars.com/api/?name=Oliver+S&background=009688&color=fff",
+        "imageUrl": "https://ui-avatars.com/api/?name=Alisson+B&background=EF4444&color=fff",
         "stats": {
-            "overall": 75,
-            "potential": 78,
-            "pace": 45,
-            "shooting": 20,
-            "passing": 65,
-            "dribbling": 35,
+            "overall": 89,
+            "potential": 89,
+            "pace": 54,
+            "shooting": 29,
+            "passing": 85,
+            "dribbling": 89,
             "defending": 15,
             "physical": 78
         },
         "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2022,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2023,
-                "goals": 0,
-                "assists": 1
-            },
-            {
-                "year": 2024,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2025,
-                "goals": 0,
-                "assists": 1
-            }
+            { "year": 2020, "goals": 1, "assists": 0 },
+            { "year": 2021, "goals": 0, "assists": 1 },
+            { "year": 2022, "goals": 0, "assists": 1 },
+            { "year": 2023, "goals": 0, "assists": 0 },
+            { "year": 2024, "goals": 0, "assists": 0 },
+            { "year": 2025, "goals": 0, "assists": 1 }
         ],
         "scoutReports": [
-            "รูปร่างสูงใหญ่ 194 ซม. ออกมาตัดลูกครอสกลางอากาศได้เฉียบขาด",
-            "การใช้เท้าเปิดบอลจากแดนหลังยังมีข้อผิดพลาดบ่อยครั้ง",
-            "นายด่านมือหนึ่งที่ไว้ใจได้ ค่าตัว 1 ล้านถือว่าไม่แพงสำหรับผู้รักษาประตูวัย 25 ปี"
+            "ผู้รักษาประตูระดับโลก โดดเด่นในการเซฟจังหวะดวลเดี่ยว (1v1)",
+            "มีปัญหาเรื่องอาการบาดเจ็บกล้ามเนื้อรบกวนในบางช่วงของฤดูกาล",
+            "การเปิดบอลด้วยเท้าแม่นยำมาก สามารถเริ่มต้นเกมรุกจากแดนหลังได้ทันที"
+        ]
+    },
+    {
+        "id": "p05",
+        "name": "Bukayo Saka",
+        "team": "Arsenal",
+        "league": "Premier League",
+        "nationality": "England",
+        "position": "RW",
+        "age": 22,
+        "height": 178,
+        "preferredFoot": "Left",
+        "marketValue": 120000000,
+        "contractEndDate": "30 Jun 2027",
+        "imageUrl": "https://ui-avatars.com/api/?name=Bukayo+S&background=EF4444&color=fff",
+        "stats": {
+            "overall": 86,
+            "potential": 90,
+            "pace": 86,
+            "shooting": 81,
+            "passing": 83,
+            "dribbling": 87,
+            "defending": 65,
+            "physical": 73
+        },
+        "history": [
+            { "year": 2020, "goals": 5, "assists": 3 },
+            { "year": 2021, "goals": 11, "assists": 7 },
+            { "year": 2022, "goals": 14, "assists": 11 },
+            { "year": 2023, "goals": 16, "assists": 9 },
+            { "year": 2024, "goals": 18, "assists": 12 },
+            { "year": 2025, "goals": 20, "assists": 10 }
+        ],
+        "scoutReports": [
+            "ปีกขวาที่สร้างความอันตรายได้ทุกวินาที เลี้ยงกินตัวและตัดเข้าในเพื่อทำประตูได้ดีมาก",
+            "มักจะโดนคู่แข่งเข้าสกัดหนัก ต้องระวังปัญหาอาการบาดเจ็บสะสม",
+            "อายุน้อยแต่สภาพจิตใจนิ่งเกินวัย เป็นแกนหลักแห่งอนาคตของทีม"
+        ]
+    },
+    {
+        "id": "p06",
+        "name": "Martin Ødegaard",
+        "team": "Arsenal",
+        "league": "Premier League",
+        "nationality": "Norway",
+        "position": "CAM",
+        "age": 25,
+        "height": 178,
+        "preferredFoot": "Left",
+        "marketValue": 90000000,
+        "contractEndDate": "30 Jun 2028",
+        "imageUrl": "https://ui-avatars.com/api/?name=Martin+O&background=EF4444&color=fff",
+        "stats": {
+            "overall": 87,
+            "potential": 90,
+            "pace": 75,
+            "shooting": 79,
+            "passing": 89,
+            "dribbling": 88,
+            "defending": 58,
+            "physical": 68
+        },
+        "history": [
+            { "year": 2020, "goals": 1, "assists": 2 },
+            { "year": 2021, "goals": 7, "assists": 4 },
+            { "year": 2022, "goals": 15, "assists": 7 },
+            { "year": 2023, "goals": 8, "assists": 10 },
+            { "year": 2024, "goals": 10, "assists": 12 },
+            { "year": 2025, "goals": 9, "assists": 14 }
+        ],
+        "scoutReports": [
+            "วิสัยทัศน์และการจ่ายบอลระดับเวิลด์คลาส เป็นศูนย์กลางในการสร้างสรรค์เกมรุก",
+            "ไม่ได้มีความเร็วจัดจ้าน แต่ใช้เทคนิคและการเคลื่อนที่เพื่อหาช่องว่างเก่ง",
+            "มีความเป็นกัปตันทีมสูง ขยันวิ่งไล่บอล (Pressing) แม้จะเป็นผู้เล่นตัวรุก"
+        ]
+    },
+    {
+        "id": "p07",
+        "name": "Trent Alexander-Arnold",
+        "team": "Liverpool",
+        "league": "Premier League",
+        "nationality": "England",
+        "position": "RB",
+        "age": 25,
+        "height": 175,
+        "preferredFoot": "Right",
+        "marketValue": 80000000,
+        "contractEndDate": "30 Jun 2025",
+        "imageUrl": "https://ui-avatars.com/api/?name=Trent+A&background=EF4444&color=fff",
+        "stats": {
+            "overall": 86,
+            "potential": 87,
+            "pace": 76,
+            "shooting": 77,
+            "passing": 90,
+            "dribbling": 80,
+            "defending": 80,
+            "physical": 73
+        },
+        "history": [
+            { "year": 2020, "goals": 2, "assists": 7 },
+            { "year": 2021, "goals": 2, "assists": 12 },
+            { "year": 2022, "goals": 3, "assists": 9 },
+            { "year": 2023, "goals": 3, "assists": 4 },
+            { "year": 2024, "goals": 4, "assists": 10 },
+            { "year": 2025, "goals": 5, "assists": 11 }
+        ],
+        "scoutReports": [
+            "เท้าขวาชั่งทอง การโยนบอลยาวและลูกตั้งเตะอันตรายมากเหมือนมีเพลย์เมกเกอร์เล่นแบ็ค",
+            "เกมรับดวล 1v1 กับปีกที่มีความเร็วสูงยังมีจุดอ่อนให้เห็นอยู่บ้าง",
+            "สามารถหุบเข้ามาเล่นเป็น Inverted Fullback หรือกองกลางได้สบาย"
+        ]
+    },
+    {
+        "id": "p08",
+        "name": "Alexander Isak",
+        "team": "Newcastle United",
+        "league": "Premier League",
+        "nationality": "Sweden",
+        "position": "ST",
+        "age": 24,
+        "height": 192,
+        "preferredFoot": "Right",
+        "marketValue": 70000000,
+        "contractEndDate": "30 Jun 2028",
+        "imageUrl": "https://ui-avatars.com/api/?name=Alexander+I&background=111827&color=fff",
+        "stats": {
+            "overall": 82,
+            "potential": 86,
+            "pace": 85,
+            "shooting": 82,
+            "passing": 74,
+            "dribbling": 83,
+            "defending": 38,
+            "physical": 72
+        },
+        "history": [
+            { "year": 2020, "goals": 17, "assists": 2 },
+            { "year": 2021, "goals": 6, "assists": 2 },
+            { "year": 2022, "goals": 10, "assists": 1 },
+            { "year": 2023, "goals": 21, "assists": 2 },
+            { "year": 2024, "goals": 18, "assists": 4 },
+            { "year": 2025, "goals": 20, "assists": 5 }
+        ],
+        "scoutReports": [
+            "กองหน้ารูปร่างสูงโปร่งแต่มีความคล่องตัวและทักษะการเลี้ยงบอลสูงมาก",
+            "บางครั้งยังมีปัญหาความสม่ำเสมอ และอาการบาดเจ็บรบกวน",
+            "จบสกอร์เฉียบขาด เป็นศูนย์หน้าสมัยใหม่ที่เล่นด้านข้างได้ด้วย"
+        ]
+    },
+    {
+        "id": "p09",
+        "name": "Phil Foden",
+        "team": "Manchester City",
+        "league": "Premier League",
+        "nationality": "England",
+        "position": "RW",
+        "age": 23,
+        "height": 171,
+        "preferredFoot": "Left",
+        "marketValue": 110000000,
+        "contractEndDate": "30 Jun 2027",
+        "imageUrl": "https://ui-avatars.com/api/?name=Phil+F&background=60A5FA&color=fff",
+        "stats": {
+            "overall": 85,
+            "potential": 90,
+            "pace": 82,
+            "shooting": 80,
+            "passing": 82,
+            "dribbling": 88,
+            "defending": 56,
+            "physical": 60
+        },
+        "history": [
+            { "year": 2020, "goals": 9, "assists": 5 },
+            { "year": 2021, "goals": 9, "assists": 5 },
+            { "year": 2022, "goals": 11, "assists": 5 },
+            { "year": 2023, "goals": 19, "assists": 8 },
+            { "year": 2024, "goals": 15, "assists": 10 },
+            { "year": 2025, "goals": 18, "assists": 9 }
+        ],
+        "scoutReports": [
+            "เทคนิคการสัมผัสบอลแรกและพลิกบอลยอดเยี่ยมที่สุดคนหนึ่งในลีก",
+            "ตัวเล็กและบาง อาจเสียเปรียบในการปะทะกับกองหลังตัวใหญ่",
+            "สามารถยิงไกลจากนอกกรอบได้อย่างเด็ดขาด และเล่นได้ทุกตำแหน่งในแนวรุก"
+        ]
+    },
+    {
+        "id": "p10",
+        "name": "Kevin De Bruyne",
+        "team": "Manchester City",
+        "league": "Premier League",
+        "nationality": "Belgium",
+        "position": "CM",
+        "age": 32,
+        "height": 181,
+        "preferredFoot": "Right",
+        "marketValue": 95000000,
+        "contractEndDate": "30 Jun 2025",
+        "imageUrl": "https://ui-avatars.com/api/?name=Kevin+D&background=60A5FA&color=fff",
+        "stats": {
+            "overall": 91,
+            "potential": 91,
+            "pace": 72,
+            "shooting": 85,
+            "passing": 94,
+            "dribbling": 87,
+            "defending": 65,
+            "physical": 78
+        },
+        "history": [
+            { "year": 2020, "goals": 6, "assists": 12 },
+            { "year": 2021, "goals": 15, "assists": 8 },
+            { "year": 2022, "goals": 7, "assists": 16 },
+            { "year": 2023, "goals": 4, "assists": 10 },
+            { "year": 2024, "goals": 8, "assists": 14 },
+            { "year": 2025, "goals": 6, "assists": 15 }
+        ],
+        "scoutReports": [
+            "ราชาแห่งการแอสซิสต์ จ่ายบอลคิลเลอร์พาสได้แม่นยำเหมือนจับวาง",
+            "อายุมากขึ้นทำให้มีปัญหาบาดเจ็บกล้ามเนื้อแฮมสตริงคอยรบกวน",
+            "แม้จะลงเล่นน้อยลงแต่ทุกครั้งที่อยู่ในสนาม เขาสามารถเปลี่ยนเกมได้เสมอ"
+        ]
+    },
+    {
+        "id": "p11",
+        "name": "William Saliba",
+        "team": "Arsenal",
+        "league": "Premier League",
+        "nationality": "France",
+        "position": "CB",
+        "age": 23,
+        "height": 192,
+        "preferredFoot": "Right",
+        "marketValue": 75000000,
+        "contractEndDate": "30 Jun 2027",
+        "imageUrl": "https://ui-avatars.com/api/?name=William+S&background=EF4444&color=fff",
+        "stats": {
+            "overall": 84,
+            "potential": 89,
+            "pace": 82,
+            "shooting": 39,
+            "passing": 70,
+            "dribbling": 73,
+            "defending": 84,
+            "physical": 82
+        },
+        "history": [
+            { "year": 2020, "goals": 1, "assists": 0 },
+            { "year": 2021, "goals": 0, "assists": 0 },
+            { "year": 2022, "goals": 2, "assists": 1 },
+            { "year": 2023, "goals": 2, "assists": 1 },
+            { "year": 2024, "goals": 3, "assists": 0 },
+            { "year": 2025, "goals": 2, "assists": 1 }
+        ],
+        "scoutReports": [
+            "กองหลังที่เยือกเย็นที่สุด นิ่งและเข้าบอลสะอาดมาก",
+            "แทบจะไม่มีจุดอ่อนที่เห็นได้ชัด เป็นเซ็นเตอร์ฮาล์ฟที่ครบเครื่อง",
+            "มีความเร็วพอที่จะวิ่งตามประกบศูนย์หน้าตัวจี๊ดของฝั่งตรงข้ามได้ทัน"
+        ]
+    },
+    {
+        "id": "p12",
+        "name": "Destiny Udogie",
+        "team": "Tottenham Hotspur",
+        "league": "Premier League",
+        "nationality": "Italy",
+        "position": "LB",
+        "age": 21,
+        "height": 186,
+        "preferredFoot": "Left",
+        "marketValue": 45000000,
+        "contractEndDate": "30 Jun 2030",
+        "imageUrl": "https://ui-avatars.com/api/?name=Destiny+U&background=1E3A8A&color=fff",
+        "stats": {
+            "overall": 80,
+            "potential": 86,
+            "pace": 89,
+            "shooting": 64,
+            "passing": 74,
+            "dribbling": 80,
+            "defending": 76,
+            "physical": 78
+        },
+        "history": [
+            { "year": 2020, "goals": 1, "assists": 0 },
+            { "year": 2021, "goals": 5, "assists": 3 },
+            { "year": 2022, "goals": 3, "assists": 4 },
+            { "year": 2023, "goals": 2, "assists": 3 },
+            { "year": 2024, "goals": 4, "assists": 5 },
+            { "year": 2025, "goals": 3, "assists": 6 }
+        ],
+        "scoutReports": [
+            "แบ็คซ้ายสายบุก วิ่งหุบเข้าในมาเชื่อมเกมตรงกลางได้เนียนตามาก",
+            "บางครั้งเติมเกมรุกเพลินจนลงมาเล่นเกมรับไม่ทัน",
+            "รูปร่างสูงใหญ่และเร็ว ทำให้เป็นตัวริมเส้นที่รับมือยากมาก"
+        ]
+    },
+    {
+        "id": "p13",
+        "name": "Rúben Dias",
+        "team": "Manchester City",
+        "league": "Premier League",
+        "nationality": "Portugal",
+        "position": "CB",
+        "age": 26,
+        "height": 187,
+        "preferredFoot": "Right",
+        "marketValue": 90000000,
+        "contractEndDate": "30 Jun 2027",
+        "imageUrl": "https://ui-avatars.com/api/?name=Ruben+D&background=60A5FA&color=fff",
+        "stats": {
+            "overall": 89,
+            "potential": 90,
+            "pace": 62,
+            "shooting": 39,
+            "passing": 66,
+            "dribbling": 68,
+            "defending": 89,
+            "physical": 87
+        },
+        "history": [
+            { "year": 2020, "goals": 1, "assists": 0 },
+            { "year": 2021, "goals": 2, "assists": 4 },
+            { "year": 2022, "goals": 0, "assists": 0 },
+            { "year": 2023, "goals": 0, "assists": 0 },
+            { "year": 2024, "goals": 1, "assists": 1 },
+            { "year": 2025, "goals": 2, "assists": 0 }
+        ],
+        "scoutReports": [
+            "ผู้นำแผงหลังพันธุ์ดุ เข้าสกัดบอลเด็ดขาดและบล็อกลูกยิงเก่งมาก",
+            "ไม่ได้โดดเด่นเรื่องการจ่ายบอลเปิดเกมรุก มักจะจ่ายให้เพื่อนใกล้ๆ",
+            "หากทีมต้องการเกมรับที่ไว้ใจได้ เขาคือคนแรกๆ ที่ควรนึกถึง"
+        ]
+    },
+    {
+        "id": "p14",
+        "name": "Declan Rice",
+        "team": "Arsenal",
+        "league": "Premier League",
+        "nationality": "England",
+        "position": "CDM",
+        "age": 25,
+        "height": 188,
+        "preferredFoot": "Right",
+        "marketValue": 95000000,
+        "contractEndDate": "30 Jun 2028",
+        "imageUrl": "https://ui-avatars.com/api/?name=Declan+R&background=EF4444&color=fff",
+        "stats": {
+            "overall": 85,
+            "potential": 88,
+            "pace": 73,
+            "shooting": 71,
+            "passing": 80,
+            "dribbling": 77,
+            "defending": 83,
+            "physical": 83
+        },
+        "history": [
+            { "year": 2020, "goals": 2, "assists": 1 },
+            { "year": 2021, "goals": 1, "assists": 4 },
+            { "year": 2022, "goals": 4, "assists": 2 },
+            { "year": 2023, "goals": 7, "assists": 8 },
+            { "year": 2024, "goals": 6, "assists": 7 },
+            { "year": 2025, "goals": 5, "assists": 9 }
+        ],
+        "scoutReports": [
+            "ปอดเหล็ก วิ่งพล่านไปทั่วสนาม ตัดบอลและพาบอลทะลุทะลวงขึ้นหน้าได้ดี",
+            "ต้องระวังอย่าให้เติมเกมรุกสูงเกินไปจนทิ้งพื้นที่หน้าแผงหลังให้โล่ง",
+            "ยกระดับจากกองกลางตัวรับธรรมดา กลายมาเป็นมิดฟิลด์บ็อกซ์ทูบ็อกซ์เต็มตัว"
+        ]
+    },
+    {
+        "id": "p15",
+        "name": "Ollie Watkins",
+        "team": "Aston Villa",
+        "league": "Premier League",
+        "nationality": "England",
+        "position": "ST",
+        "age": 28,
+        "height": 180,
+        "preferredFoot": "Right",
+        "marketValue": 60000000,
+        "contractEndDate": "30 Jun 2028",
+        "imageUrl": "https://ui-avatars.com/api/?name=Ollie+W&background=6D28D9&color=fff",
+        "stats": {
+            "overall": 83,
+            "potential": 83,
+            "pace": 87,
+            "shooting": 83,
+            "passing": 75,
+            "dribbling": 80,
+            "defending": 45,
+            "physical": 75
+        },
+        "history": [
+            { "year": 2020, "goals": 14, "assists": 5 },
+            { "year": 2021, "goals": 11, "assists": 2 },
+            { "year": 2022, "goals": 15, "assists": 6 },
+            { "year": 2023, "goals": 19, "assists": 13 },
+            { "year": 2024, "goals": 16, "assists": 8 },
+            { "year": 2025, "goals": 17, "assists": 7 }
+        ],
+        "scoutReports": [
+            "กองหน้าจอมขยัน วิ่งส่ายหาช่องและเพรสซิ่งแดนบนได้ดีเยี่ยม",
+            "ในอดีตเคยมีปัญหาเรื่องการจบสกอร์ที่ใช้โอกาสเปลือง แต่ปัจจุบันพัฒนาขึ้นมาก",
+            "ไม่ใช่แค่ยิง แต่ยังแอสซิสต์ให้เพื่อนได้บ่อยครั้ง ถือเป็นกองหน้าที่เล่นเพื่อทีมอย่างแท้จริง"
+        ]
+    },
+    {
+        "id": "p16",
+        "name": "Darwin Núñez",
+        "team": "Liverpool",
+        "league": "Premier League",
+        "nationality": "Uruguay",
+        "position": "ST",
+        "age": 24,
+        "height": 187,
+        "preferredFoot": "Right",
+        "marketValue": 65000000,
+        "contractEndDate": "30 Jun 2028",
+        "imageUrl": "https://ui-avatars.com/api/?name=Darwin+N&background=EF4444&color=fff",
+        "stats": {
+            "overall": 82,
+            "potential": 87,
+            "pace": 90,
+            "shooting": 81,
+            "passing": 71,
+            "dribbling": 77,
+            "defending": 43,
+            "physical": 84
+        },
+        "history": [
+            { "year": 2020, "goals": 13, "assists": 3 },
+            { "year": 2021, "goals": 26, "assists": 4 },
+            { "year": 2022, "goals": 9, "assists": 3 },
+            { "year": 2023, "goals": 11, "assists": 8 },
+            { "year": 2024, "goals": 15, "assists": 6 },
+            { "year": 2025, "goals": 14, "assists": 7 }
+        ],
+        "scoutReports": [
+            "ความเร็วและความแข็งแกร่งคืออาวุธหลัก ป่วนแผงหลังคู่แข่งได้ตลอดเวลา",
+            "ความเด็ดขาดในการทำประตูยังต้องปรับปรุง มักจะยิงนกตายเป็นประจำ",
+            "แม้จะพลาดบ่อย แต่ก็สร้างโอกาสใหม่ๆ ได้ด้วยความขยันและแพสชั่นที่ล้นเหลือ"
+        ]
+    },
+    {
+        "id": "p17",
+        "name": "Kyle Walker",
+        "team": "Manchester City",
+        "league": "Premier League",
+        "nationality": "England",
+        "position": "RB",
+        "age": 33,
+        "height": 183,
+        "preferredFoot": "Right",
+        "marketValue": 40000000,
+        "contractEndDate": "30 Jun 2026",
+        "imageUrl": "https://ui-avatars.com/api/?name=Kyle+W&background=60A5FA&color=fff",
+        "stats": {
+            "overall": 84,
+            "potential": 84,
+            "pace": 90,
+            "shooting": 63,
+            "passing": 77,
+            "dribbling": 75,
+            "defending": 80,
+            "physical": 81
+        },
+        "history": [
+            { "year": 2020, "goals": 1, "assists": 1 },
+            { "year": 2021, "goals": 0, "assists": 2 },
+            { "year": 2022, "goals": 0, "assists": 1 },
+            { "year": 2023, "goals": 0, "assists": 4 },
+            { "year": 2024, "goals": 1, "assists": 2 },
+            { "year": 2025, "goals": 0, "assists": 3 }
+        ],
+        "scoutReports": [
+            "แบ็คขวาที่รับมือปีกจรวดได้ดีที่สุด ความเร็วในการวิ่งสปรินต์ยังคงน่าทึ่ง",
+            "เกมรุกอาจจะไม่โดดเด่นเท่าฟูลแบ็คคนอื่นๆ เน้นประจำการในเกมรับมากกว่า",
+            "ประสบการณ์สูงมาก เป็นผู้บัญชาการแนวรับที่พึ่งพาได้เสมอ"
+        ]
+    },
+    {
+        "id": "p18",
+        "name": "Bruno Fernandes",
+        "team": "Manchester United",
+        "league": "Premier League",
+        "nationality": "Portugal",
+        "position": "CAM",
+        "age": 29,
+        "height": 179,
+        "preferredFoot": "Right",
+        "marketValue": 85000000,
+        "contractEndDate": "30 Jun 2026",
+        "imageUrl": "https://ui-avatars.com/api/?name=Bruno+F&background=EF4444&color=fff",
+        "stats": {
+            "overall": 88,
+            "potential": 88,
+            "pace": 71,
+            "shooting": 85,
+            "passing": 90,
+            "dribbling": 83,
+            "defending": 69,
+            "physical": 77
+        },
+        "history": [
+            { "year": 2020, "goals": 18, "assists": 11 },
+            { "year": 2021, "goals": 10, "assists": 6 },
+            { "year": 2022, "goals": 8, "assists": 8 },
+            { "year": 2023, "goals": 10, "assists": 8 },
+            { "year": 2024, "goals": 12, "assists": 10 },
+            { "year": 2025, "goals": 11, "assists": 9 }
+        ],
+        "scoutReports": [
+            "สร้างสรรค์โอกาสได้บ่อยที่สุดในลีก การจ่ายบอลเสี่ยง (Risk passing) ได้ผลลัพธ์สูง",
+            "บางครั้งโวยวายเพื่อนร่วมทีมหรือผู้ตัดสินมากเกินไปจนเสียสมาธิ",
+            "ปอดเหล็ก ลงเล่นได้แทบทุกนัดโดยไม่เจ็บ ถือเป็นเดอะแบกของสโมสร"
+        ]
+    },
+    {
+        "id": "p19",
+        "name": "Alexis Mac Allister",
+        "team": "Liverpool",
+        "league": "Premier League",
+        "nationality": "Argentina",
+        "position": "CM",
+        "age": 25,
+        "height": 174,
+        "preferredFoot": "Right",
+        "marketValue": 65000000,
+        "contractEndDate": "30 Jun 2028",
+        "imageUrl": "https://ui-avatars.com/api/?name=Alexis+M&background=EF4444&color=fff",
+        "stats": {
+            "overall": 83,
+            "potential": 86,
+            "pace": 70,
+            "shooting": 78,
+            "passing": 83,
+            "dribbling": 82,
+            "defending": 75,
+            "physical": 75
+        },
+        "history": [
+            { "year": 2020, "goals": 1, "assists": 1 },
+            { "year": 2021, "goals": 5, "assists": 2 },
+            { "year": 2022, "goals": 10, "assists": 2 },
+            { "year": 2023, "goals": 5, "assists": 5 },
+            { "year": 2024, "goals": 6, "assists": 7 },
+            { "year": 2025, "goals": 5, "assists": 8 }
+        ],
+        "scoutReports": [
+            "มีความชาญฉลาดในการคุมจังหวะ สามารถเล่นได้ทั้งหมายเลข 6, 8 และ 10",
+            "สรีระค่อนข้างเล็ก แต่ชดเชยด้วยการเอาตัวรอดจากการบีบพื้นที่ได้เก่ง",
+            "มีการยิงไกลที่เฉียบขาด เป็นมิดฟิลด์ไดนาโมที่เข้ากับระบบเพรสซิ่งสูง"
+        ]
+    },
+    {
+        "id": "p20",
+        "name": "Andrew Robertson",
+        "team": "Liverpool",
+        "league": "Premier League",
+        "nationality": "Scotland",
+        "position": "LB",
+        "age": 30,
+        "height": 178,
+        "preferredFoot": "Left",
+        "marketValue": 60000000,
+        "contractEndDate": "30 Jun 2026",
+        "imageUrl": "https://ui-avatars.com/api/?name=Andrew+R&background=EF4444&color=fff",
+        "stats": {
+            "overall": 86,
+            "potential": 86,
+            "pace": 79,
+            "shooting": 61,
+            "passing": 82,
+            "dribbling": 79,
+            "defending": 81,
+            "physical": 75
+        },
+        "history": [
+            { "year": 2020, "goals": 1, "assists": 7 },
+            { "year": 2021, "goals": 3, "assists": 10 },
+            { "year": 2022, "goals": 0, "assists": 8 },
+            { "year": 2023, "goals": 3, "assists": 2 },
+            { "year": 2024, "goals": 1, "assists": 6 },
+            { "year": 2025, "goals": 2, "assists": 5 }
+        ],
+        "scoutReports": [
+            "ครอสบอลได้อันตรายและมีส่วนร่วมกับเกมรุกเสมอ วิ่งขึ้นลงได้ไม่มีหมด",
+            "เริ่มมีปัญหาอาการบาดเจ็บรบกวนบ่อยขึ้นในช่วงหลัง",
+            "ผู้นำในห้องแต่งตัว พลังใจสูงมาก เหมาะสำหรับเกมที่ต้องการแรงกระตุ้น"
+        ]
+    },
+    {
+        "id": "p21",
+        "name": "Pedro Porro",
+        "team": "Tottenham Hotspur",
+        "league": "Premier League",
+        "nationality": "Spain",
+        "position": "RB",
+        "age": 24,
+        "height": 173,
+        "preferredFoot": "Right",
+        "marketValue": 50000000,
+        "contractEndDate": "30 Jun 2028",
+        "imageUrl": "https://ui-avatars.com/api/?name=Pedro+P&background=1E3A8A&color=fff",
+        "stats": {
+            "overall": 82,
+            "potential": 85,
+            "pace": 82,
+            "shooting": 74,
+            "passing": 81,
+            "dribbling": 80,
+            "defending": 76,
+            "physical": 70
+        },
+        "history": [
+            { "year": 2020, "goals": 3, "assists": 3 },
+            { "year": 2021, "goals": 4, "assists": 4 },
+            { "year": 2022, "goals": 2, "assists": 11 },
+            { "year": 2023, "goals": 3, "assists": 7 },
+            { "year": 2024, "goals": 4, "assists": 6 },
+            { "year": 2025, "goals": 2, "assists": 8 }
+        ],
+        "scoutReports": [
+            "เติมเกมรุกเหมือนปีก มีทักษะการยิงประตูที่เด็ดขาดมากสำหรับแบ็คขวา",
+            "เกมรับยังมีช่องโหว่ มักจะปล่อยให้ปีกคู่แข่งได้มีพื้นที่ในการเปิดบอล",
+            "Inverted Fullback ที่เล่นในระบบตัวรุกได้ดีเยี่ยม"
+        ]
+    },
+    {
+        "id": "p22",
+        "name": "Cole Palmer",
+        "team": "Chelsea",
+        "league": "Premier League",
+        "nationality": "England",
+        "position": "CAM",
+        "age": 21,
+        "height": 189,
+        "preferredFoot": "Left",
+        "marketValue": 75000000,
+        "contractEndDate": "30 Jun 2030",
+        "imageUrl": "https://ui-avatars.com/api/?name=Cole+P&background=1D4ED8&color=fff",
+        "stats": {
+            "overall": 84,
+            "potential": 90,
+            "pace": 79,
+            "shooting": 82,
+            "passing": 84,
+            "dribbling": 84,
+            "defending": 55,
+            "physical": 65
+        },
+        "history": [
+            { "year": 2020, "goals": 0, "assists": 0 },
+            { "year": 2021, "goals": 1, "assists": 1 },
+            { "year": 2022, "goals": 0, "assists": 1 },
+            { "year": 2023, "goals": 22, "assists": 11 },
+            { "year": 2024, "goals": 18, "assists": 9 },
+            { "year": 2025, "goals": 20, "assists": 12 }
+        ],
+        "scoutReports": [
+            "Cold Palmer! นิ่ง เยือกเย็น ยิงจุดโทษชัวร์ และมีวิสัยทัศน์ทะลุทะลวงสูง",
+            "ความเร็วน้อยไปนิด ไม่ใช่ปีกสายกระชาก เน้นหาช่องว่างตรงกลางมากกว่า",
+            "ดาวรุ่งที่ดีที่สุดของทีม แบกความหวังของสโมสรไว้ในวัยเพียงยี่สิบต้นๆ"
+        ]
+    },
+    {
+        "id": "p23",
+        "name": "Emiliano Martínez",
+        "team": "Aston Villa",
+        "league": "Premier League",
+        "nationality": "Argentina",
+        "position": "GK",
+        "age": 31,
+        "height": 195,
+        "preferredFoot": "Right",
+        "marketValue": 50000000,
+        "contractEndDate": "30 Jun 2027",
+        "imageUrl": "https://ui-avatars.com/api/?name=Emiliano+M&background=6D28D9&color=fff",
+        "stats": {
+            "overall": 85,
+            "potential": 85,
+            "pace": 48,
+            "shooting": 15,
+            "passing": 60,
+            "dribbling": 20,
+            "defending": 18,
+            "physical": 80
+        },
+        "history": [
+            { "year": 2020, "goals": 0, "assists": 0 },
+            { "year": 2021, "goals": 0, "assists": 0 },
+            { "year": 2022, "goals": 0, "assists": 0 },
+            { "year": 2023, "goals": 0, "assists": 0 },
+            { "year": 2024, "goals": 0, "assists": 0 },
+            { "year": 2025, "goals": 0, "assists": 0 }
+        ],
+        "scoutReports": [
+            "เซฟลูกยิงมหัศจรรย์ได้เสมอ จิตวิทยาดีเยี่ยม ป่วนประสาทคนยิงจุดโทษได้เก่งที่สุด",
+            "มีจังหวะเล่นลูกเสี่ยงๆ ด้วยเท้าที่ทำให้แฟนบอลต้องลุ้นระทึก",
+            "เป็นผู้รักษาประตูประเภท Big Match Player มักจะองค์ลงในนัดสำคัญ"
         ]
     },
     {
         "id": "p24",
-        "name": "Tom Striker",
-        "team": "Barrow AFC",
-        "league": "EFL League Two",
-        "nationality": "England",
+        "name": "Rasmus Højlund",
+        "team": "Manchester United",
+        "league": "Premier League",
+        "nationality": "Denmark",
         "position": "ST",
-        "age": 28,
-        "height": 185,
-        "preferredFoot": "Right",
-        "marketValue": 800000,
-        "contractEndDate": "30 Jun 2026",
-        "imageUrl": "https://ui-avatars.com/api/?name=Tom+S&background=795548&color=fff",
+        "age": 21,
+        "height": 191,
+        "preferredFoot": "Left",
+        "marketValue": 60000000,
+        "contractEndDate": "30 Jun 2028",
+        "imageUrl": "https://ui-avatars.com/api/?name=Rasmus+H&background=EF4444&color=fff",
         "stats": {
-            "overall": 72,
-            "potential": 72,
-            "pace": 70,
+            "overall": 79,
+            "potential": 86,
+            "pace": 85,
             "shooting": 78,
-            "passing": 55,
-            "dribbling": 65,
-            "defending": 30,
-            "physical": 85
+            "passing": 63,
+            "dribbling": 74,
+            "defending": 40,
+            "physical": 82
         },
         "history": [
-            {
-                "year": 2020,
-                "goals": 10,
-                "assists": 3
-            },
-            {
-                "year": 2021,
-                "goals": 8,
-                "assists": 2
-            },
-            {
-                "year": 2022,
-                "goals": 12,
-                "assists": 4
-            },
-            {
-                "year": 2023,
-                "goals": 9,
-                "assists": 1
-            },
-            {
-                "year": 2024,
-                "goals": 11,
-                "assists": 3
-            },
-            {
-                "year": 2025,
-                "goals": 10,
-                "assists": 2
-            }
+            { "year": 2020, "goals": 0, "assists": 0 },
+            { "year": 2021, "goals": 9, "assists": 2 },
+            { "year": 2022, "goals": 9, "assists": 4 },
+            { "year": 2023, "goals": 10, "assists": 2 },
+            { "year": 2024, "goals": 15, "assists": 3 },
+            { "year": 2025, "goals": 18, "assists": 4 }
         ],
         "scoutReports": [
-            "กองหน้าตัวเป้า (Target Man) พักบอลแดนหน้าได้ บังบอลมิดชิด",
-            "มักจะหายไปจากเกมถ้าระบบกองกลางไม่สามารถส่งบอลไปถึงพื้นที่อันตรายได้",
-            "สัญญาใกล้จะหมด เป็นอะไหล่ชั้นดีที่ควรติดต่อดึงตัวมาร่วมทีมล่วงหน้า"
+            "กองหน้าร่างยักษ์ที่มีความเร็วสูง พักบอลได้ และวิ่งช่องหลังไลน์เก่ง",
+            "ยังต้องการเวลาปรับตัวเรื่องความสม่ำเสมอในการจบสกอร์",
+            "มีศักยภาพที่จะเติบโตไปเป็นกองหน้าเบอร์ 9 ระดับต้นๆ ของยุโรปได้"
         ]
     },
     {
         "id": "p25",
-        "name": "Harry Pass",
-        "team": "Barrow AFC",
-        "league": "EFL League Two",
-        "nationality": "England",
+        "name": "Enzo Fernández",
+        "team": "Chelsea",
+        "league": "Premier League",
+        "nationality": "Argentina",
         "position": "CM",
         "age": 23,
-        "height": 180,
+        "height": 178,
         "preferredFoot": "Right",
-        "marketValue": 650000,
-        "contractEndDate": "30 Jun 2028",
-        "imageUrl": "https://ui-avatars.com/api/?name=Harry+P&background=607D8B&color=fff",
+        "marketValue": 75000000,
+        "contractEndDate": "30 Jun 2031",
+        "imageUrl": "https://ui-avatars.com/api/?name=Enzo+F&background=1D4ED8&color=fff",
         "stats": {
-            "overall": 70,
-            "potential": 77,
+            "overall": 83,
+            "potential": 89,
             "pace": 65,
-            "shooting": 60,
-            "passing": 76,
-            "dribbling": 68,
-            "defending": 60,
-            "physical": 70
+            "shooting": 75,
+            "passing": 85,
+            "dribbling": 82,
+            "defending": 76,
+            "physical": 75
         },
         "history": [
-            {
-                "year": 2020,
-                "goals": 1,
-                "assists": 2
-            },
-            {
-                "year": 2021,
-                "goals": 1,
-                "assists": 4
-            },
-            {
-                "year": 2022,
-                "goals": 2,
-                "assists": 5
-            },
-            {
-                "year": 2023,
-                "goals": 3,
-                "assists": 7
-            },
-            {
-                "year": 2024,
-                "goals": 2,
-                "assists": 9
-            },
-            {
-                "year": 2025,
-                "goals": 4,
-                "assists": 8
-            }
+            { "year": 2020, "goals": 1, "assists": 1 },
+            { "year": 2021, "goals": 2, "assists": 3 },
+            { "year": 2022, "goals": 1, "assists": 7 },
+            { "year": 2023, "goals": 3, "assists": 2 },
+            { "year": 2024, "goals": 4, "assists": 5 },
+            { "year": 2025, "goals": 5, "assists": 6 }
         ],
         "scoutReports": [
-            "ขยันหาช่องว่างมารับบอล เป็นตัวเชื่อมเกมระหว่างกองหลังและกองหน้าได้เนียนตา",
-            "แรงปะทะน้อยไปนิดสำหรับการเล่นในลีกอังกฤษที่สไตล์ค่อนข้างดุดัน",
-            "มีศักยภาพพัฒนาเป็นกองกลางตัวคุมจังหวะระดับแชมเปียนชิพได้"
+            "คุมจังหวะเกมจากแนวลึกได้ดีมาก จ่ายบอลเปลี่ยนแกนข้ามฟากแม่นยำสุดๆ",
+            "หากให้รับบทเป็นกลางรับตัวสุดท้ายคนเดียวอาจจะมีหลุด เพราะไม่ได้ดุดันมาก",
+            "ต้องการคู่หูตัวรับพันธุ์ดุมาเล่นข้างๆ เพื่อปลดปล่อยศักยภาพเกมรุกเต็มที่"
         ]
     },
     {
         "id": "p26",
-        "name": "Choi Jin-chul",
-        "team": "Cheonan City",
-        "league": "K League 2",
-        "nationality": "South Korea",
+        "name": "John Stones",
+        "team": "Manchester City",
+        "league": "Premier League",
+        "nationality": "England",
         "position": "CB",
-        "age": 32,
-        "height": 187,
+        "age": 29,
+        "height": 188,
         "preferredFoot": "Right",
-        "marketValue": 350000,
-        "contractEndDate": "31 Dec 2026",
-        "imageUrl": "https://ui-avatars.com/api/?name=Choi+J&background=F44336&color=fff",
+        "marketValue": 65000000,
+        "contractEndDate": "30 Jun 2026",
+        "imageUrl": "https://ui-avatars.com/api/?name=John+S&background=60A5FA&color=fff",
         "stats": {
-            "overall": 68,
-            "potential": 68,
-            "pace": 45,
-            "shooting": 35,
-            "passing": 50,
-            "dribbling": 40,
-            "defending": 75,
-            "physical": 82
+            "overall": 85,
+            "potential": 85,
+            "pace": 71,
+            "shooting": 45,
+            "passing": 75,
+            "dribbling": 76,
+            "defending": 85,
+            "physical": 78
         },
         "history": [
-            {
-                "year": 2020,
-                "goals": 3,
-                "assists": 1
-            },
-            {
-                "year": 2021,
-                "goals": 2,
-                "assists": 0
-            },
-            {
-                "year": 2022,
-                "goals": 1,
-                "assists": 1
-            },
-            {
-                "year": 2023,
-                "goals": 1,
-                "assists": 0
-            },
-            {
-                "year": 2024,
-                "goals": 0,
-                "assists": 1
-            },
-            {
-                "year": 2025,
-                "goals": 1,
-                "assists": 0
-            }
+            { "year": 2020, "goals": 4, "assists": 0 },
+            { "year": 2021, "goals": 1, "assists": 0 },
+            { "year": 2022, "goals": 2, "assists": 2 },
+            { "year": 2023, "goals": 1, "assists": 0 },
+            { "year": 2024, "goals": 2, "assists": 1 },
+            { "year": 2025, "goals": 1, "assists": 1 }
         ],
         "scoutReports": [
-            "เก๋าเกม ดักทางบอลคู่แข่งได้ด้วยสายตาและการยืนตำแหน่งล้วนๆ",
-            "ความเร็วช้าขั้นวิกฤต ห้ามดันไลน์แนวรับขึ้นสูงเด็ดขาด ไม่งั้นวิ่งตามกองหน้าไม่ทัน",
-            "สัญญาเหลือแค่สิ้นปีนี้ เหมาะดึงมาประคองน้องๆ ในทีมช่วงสั้นๆ"
+            "ปราการหลังที่เล่นเหมือนเพลย์เมกเกอร์ ดันขึ้นมาเล่นกองกลางตัวรับได้เนียนตา",
+            "มักมีปัญหาบาดเจ็บเล็กๆ น้อยๆ ทำให้ลงเล่นไม่ต่อเนื่องตลอดฤดูกาล",
+            "แทคติกของกวาร์ดิโอล่าทำให้เขาเป็นกองหลังที่อันตรายที่สุดตอนเติมเกมรุก"
         ]
     },
     {
         "id": "p27",
-        "name": "Hwang Ui-jo Lite",
-        "team": "Ansan Greeners",
-        "league": "K League 2",
+        "name": "Son Heung-min",
+        "team": "Tottenham Hotspur",
+        "league": "Premier League",
         "nationality": "South Korea",
-        "position": "ST",
-        "age": 20,
-        "height": 184,
-        "preferredFoot": "Right",
-        "marketValue": 900000,
-        "contractEndDate": "31 Dec 2029",
-        "imageUrl": "https://ui-avatars.com/api/?name=Hwang+U&background=E91E63&color=fff",
+        "position": "LW",
+        "age": 31,
+        "height": 183,
+        "preferredFoot": "Both",
+        "marketValue": 80000000,
+        "contractEndDate": "30 Jun 2026",
+        "imageUrl": "https://ui-avatars.com/api/?name=Son+H&background=1E3A8A&color=fff",
         "stats": {
-            "overall": 73,
-            "potential": 82,
-            "pace": 84,
-            "shooting": 75,
-            "passing": 58,
-            "dribbling": 72,
-            "defending": 30,
-            "physical": 74
+            "overall": 87,
+            "potential": 87,
+            "pace": 87,
+            "shooting": 88,
+            "passing": 80,
+            "dribbling": 84,
+            "defending": 42,
+            "physical": 68
         },
         "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 1,
-                "assists": 0
-            },
-            {
-                "year": 2022,
-                "goals": 4,
-                "assists": 1
-            },
-            {
-                "year": 2023,
-                "goals": 7,
-                "assists": 2
-            },
-            {
-                "year": 2024,
-                "goals": 12,
-                "assists": 4
-            },
-            {
-                "year": 2025,
-                "goals": 15,
-                "assists": 5
-            }
+            { "year": 2020, "goals": 17, "assists": 10 },
+            { "year": 2021, "goals": 23, "assists": 7 },
+            { "year": 2022, "goals": 10, "assists": 6 },
+            { "year": 2023, "goals": 17, "assists": 10 },
+            { "year": 2024, "goals": 15, "assists": 8 },
+            { "year": 2025, "goals": 14, "assists": 9 }
         ],
         "scoutReports": [
-            "สถิติยิงประตูพุ่งทะยานแบบจรวด ฟอร์มกำลังร้อนแรงสุดๆ ถือเป็นเพชรเม็ดงาม",
-            "การจ่ายบอลให้เพื่อนยังขาดน้ำหนักและความแม่นยำ บางครั้งดูหวงบอลเกินไป",
-            "นี่คือ The Next Big Thing ของเกาหลีใต้ ควรรีบเซ็นสัญญาให้ไวที่สุด!"
+            "ยิงประตูเฉียบขาดทั้งสองเท้า เป็นหนึ่งในตัวจบสกอร์ที่ดีที่สุดในลีก",
+            "อายุที่แตะเลข 3 ทำให้จังหวะกระชากลากเลื้อยเริ่มลดน้อยลง",
+            "สามารถยืนเป็นกองหน้าตัวเป้า หรือหน้าซ้ายก็ได้ เป็นกัปตันทีมที่เป็นที่รัก"
         ]
     },
     {
         "id": "p28",
-        "name": "กวินทร์ บินได้",
-        "team": "มหาสารคาม เอสบีที",
-        "league": "Thai League 2",
-        "nationality": "Thailand",
+        "name": "Ederson",
+        "team": "Manchester City",
+        "league": "Premier League",
+        "nationality": "Brazil",
         "position": "GK",
-        "age": 27,
-        "height": 183,
-        "preferredFoot": "Right",
-        "marketValue": 1200000,
-        "contractEndDate": "31 May 2027",
-        "imageUrl": "https://ui-avatars.com/api/?name=Kawin&background=2196F3&color=fff",
+        "age": 30,
+        "height": 188,
+        "preferredFoot": "Left",
+        "marketValue": 65000000,
+        "contractEndDate": "30 Jun 2026",
+        "imageUrl": "https://ui-avatars.com/api/?name=Ederson&background=60A5FA&color=fff",
         "stats": {
-            "overall": 76,
-            "potential": 77,
-            "pace": 48,
-            "shooting": 25,
-            "passing": 68,
-            "dribbling": 38,
-            "defending": 20,
-            "physical": 80
+            "overall": 88,
+            "potential": 88,
+            "pace": 64,
+            "shooting": 29,
+            "passing": 93,
+            "dribbling": 88,
+            "defending": 18,
+            "physical": 78
         },
         "history": [
-            {
-                "year": 2020,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2021,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2022,
-                "goals": 0,
-                "assists": 1
-            },
-            {
-                "year": 2023,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2024,
-                "goals": 0,
-                "assists": 0
-            },
-            {
-                "year": 2025,
-                "goals": 0,
-                "assists": 0
-            }
+            { "year": 2020, "goals": 0, "assists": 1 },
+            { "year": 2021, "goals": 0, "assists": 0 },
+            { "year": 2022, "goals": 0, "assists": 1 },
+            { "year": 2023, "goals": 0, "assists": 0 },
+            { "year": 2024, "goals": 0, "assists": 0 },
+            { "year": 2025, "goals": 0, "assists": 0 }
         ],
         "scoutReports": [
-            "ปฏิกิริยาเซฟบนเส้นประตูไวมาก (Shot-stopper) ช่วยเซฟแต้มให้ทีมได้หลายครั้ง",
-            "ส่วนสูง 183 ซม. ถือว่าค่อนข้างเตี้ยสำหรับตำแหน่งผู้รักษาประตู อาจเสียเปรียบลูกโยนยาว",
-            "ผู้รักษาประตูระดับท็อปของลีก กำลังอยู่ในช่วงพีกที่สุดของอาชีพค้าแข้ง"
+            "ผู้รักษาประตูที่ใช้เท้าเก่งที่สุดในโลก จ่ายบอลสั้น-ยาวได้ระดับมิดฟิลด์",
+            "บางครั้งมีความมั่นใจเกินไปจนพาบอลไปเสี่ยงในกรอบเขตโทษ",
+            "ถ้าต้องการให้ทีมต่อบอลจากแดนหลังได้อย่างสมบูรณ์แบบ นี่คือคนที่ขาดไม่ได้"
         ]
     },
     {
         "id": "p29",
-        "name": "อดิศักดิ์ ซัลโว",
-        "team": "ศรีสะเกษ ยูไนเต็ด",
-        "league": "Thai League 3",
-        "nationality": "Thailand",
+        "name": "Kai Havertz",
+        "team": "Arsenal",
+        "league": "Premier League",
+        "nationality": "Germany",
         "position": "ST",
-        "age": 23,
-        "height": 181,
-        "preferredFoot": "Right",
-        "marketValue": 600000,
-        "contractEndDate": "31 May 2028",
-        "imageUrl": "https://ui-avatars.com/api/?name=Adisak&background=4CAF50&color=fff",
+        "age": 24,
+        "height": 193,
+        "preferredFoot": "Left",
+        "marketValue": 60000000,
+        "contractEndDate": "30 Jun 2028",
+        "imageUrl": "https://ui-avatars.com/api/?name=Kai+H&background=EF4444&color=fff",
         "stats": {
-            "overall": 71,
-            "potential": 78,
+            "overall": 83,
+            "potential": 86,
             "pace": 78,
-            "shooting": 75,
-            "passing": 52,
-            "dribbling": 68,
-            "defending": 28,
-            "physical": 76
+            "shooting": 80,
+            "passing": 79,
+            "dribbling": 82,
+            "defending": 55,
+            "physical": 74
         },
         "history": [
-            {
-                "year": 2020,
-                "goals": 2,
-                "assists": 1
-            },
-            {
-                "year": 2021,
-                "goals": 4,
-                "assists": 1
-            },
-            {
-                "year": 2022,
-                "goals": 5,
-                "assists": 2
-            },
-            {
-                "year": 2023,
-                "goals": 8,
-                "assists": 3
-            },
-            {
-                "year": 2024,
-                "goals": 11,
-                "assists": 2
-            },
-            {
-                "year": 2025,
-                "goals": 14,
-                "assists": 4
-            }
+            { "year": 2020, "goals": 4, "assists": 3 },
+            { "year": 2021, "goals": 8, "assists": 3 },
+            { "year": 2022, "goals": 7, "assists": 1 },
+            { "year": 2023, "goals": 13, "assists": 7 },
+            { "year": 2024, "goals": 15, "assists": 8 },
+            { "year": 2025, "goals": 12, "assists": 6 }
         ],
         "scoutReports": [
-            "สถิติยิงประตูเติบโตอย่างมั่นคงทุกปี หาพื้นที่ว่างในกรอบเขตโทษเก่ง",
-            "มีส่วนร่วมกับการต่อบอลสร้างเกมรุกน้อยมาก เป็นกองหน้าประเภทรอบอลอย่างเดียว",
-            "คุ้มค่าราคาเงิน อนาคตสามารถก้าวขึ้นไปเป็นกองหน้าตัวหลักของทีมในระดับลีกสูงสุดได้"
+            "กองหน้าแบบ False 9 ที่ฉลาดหาช่องว่าง และเชื่อมเกมแดนบนได้เนียนตา",
+            "มักมีปัญหาในจังหวะจบสกอร์แบบจะแจ้งที่บางทีก็ยิงพลาดเหลือเชื่อ",
+            "เป็นนักเตะที่โค้ชทุกคนชอบ เพราะทำตามแทคติกได้เป๊ะ และช่วยเพรสซิ่งสูงได้ดี"
         ]
     },
     {
         "id": "p30",
-        "name": "Jack Tackler",
-        "team": "Stockport County",
-        "league": "EFL League Two",
-        "nationality": "England",
+        "name": "Moisés Caicedo",
+        "team": "Chelsea",
+        "league": "Premier League",
+        "nationality": "Ecuador",
         "position": "CDM",
-        "age": 26,
-        "height": 185,
+        "age": 22,
+        "height": 178,
         "preferredFoot": "Right",
-        "marketValue": 1600000,
-        "contractEndDate": "30 Jun 2027",
-        "imageUrl": "https://ui-avatars.com/api/?name=Jack+T&background=FF5722&color=fff",
+        "marketValue": 70000000,
+        "contractEndDate": "30 Jun 2031",
+        "imageUrl": "https://ui-avatars.com/api/?name=Moises+C&background=1D4ED8&color=fff",
         "stats": {
-            "overall": 77,
-            "potential": 79,
-            "pace": 70,
-            "shooting": 55,
-            "passing": 75,
-            "dribbling": 70,
-            "defending": 82,
-            "physical": 88
+            "overall": 81,
+            "potential": 86,
+            "pace": 74,
+            "shooting": 64,
+            "passing": 76,
+            "dribbling": 78,
+            "defending": 80,
+            "physical": 81
         },
         "history": [
-            {
-                "year": 2020,
-                "goals": 1,
-                "assists": 3
-            },
-            {
-                "year": 2021,
-                "goals": 2,
-                "assists": 4
-            },
-            {
-                "year": 2022,
-                "goals": 1,
-                "assists": 6
-            },
-            {
-                "year": 2023,
-                "goals": 3,
-                "assists": 5
-            },
-            {
-                "year": 2024,
-                "goals": 2,
-                "assists": 8
-            },
-            {
-                "year": 2025,
-                "goals": 4,
-                "assists": 7
-            }
+            { "year": 2020, "goals": 0, "assists": 0 },
+            { "year": 2021, "goals": 1, "assists": 1 },
+            { "year": 2022, "goals": 1, "assists": 1 },
+            { "year": 2023, "goals": 1, "assists": 2 },
+            { "year": 2024, "goals": 2, "assists": 3 },
+            { "year": 2025, "goals": 2, "assists": 4 }
         ],
         "scoutReports": [
-            "มิดฟิลด์ตัวรับที่ร่างกายแข็งแกร่งดั่งหินผา ชนกองหน้าคู่แข่งกระเด็นได้สบาย",
-            "เทคนิคการเอาตัวรอดเมื่อโดนรุมบีบ (Pressing) ยังไม่ค่อยดี",
-            "หัวใจสำคัญในเกมรับของทีม ราคาอาจจะสูงหน่อย แต่รับประกันความเหนียวแน่นชัวร์ๆ"
+            "เครื่องจักรทำลายล้างแดนกลาง ตัดบอลเก่ง และพาบอลขึ้นหน้าแก้เพรสได้",
+            "ราคาค่าตัวที่แพงระยับอาจจะเป็นความกดดันให้ต้องแบกความคาดหวังสูง",
+            "ถ้าจูนติดกับคู่หูในแดนกลางได้ จะกลายเป็นมิดฟิลด์ที่แข็งแกร่งที่สุดคนหนึ่ง"
         ]
     }
 ]

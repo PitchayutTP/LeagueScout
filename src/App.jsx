@@ -3,6 +3,7 @@ import Dashboard from "./pages/Dashboard";
 import Prospects from "./pages/Prospects";
 import DiscoveryDashboard from "./pages/DiscoveryDashboard";
 import PlayerDetails from "./pages/PlayerDetails";
+import MarketInsights from "./pages/Marketinsights";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/Prospects" element={<Prospects />} />
         <Route path="/player-search" element={<DiscoveryDashboard />} />
         <Route path="/players/:id" element={<PlayerDetails />} />
+        <Route path="/market-insights" element={<MarketInsights />} />
       </Routes>
       
   );
