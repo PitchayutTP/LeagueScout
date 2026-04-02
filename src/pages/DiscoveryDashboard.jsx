@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import FilterPanel from "../components/discovery/FilterPanel";
 import Sidebar from "../components/layout/Sidebar";
-import Navbar from "../components/discovery/Navbar";
+import Navbar from "../components/layout/TopHeader";
 import PlayerCard from "../components/discovery/PlayerCard";
 // import { mockPlayers } from '../data';
 import { LayoutGrid, BarChart2 } from "lucide-react";

@@ -2,7 +2,7 @@ import DashboardLayout from "../components/dashboard/DashboardLayout";
 import TopHeader from "../components/layout/TopHeader";
 import Sidebar from "../components/layout/Sidebar";
 import StatCard from "../components/dashboard/StatCard";
-import MarketTrendsChart from "../components/marketInsights/MarketTrendsChart";
+import MarketTrendsChart from "../components/dashboard/MarketTrendsChart";
 import PlayerCard from "../components/dashboard/PlayerCard";
 import { Link as LINK } from "react-router-dom";
 import React, { useState, useEffect } from "react";

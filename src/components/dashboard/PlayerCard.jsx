@@ -1,5 +1,5 @@
 import React from 'react';
-import { Target, TrendingUp, BarChart3, Star } from 'lucide-react';
+import {TrendingUp, BarChart3, Star } from 'lucide-react';
 
 // เราจะรับ prop เป็น object ชื่อ 'player' ที่มีข้อมูลครบ
 const PlayerCard = ({ player }) => {
