@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import DashboardLayout from "../components/dashboard/DashboardLayout";
 import Sidebar from "../components/layout/Sidebar";
-import AbilityMatrix from "../components/dashboard/AbilityMatrix";
-import EfficiencyRanking from "../components/dashboard/Efficiencyranking";
-import PerformanceDelta from "../components/dashboard/Performancedelta";
+import AbilityMatrix from "../components/marketInsights/AbilityMatrix";
+import EfficiencyRanking from "../components/marketInsights/Efficiencyranking";
+import PerformanceDelta from "../components/marketInsights/Performancedelta";
 
 export default function MarketInsights() {
   const [players, setPlayers] = useState([]);

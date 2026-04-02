@@ -3,10 +3,10 @@ import TopHeader from "../components/layout/TopHeader";
 import Sidebar from "../components/layout/Sidebar";
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import PlayerHeaderCard from "../components/playerdetails/PlayerHeaderCard";
-import PerformanceRadar from "../components/playerdetails/PerformanceRadar";
-import SeasonProgression from "../components/playerdetails/Progression";
-import Card from "../components/playerdetails/Card";
+import PlayerHeaderCard from "../components/player-details/PlayerHeaderCard";
+import PerformanceRadar from "../components/player-details/PerformanceRadar";
+import SeasonProgression from "../components/player-details/Progression";
+import Card from "../components/player-details/Card";
 
 export default function PlayerDetails() {
   const { id } = useParams();

@@ -1,8 +1,8 @@
-import React,{useState, useEffect} from "react";
-import FilterPanel from "../components/FilterPanel";
-import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Navbar";
-import PlayerCard from '../components/PlayerCard';
+import React, { useState, useEffect } from "react";
+import FilterPanel from "../components/discovery/FilterPanel";
+import Sidebar from "../components/layout/Sidebar";
+import Navbar from "../components/discovery/Navbar";
+import PlayerCard from "../components/discovery/PlayerCard";
 // import { mockPlayers } from '../data';
 import { LayoutGrid, BarChart2 } from "lucide-react";
 
@@ -19,7 +19,9 @@ export default function DiscoveryDashboard() {
     // Wrapper หลัก: เรียงจากซ้ายไปขวา (Sidebar + โซนขวา)
     <div className="flex min-h-screen font-sans bg-slate-50">
       {/* 1. เมนูด้านซ้ายสุด (ถูก Fixed ไว้) */}
-      <Sidebar />
+      <div className="w-64 fixed inset-y-0 left-0 z-50">
+        <Sidebar />
+      </div>
 
       {/* 2. โซนฝั่งขวาทั้งหมด (เว้นระยะห่างด้านซ้าย ml-64 ให้เท่ากับความกว้าง Sidebar) */}
       <div className="flex-1 flex flex-col ml-64">
@@ -61,7 +63,7 @@ export default function DiscoveryDashboard() {
               ))}
 
               {/* Continue Scouting Card */}
-              <div className="bg-slate-100 rounded-2xl p-6 border border-slate-200 border-dashed flex flex-col items-center justify-center text-center min-h-[360px]">
+              <div className="bg-slate-100 rounded-2xl p-6 border border-slate-200 border-dashed flex flex-col items-center justify-center text-center min-h-90">
                 <div className="w-12 h-12 bg-slate-200 rounded-xl flex items-center justify-center mb-4 text-slate-400">
                   <BarChart2 size={24} />
                 </div>

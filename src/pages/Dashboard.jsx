@@ -2,7 +2,7 @@ import DashboardLayout from "../components/dashboard/DashboardLayout";
 import TopHeader from "../components/layout/TopHeader";
 import Sidebar from "../components/layout/Sidebar";
 import StatCard from "../components/dashboard/StatCard";
-import MarketTrendsChart from "../components/dashboard/MarketTrendsChart";
+import MarketTrendsChart from "../components/marketInsights/MarketTrendsChart";
 import PlayerCard from "../components/dashboard/PlayerCard";
 import { Link as LINK } from "react-router-dom";
 import React, { useState, useEffect } from "react";
@@ -30,11 +30,11 @@ export default function Dashboard() {
         <TopHeader onSearch={(e) => setSearchTerm(e.target.value)} />
         <div className="flex flex-wrap gap-4 mt-4 justify-center">
           <StatCard title="Total Players" value="1,234" change={5.2} />
-          <StatCard title="Total Players" value="1,234" change={5.2} />
-          <StatCard title="Active Contracts" value="567" change={-2.1} />
-          <StatCard title="Active Contracts" value="567" change={-2.1} />
-          <StatCard title="Market Value" value="$987.6M" change={10.5} />
-          <StatCard title="Market Value" value="$987.6M" change={10.5} />
+          <StatCard title="Total Market Value" value="1,234" change={5.2} />
+          <StatCard title="Avg. Overall Rating" value="567" change={-2.1} />
+          <StatCard title="Average Age" value="567" change={-2.1} />
+          <StatCard title="Total Goals (2025)" value="$987.6M" change={10.5} />
+          <StatCard title="Represented Clubs" value="$987.6M" change={10.5} />
         </div>
         <div className="mt-4 justify-start">
           <MarketTrendsChart />

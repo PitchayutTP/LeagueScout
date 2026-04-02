@@ -32,7 +32,7 @@ export default function EfficiencyRanking() {
 
   if (isLoading || topPlayers.length === 0) {
     return (
-      <div className="col-span-4 bg-white border border-gray-200 rounded-xl p-6 shadow-sm flex items-center justify-center min-h-[400px]">
+      <div className="col-span-4 bg-white border border-gray-200 rounded-xl p-6 shadow-sm flex items-center justify-center min-h-100">
         <p className="text-gray-500 font-medium">Calculating efficiency...</p>
       </div>
     );
@@ -69,7 +69,7 @@ export default function EfficiencyRanking() {
       </div>
       
       {/* Scout's Recommendation */}
-      <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl p-6 text-white shadow-lg shadow-blue-500/20">
+      <div className="bg-linear-to-br from-blue-600 to-blue-700 rounded-xl p-6 text-white shadow-lg shadow-blue-500/20">
         <div className="flex items-center gap-2 mb-4">
           <span className="material-symbols-outlined text-blue-200">verified</span>
           <h3 className="text-sm font-bold tracking-tight">Scout's Recommendation</h3>
