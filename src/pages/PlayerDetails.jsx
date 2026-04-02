@@ -30,12 +30,11 @@ export default function PlayerDetails() {
     return `€${(val / 1000).toFixed(0)} K`;
   };
 
-  // ฟังก์ชันดึงรูปธงชาติจาก FlagCDN โดยเทียบจากชื่อประเทศ
   const getFlagUrl = (nationality) => {
     const countryCodes = {
       "Thailand": "th",
       "Japan": "jp",
-      "England": "gb-eng", // อังกฤษมีรหัสแยกเฉพาะ
+      "England": "gb-eng",
       "South Korea": "kr",
       "France": "fr",
       "Netherlands": "nl",
@@ -90,6 +89,7 @@ export default function PlayerDetails() {
                   <p className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Nationality</p>
                   <p className="font-semibold text-lg flex items-center gap-2">
                     {player.nationality} 
+
                     {/* เรียกใช้รูปธงชาติ */}
                     {getFlagUrl(player.nationality) && (
                       <img 
@@ -116,19 +116,16 @@ export default function PlayerDetails() {
             </div>
           </div>
 
-          {/* --- 2. Analytics Grid (แบ่งซ้าย 5 ส่วน / ขวา 7 ส่วน) --- */}
           <div className="grid grid-cols-12 gap-8 items-stretch">
             
-            {/* ฝั่งซ้าย: Performance Radar */}
-            
+            {/* ฝั่งซ้าย */}
             <div className="col-span-12 lg:col-span-5 flex flex-col h-full">
               <PerformanceRadar playerStats={player.stats} />
             </div>
 
-            {/* ฝั่งขวา: Market Valuation & Scout Insights */}
+            {/* ฝั่งขวา */}
             <div className="col-span-12 lg:col-span-7 flex flex-col gap-8">
               
-              {/* Valuation Card */}
               <div className="bg-linear-to-br from-slate-50 to-slate-100 p-8 rounded-2xl flex justify-between items-center border border-slate-200 shadow-sm">
                 <div>
                   <p className="text-xs font-bold uppercase tracking-widest text-slate-500">Current Market Valuation</p>
@@ -146,7 +143,6 @@ export default function PlayerDetails() {
                 </div>
               </div>
 
-              {/* Scout Insights */}
               <div className="flex-1 bg-white border border-slate-200 shadow-sm rounded-2xl p-8 flex flex-col">
                 <div className="flex items-center gap-2 mb-6">
                   <span className="material-symbols-outlined text-slate-400">manage_search</span>
@@ -176,7 +172,6 @@ export default function PlayerDetails() {
             </div>
           </div>
 
-          {/* --- 3. Progression Chart Section --- */}
           <div>
             <SeasonProgression historyData={player.history} />
           </div>

@@ -12,7 +12,6 @@ export default function DiscoveryDashboard() {
   const [searchTerm, setSearchTerm] = useState("");
   const [sortBy, setSortBy] = useState("none");
 
-  // 1. เพิ่ม State สำหรับเก็บค่าจาก FilterPanel
   const [filters, setFilters] = useState({
     positions: [],
     league: "All",
@@ -28,9 +27,7 @@ export default function DiscoveryDashboard() {
       .catch((error) => console.error("Error loading players:", error));
   }, []);
 
-  // 2. ใช้ useMemo ในการกรองข้อมูล (ผสมระหว่าง Search และ Tactical Filters)
 const filteredPlayers = useMemo(() => {
-    // ขั้นตอนที่ 1: Filter ข้อมูลก่อน
     let result = players.filter((player) => {
       const matchesSearch = player.name
         .toLowerCase()
@@ -57,7 +54,6 @@ const filteredPlayers = useMemo(() => {
       );
     });
 
-    // ขั้นตอนที่ 2: Sort ข้อมูล (ต้องอยู่นอก filter)
     if (sortBy === "overall_desc") {
       result = [...result].sort((a, b) => b.stats.overall - a.stats.overall);
     } else if (sortBy === "overall_asc") {
@@ -66,7 +62,6 @@ const filteredPlayers = useMemo(() => {
 
     return result;
     
-    // สำคัญ: ต้องใส่ sortBy ใน dependency list ด้วย ไม่งั้นเวลากดปุ่มแล้วค่าจะไม่เปลี่ยน
   }, [players, searchTerm, filters, sortBy]);
 
   const handleSortByOverall = () => {
@@ -81,7 +76,6 @@ const filteredPlayers = useMemo(() => {
         <TopHeader onSearch={(e) => setSearchTerm(e.target.value)} />
 
         <div className="flex flex-1 ml-0 bg-slate-50/50 min-h-screen">
-          {/* 3. ส่ง Props onFilterChange ไปให้ FilterPanel */}
           <FilterPanel
             onFilterChange={(newFilters) => setFilters(newFilters)}
             players={players}
@@ -94,7 +88,6 @@ const filteredPlayers = useMemo(() => {
                   Discovery Feed
                 </h1>
                 <p className="text-slate-500 font-medium">
-                  {/* ใช้ filteredPlayers.length แทน */}
                   {filteredPlayers.length} high-potential profiles identified
                   matching your criteria.
                 </p>
@@ -110,7 +103,6 @@ const filteredPlayers = useMemo(() => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {/* เปลี่ยนจาก searchedPlayers เป็น filteredPlayers */}
               {filteredPlayers.map((player) => (
                 <PlayerCard key={player.id} player={player} />
               ))}

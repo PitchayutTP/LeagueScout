@@ -18,13 +18,11 @@ export default function MarketInsights() {
   return (
     <DashboardLayout sidebar={<Sidebar />}>
       <div className="p-8 space-y-8 flex-1">
-        {/* Top Section: Asymmetric Layout */}
         <div className="grid grid-cols-12 gap-8">
           <AbilityMatrix players={players} />
           <EfficiencyRanking players={players} />
         </div>
 
-        {/* Bottom Section: Performance Delta Table */}
         <PerformanceDelta players={players} />
       </div>
 

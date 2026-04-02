@@ -16,7 +16,6 @@ export default function FilterPanel({ onFilterChange, players }) {
     // --- จุดสำคัญ: ใช้ useEffect ส่งค่ากลับไปหา Parent ทันทีที่ State ในนี้เปลี่ยน ---
     useEffect(() => {
         const filters = {
-            // ดึงค่าตัวย่อจาก PositionMap (เช่น ST, LW) ออกมาเป็น Array แผ่นเดียว
             positions: selectedPositions.flatMap(p => positionMap[p]),
             league,
             maxValue: valueRange * 1000000,
@@ -40,13 +39,11 @@ export default function FilterPanel({ onFilterChange, players }) {
     };
 
     return (
-        // ปรับ CSS ให้ติดขอบซ้ายและสูงเต็มจอตามที่คุณต้องการ
         <div className="w-80 bg-white border-r border-slate-200 min-h-screen sticky top-0 self-start p-6 z-10">
             <div className="flex items-center justify-between mb-6 mt-5">
                 <h2 className="text-sm font-black text-slate-900 tracking-wide">TACTICAL FILTERS</h2>
             </div>
 
-            {/* ส่วนของ Position Category */}
             <div className="mb-8">
                 <h3 className="text-xs font-bold text-slate-500 mb-3">POSITION CATEGORY</h3>
                 <div className="grid grid-cols-1 gap-2">

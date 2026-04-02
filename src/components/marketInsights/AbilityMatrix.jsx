@@ -64,7 +64,7 @@ export default function AbilityMatrix() {
       {/* Header */}
       <div className="flex justify-between items-end mb-8">
         <div>
-          <h2 className="text-gray-900 text-xl font-bold tracking-tight">Ability vs. Price Matrix</h2>
+          <h2 className="text-gray-900 text-xl font-bold tracking-tight">Ability vs Price Matrix</h2>
           <p className="text-gray-500 text-sm">Identifying high-value outliers in the database</p>
         </div>
         <div className="flex gap-2">

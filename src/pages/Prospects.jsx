@@ -15,7 +15,6 @@ export default function Prospects() {
   });
 
   useEffect(() => {
-    // ดึงไฟล์จากโฟลเดอร์ public
     fetch("/dataplayer.json")
       .then((response) => response.json())
       .then((data) => setPlayers(data))
@@ -31,10 +30,8 @@ export default function Prospects() {
             <h2 className="text-2xl font-bold text-gray-950">All Prospects</h2>
           </div>
 
-          {/* Grid จัดวางการ์ด: 1 คอลัมน์บนมือถือ, 2 บนแท็บเล็ต, 3-4 บนจอใหญ่ */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {sortedPlayers.map((player) => (
-              // ส่งข้อมูลนักเตะทั้งก้อนผ่าน prop ชื่อ 'player'
               <PlayerCard key={player.id} player={player} />
             ))}
           </div>
