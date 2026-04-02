@@ -3,6 +3,9 @@ import React, { useState, useEffect } from "react";
 export default function AbilityMatrix() {
   const [players, setPlayers] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  
+  // 1. สร้าง State สำหรับเก็บ ID ของคนที่เป็น Target Zone ปัจจุบัน
+  const [targetPlayerId, setTargetPlayerId] = useState(null);
 
   // ดึงข้อมูลจากไฟล์ JSON เมื่อ Component ถูกโหลดครั้งแรก
   useEffect(() => {
@@ -11,6 +14,16 @@ export default function AbilityMatrix() {
       .then((data) => {
         setPlayers(data);
         setIsLoading(false);
+
+        // ตอนโหลดข้อมูลเสร็จครั้งแรก ให้คำนวณหาคนที่คุ้มสุดมาเป็น Target ค่าเริ่มต้น
+        if (data && data.length > 0) {
+          const bestPlayer = [...data].sort((a, b) => {
+            const roiA = a.stats.overall / (a.marketValue / 4000000);
+            const roiB = b.stats.overall / (b.marketValue / 4000000);
+            return roiB - roiA; 
+          })[0];
+          setTargetPlayerId(bestPlayer.id);
+        }
       })
       .catch((error) => {
         console.error("Error loading players:", error);
@@ -27,30 +40,20 @@ export default function AbilityMatrix() {
     );
   }
 
-  // 1. หาผู้เล่นที่เป็นเป้าหมาย (Target Zone) คือคนที่ Overall สูงแต่ราคาถูก
-  const targetPlayer = [...players].sort((a, b) => {
-    // ปรับให้ตรงกับหน้าอื่น คือหารด้วย 4,000,000
-    const roiA = a.stats.overall / (a.marketValue / 4000000);
-    const roiB = b.stats.overall / (b.marketValue / 4000000);
-    return roiB - roiA; // เรียงจากคุ้มมากไปน้อย
-  })[0];
-
-  // 2. ฟังก์ชันแปลงราคาเป็นรูปแบบอ่านง่าย (รองรับหลักร้อยล้าน)
+  // ฟังก์ชันแปลงราคาเป็นรูปแบบอ่านง่าย (รองรับหลักร้อยล้าน)
   const formatPrice = (value) => {
     if (value >= 1000000) return `€${(value / 1000000).toFixed(1)}M`;
     return `€${value / 1000}K`;
   };
 
-  // 3. ฟังก์ชันคำนวณตำแหน่งแกน Y (Technical Ability / Overall)
+  // ฟังก์ชันคำนวณตำแหน่งแกน Y (Technical Ability / Overall)
   const getBottomPosition = (overall) => {
-    // 🛠️ แก้ไข: ปรับช่วง Overall เป็น 75 ถึง 95 ให้เหมาะกับระดับพรีเมียร์ลีก
     const percent = ((overall - 75) / (95 - 75)) * 100;
     return `${Math.max(5, Math.min(95, percent))}%`;
   };
 
-  // 4. ฟังก์ชันคำนวณตำแหน่งแกน X (Market Value)
+  // ฟังก์ชันคำนวณตำแหน่งแกน X (Market Value)
   const getLeftPosition = (price) => {
-    // 🛠️ แก้ไข: ปรับช่วงกราฟราคาสูงสุดเป็น 200,000,000 (200 ล้าน)
     const percent = (price / 200000000) * 100;
     return `${Math.max(5, Math.min(95, percent))}%`;
   };
@@ -82,22 +85,24 @@ export default function AbilityMatrix() {
         <div className="absolute h-full w-px bg-gray-200 left-1/2"></div>
         
         {players.map((player) => {
-          const isTarget = player.id === targetPlayer?.id;
+          // 2. ตรวจสอบว่าจุดนี้คือจุดที่ถูกคลิกเลือก (Target) อยู่หรือไม่
+          const isTarget = player.id === targetPlayerId;
           const bottom = getBottomPosition(player.stats.overall);
           const left = getLeftPosition(player.marketValue);
 
           return (
             <div
               key={player.id}
+              onClick={() => setTargetPlayerId(player.id)} // 3. เพิ่ม onClick เพื่อเปลี่ยน Target
               className={`absolute rounded-full cursor-pointer group transition-all ${
                 isTarget
-                  ? "w-4 h-4 bg-blue-600 ring-4 ring-blue-100 z-10" 
+                  ? "w-4 h-4 bg-blue-600 ring-4 ring-blue-100 z-20" // จุดสีฟ้าให้ z-index สูงขึ้นนิดหน่อย
                   : "w-3 h-3 bg-gray-300 hover:bg-gray-400 hover:scale-125 z-0" 
-              } hover:z-50`}
+              } hover:z-50`} // 4. ดัน z-index ให้สูงสุดเวลา Hover Tooltip จะได้ไม่โดนบัง
               style={{ bottom, left }}
             >
               {/* Tooltip Content */}
-              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-48 bg-gray-800 Z-0 text-white p-3 rounded-xl shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none transition-all z-20">
+              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-48 bg-gray-800 text-white p-3 rounded-xl shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none transition-all z-50">
                 <p className={`text-[10px] font-bold uppercase mb-1 ${isTarget ? "text-blue-300" : "text-gray-400"}`}>
                   {isTarget ? "High Efficiency" : "Market Data"}
                 </p>
