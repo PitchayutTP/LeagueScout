@@ -29,7 +29,7 @@ const chartData = useMemo(() => {
       }
     });
 
-    // 2. แปลงเป็น Array
+    // 2. แปลงเป็น Array แปลง str เป็น int และคำนวณค่าเฉลี่ย, แล้วเรียงตามปี
     let formattedData = Object.keys(yearlyData)
       .map(year => ({
         year: parseInt(year),

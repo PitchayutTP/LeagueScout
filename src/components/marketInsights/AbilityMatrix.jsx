@@ -1,38 +1,20 @@
 import React, { useState, useEffect } from "react";
 
-export default function AbilityMatrix() {
-  const [players, setPlayers] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-  
-  // 1. สร้าง State สำหรับเก็บ ID ของคนที่เป็น Target Zone ปัจจุบัน
+export default function AbilityMatrix({ players }) {
   const [targetPlayerId, setTargetPlayerId] = useState(null);
 
-  // ดึงข้อมูลจากไฟล์ JSON เมื่อ Component ถูกโหลดครั้งแรก
   useEffect(() => {
-    fetch("/dataplayer.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setPlayers(data);
-        setIsLoading(false);
+    if (players && players.length > 0 && !targetPlayerId) {
+      const bestPlayer = [...players].sort((a, b) => {
+        const roiA = a.stats.overall / (a.marketValue / 4000000);
+        const roiB = b.stats.overall / (b.marketValue / 4000000);
+        return roiB - roiA; 
+      })[0];
+      setTargetPlayerId(bestPlayer.id);
+    }
+  }, [players, targetPlayerId]);
 
-        // ตอนโหลดข้อมูลเสร็จครั้งแรก ให้คำนวณหาคนที่คุ้มสุดมาเป็น Target ค่าเริ่มต้น
-        if (data && data.length > 0) {
-          const bestPlayer = [...data].sort((a, b) => {
-            const roiA = a.stats.overall / (a.marketValue / 4000000);
-            const roiB = b.stats.overall / (b.marketValue / 4000000);
-            return roiB - roiA; 
-          })[0];
-          setTargetPlayerId(bestPlayer.id);
-        }
-      })
-      .catch((error) => {
-        console.error("Error loading players:", error);
-        setIsLoading(false);
-      });
-  }, []);
-
-  // หน้าจอโหลดข้อมูล (แสดงระหว่างรอ fetch)
-  if (isLoading || players.length === 0) {
+  if (!players || players.length === 0) {
     return (
       <div className="col-span-8 bg-white rounded-xl p-6 shadow-sm border border-gray-200 flex items-center justify-center min-h-125">
         <p className="text-gray-500 font-medium">Loading market data...</p>
@@ -40,7 +22,6 @@ export default function AbilityMatrix() {
     );
   }
 
-  // ฟังก์ชันแปลงราคาเป็นรูปแบบอ่านง่าย (รองรับหลักร้อยล้าน)
   const formatPrice = (value) => {
     if (value >= 1000000) return `€${(value / 1000000).toFixed(1)}M`;
     return `€${value / 1000}K`;
@@ -64,7 +45,7 @@ export default function AbilityMatrix() {
       {/* Header */}
       <div className="flex justify-between items-end mb-8">
         <div>
-          <h2 className="text-gray-900 text-xl font-bold tracking-tight">Ability vs Price Matrix</h2>
+          <h2 className="text-gray-900 text-xl font-bold tracking-tight">Ability vs. Price Matrix</h2>
           <p className="text-gray-500 text-sm">Identifying high-value outliers in the database</p>
         </div>
         <div className="flex gap-2">
@@ -85,7 +66,7 @@ export default function AbilityMatrix() {
         <div className="absolute h-full w-px bg-gray-200 left-1/2"></div>
         
         {players.map((player) => {
-          // 2. ตรวจสอบว่าจุดนี้คือจุดที่ถูกคลิกเลือก (Target) อยู่หรือไม่
+          // ตรวจสอบว่าจุดนี้คือจุดที่ถูกคลิกเลือก (Target) อยู่หรือไม่
           const isTarget = player.id === targetPlayerId;
           const bottom = getBottomPosition(player.stats.overall);
           const left = getLeftPosition(player.marketValue);
@@ -93,12 +74,12 @@ export default function AbilityMatrix() {
           return (
             <div
               key={player.id}
-              onClick={() => setTargetPlayerId(player.id)} // 3. เพิ่ม onClick เพื่อเปลี่ยน Target
+              onClick={() => setTargetPlayerId(player.id)} // คลิกเพื่อเปลี่ยน Target
               className={`absolute rounded-full cursor-pointer group transition-all ${
                 isTarget
                   ? "w-4 h-4 bg-blue-600 ring-4 ring-blue-100 z-20" 
                   : "w-3 h-3 bg-gray-300 hover:bg-gray-400 hover:scale-125 z-0" 
-              } hover:z-50`} 
+              } hover:z-50`} // hover:z-50 เพื่อดึง tooltip ลอยขึ้นชั้นบนสุด
               style={{ bottom, left }}
             >
               {/* Tooltip Content */}

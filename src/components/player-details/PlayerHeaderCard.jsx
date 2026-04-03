@@ -17,13 +17,7 @@ const ProfileStatItem = ({ label, value, icon }) => (
   </div>
 );
 
-// 2. Main Player Header Component
-// ตอนนี้เรารับ prop เป็น object 'player' ทั้งก้อน (ที่มี ID อยู่ข้างใน)
 export default function PlayerHeaderCard ({ player }) {
-  
-  // --- จุดสำคัญ: ฟังก์ชันดึงรูปภาพตาม ID ---
-  // สมมติว่าโครงสร้างโฟลเดอร์รูปภาพของคุณคือ /public/images/players/[id].jpg
-  // หรืออาจจะเป็น API endpoint เช่น /api/players/[id]/photo
   
   const getPlayerPhotoUrl = (playerId) => {
     if (!playerId) return '/images/default-player.jpg'; // กรณีไม่มี ID
