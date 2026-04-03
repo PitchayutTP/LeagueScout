@@ -27,13 +27,11 @@ export default function AbilityMatrix({ players }) {
     return `€${value / 1000}K`;
   };
 
-  // ฟังก์ชันคำนวณตำแหน่งแกน Y (Technical Ability / Overall)
   const getBottomPosition = (overall) => {
     const percent = ((overall - 75) / (95 - 75)) * 100;
     return `${Math.max(5, Math.min(95, percent))}%`;
   };
 
-  // ฟังก์ชันคำนวณตำแหน่งแกน X (Market Value)
   const getLeftPosition = (price) => {
     const percent = (price / 200000000) * 100;
     return `${Math.max(5, Math.min(95, percent))}%`;
@@ -41,8 +39,6 @@ export default function AbilityMatrix({ players }) {
 
   return (
     <div className="col-span-8 bg-white rounded-xl p-6 shadow-sm border border-gray-200 relative overflow-hidden">
-      
-      {/* Header */}
       <div className="flex justify-between items-end mb-8">
         <div>
           <h2 className="text-gray-900 text-xl font-bold tracking-tight">Ability vs. Price Matrix</h2>
@@ -58,15 +54,11 @@ export default function AbilityMatrix({ players }) {
         </div>
       </div>
       
-      {/* Chart Canvas */}
       <div className="relative h-100 w-full border-l-2 border-b-2 border-gray-200 mb-4">
-        
-        {/* Average Lines */}
         <div className="absolute w-full h-px bg-gray-200 top-1/2"></div>
         <div className="absolute h-full w-px bg-gray-200 left-1/2"></div>
         
         {players.map((player) => {
-          // ตรวจสอบว่าจุดนี้คือจุดที่ถูกคลิกเลือก (Target) อยู่หรือไม่
           const isTarget = player.id === targetPlayerId;
           const bottom = getBottomPosition(player.stats.overall);
           const left = getLeftPosition(player.marketValue);
@@ -74,15 +66,14 @@ export default function AbilityMatrix({ players }) {
           return (
             <div
               key={player.id}
-              onClick={() => setTargetPlayerId(player.id)} // คลิกเพื่อเปลี่ยน Target
+              onClick={() => setTargetPlayerId(player.id)}
               className={`absolute rounded-full cursor-pointer group transition-all ${
                 isTarget
                   ? "w-4 h-4 bg-blue-600 ring-4 ring-blue-100 z-20" 
                   : "w-3 h-3 bg-gray-300 hover:bg-gray-400 hover:scale-125 z-0" 
-              } hover:z-50`} // hover:z-50 เพื่อดึง tooltip ลอยขึ้นชั้นบนสุด
+              } hover:z-50`}
               style={{ bottom, left }}
             >
-              {/* Tooltip Content */}
               <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-48 bg-gray-800 text-white p-3 rounded-xl shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none transition-all z-50">
                 <p className={`text-[10px] font-bold uppercase mb-1 ${isTarget ? "text-blue-300" : "text-gray-400"}`}>
                   {isTarget ? "Target" : "Market Data"}
@@ -103,7 +94,6 @@ export default function AbilityMatrix({ players }) {
           );
         })}
         
-        {/* Axis Labels */}
         <div className="absolute -left-12 top-1/2 -rotate-90 text-[10px] font-bold uppercase tracking-widest text-gray-500">Technical Ability</div>
         <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 text-[10px] font-bold uppercase tracking-widest text-gray-500">Market Value (€)</div>
       </div>

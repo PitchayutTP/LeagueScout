@@ -8,18 +8,15 @@ export default function EfficiencyRanking() {
     fetch("/dataplayer.json")
       .then((res) => res.json())
       .then((data) => {
-        // คำนวณหาค่าความคุ้มค่า (ROI) = ความสามารถ / ราคา
         const sortedPlayers = data
           .map(p => ({
             ...p,
-            // จำกัดเพดานคะแนนสูงสุดไว้ที่ 9.9 (เพื่อไม่ให้คะแนนพุ่งทะลุ 10)
             roiScore: p.marketValue > 0 
               ? Math.min(9.9, (p.stats.overall / (p.marketValue / 4000000))).toFixed(1) 
               : "0.0"
           }))
-          // เรียงจาก roiScore มากไปน้อย
           .sort((a, b) => parseFloat(b.roiScore) - parseFloat(a.roiScore))
-          .slice(0, 3); // เอาแค่ 3 อันดับแรก
+          .slice(0, 3);
 
         setTopPlayers(sortedPlayers);
         setIsLoading(false);
@@ -42,7 +39,6 @@ export default function EfficiencyRanking() {
 
   return (
     <div className="col-span-4 space-y-6">
-      {/* Ranking List */}
       <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
         <h3 className="text-sm font-bold uppercase tracking-wider text-gray-900 mb-6">Efficiency Ranking</h3>
         <div className="space-y-4">
@@ -68,7 +64,6 @@ export default function EfficiencyRanking() {
         </div>
       </div>
       
-      {/* Scout's Recommendation */}
       <div className="bg-linear-to-br from-blue-600 to-blue-700 rounded-xl p-6 text-white shadow-lg shadow-blue-500/20">
         <div className="flex items-center gap-2 mb-4">
           <span className="material-symbols-outlined text-blue-200">verified</span>

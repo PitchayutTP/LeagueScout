@@ -8,7 +8,6 @@ export default function PerformanceDelta() {
     fetch("/dataplayer.json")
       .then((res) => res.json())
       .then((data) => {
-        // จัดอันดับเอา Top 3 มาเปรียบเทียบในตาราง
         const sortedPlayers = data
           .map(p => ({
             ...p,
@@ -34,7 +33,6 @@ export default function PerformanceDelta() {
     );
   }
 
-  // ผู้เล่น 3 คนแรกสำหรับแสดงผล
   const [p1, p2, p3] = topPlayers;
 
   return (
@@ -60,7 +58,6 @@ export default function PerformanceDelta() {
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-100">
-            {/* ROW 1: Non-Penalty Goals (จำลองจากค่า Shooting) */}
             <tr className="hover:bg-blue-50/50 transition-colors group">
               <td className="px-6 py-5">
                 <p className="text-sm font-bold text-gray-900">Non-Penalty Goals /90</p>
@@ -75,7 +72,6 @@ export default function PerformanceDelta() {
               <td className="px-6 py-5 text-sm font-medium text-gray-500">{(p3.stats.shooting / 80).toFixed(2)}</td>
             </tr>
 
-            {/* ROW 2: Progressive Carries (จำลองจากค่า Dribbling) */}
             <tr className="hover:bg-blue-50/50 transition-colors group">
               <td className="px-6 py-5">
                 <p className="text-sm font-bold text-gray-900">Progressive Carries</p>
@@ -90,7 +86,6 @@ export default function PerformanceDelta() {
               <td className="px-6 py-5 text-sm font-medium text-gray-500">{(p3.stats.dribbling / 12).toFixed(1)}</td>
             </tr>
 
-            {/* ROW 3: SCA (จำลองจากค่า Passing) */}
             <tr className="hover:bg-blue-50/50 transition-colors group">
               <td className="px-6 py-5">
                 <p className="text-sm font-bold text-gray-900">SCA (Shot Creating Actions)</p>
@@ -101,7 +96,6 @@ export default function PerformanceDelta() {
               <td className="px-6 py-5 text-sm font-medium text-gray-500">{(p3.stats.passing / 15).toFixed(2)}</td>
             </tr>
 
-            {/* ROW 4: Aerial Success % (จำลองจากค่า Physical) */}
             <tr className="hover:bg-blue-50/50 transition-colors group">
               <td className="px-6 py-5">
                 <p className="text-sm font-bold text-gray-900">Aerial Success %</p>
