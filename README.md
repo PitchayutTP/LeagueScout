@@ -17,7 +17,3 @@ React, JavaScript, Tailwind CSS, Recharts, React Router, Vite
 ## Data
 โปรเจกต์ Frontend นี้ใช้ข้อมูลนักฟุตบอล 30 คนจากไฟล์ JSON
 ไม่ได้เชื่อมต่อข้อมูลสด และการจัดอันดับใช้สูตรคำนวณจากข้อมูลที่มี ไม่ใช่ AI
-
-## Run Locally
-npm ci
-npm run dev
